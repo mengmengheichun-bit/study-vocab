@@ -8,135 +8,282 @@
       "bg": "rgba(108,99,255,0.15)",
       "words": [
         {
-          "id": 100,
+          "id": 10,
+          "word": "Từ vựng",
+          "pos": "loại từ",
+          "pron": "Phiên âm IPA",
+          "mean": "Nghĩa"
+        },
+        {
+          "id": 11,
           "word": "inhabitant",
-          "pos": "n",
+          "pos": "noun",
           "pron": "/ɪnˈhæbɪtənt/",
           "mean": "cư dân, người sinh sống ở một nơi"
         },
         {
-          "id": 101,
+          "id": 12,
           "word": "modern-day",
-          "pos": "adj",
+          "pos": "adjective",
           "pron": "/ˈmɒdərn deɪ/",
           "mean": "hiện đại, thuộc thời ngày nay"
         },
         {
-          "id": 102,
+          "id": 13,
           "word": "region",
-          "pos": "n",
+          "pos": "noun",
           "pron": "/ˈriːdʒən/",
           "mean": "vùng, khu vực"
         },
         {
-          "id": 103,
+          "id": 14,
           "word": "complex",
-          "pos": "adj",
+          "pos": "adjective",
           "pron": "/ˈkɒmpleks/",
           "mean": "phức tạp"
         },
         {
-          "id": 104,
+          "id": 15,
           "word": "complex",
-          "pos": "n",
+          "pos": "noun",
           "pron": "/ˈkɒmpleks/",
           "mean": "khu phức hợp, tổ hợp công trình"
         },
         {
-          "id": 105,
+          "id": 16,
           "word": "negotiate",
-          "pos": "v",
+          "pos": "verb",
           "pron": "/nɪˈɡəʊʃieɪt/",
           "mean": "đi qua, vượt qua một cách khó khăn; thương lượng"
         },
         {
-          "id": 106,
+          "id": 17,
           "word": "elaborate",
-          "pos": "adj",
+          "pos": "adjective",
           "pron": "/ɪˈlæbərət/",
           "mean": "công phu, tỉ mỉ, phức tạp về chi tiết"
         },
         {
-          "id": 107,
+          "id": 18,
           "word": "elaborate",
-          "pos": "v",
+          "pos": "verb",
           "pron": "/ɪˈlæbəreɪt/",
           "mean": "giải thích chi tiết, trình bày thêm"
         },
         {
-          "id": 108,
+          "id": 19,
           "word": "majority",
-          "pos": "n",
+          "pos": "noun",
           "pron": "/məˈdʒɒrəti/",
           "mean": "phần lớn, đa số"
         },
         {
-          "id": 109,
+          "id": 20,
           "word": "tank",
-          "pos": "n",
+          "pos": "noun",
           "pron": "/tæŋk/",
           "mean": "bể chứa, hồ chứa; xe tăng"
         },
         {
-          "id": 110,
+          "id": 21,
           "word": "tank",
-          "pos": "v",
+          "pos": "verb",
           "pron": "/tæŋk/",
           "mean": "thất bại nặng; giảm mạnh"
         },
         {
-          "id": 111,
+          "id": 22,
           "word": "function",
-          "pos": "n",
+          "pos": "noun",
           "pron": "/ˈfʌŋkʃən/",
           "mean": "chức năng, nhiệm vụ"
         },
         {
-          "id": 112,
+          "id": 23,
           "word": "function",
-          "pos": "v",
+          "pos": "verb",
           "pron": "/ˈfʌŋkʃən/",
           "mean": "hoạt động, vận hành"
         },
         {
-          "id": 113,
+          "id": 24,
           "word": "relate to",
-          "pos": "phrase",
+          "pos": "verb phrase",
           "pron": "/rɪˈleɪt tuː/",
           "mean": "liên quan đến"
         },
         {
-          "id": 114,
+          "id": 25,
           "word": "alter",
-          "pos": "v",
+          "pos": "verb",
           "pron": "/ˈɔːltər/",
           "mean": "thay đổi, làm biến đổi"
         },
         {
-          "id": 115,
+          "id": 26,
           "word": "shade",
-          "pos": "n",
+          "pos": "noun",
           "pron": "/ʃeɪd/",
           "mean": "bóng râm"
         },
         {
-          "id": 116,
+          "id": 27,
           "word": "shade",
-          "pos": "v",
+          "pos": "verb",
           "pron": "/ʃeɪd/",
           "mean": "che bóng, tạo bóng râm"
         },
         {
-          "id": 117,
+          "id": 28,
           "word": "monument",
-          "pos": "n",
+          "pos": "noun",
           "pron": "/ˈmɒnjəmənt/",
           "mean": "công trình tưởng niệm; di tích, công trình cổ"
         },
         {
-          "id": 118,
+          "id": 29,
           "word": "intricate",
-          "pos": "adj",
+          "pos": "adjective",
+          "pron": "/ˈɪntrɪkət/",
+          "mean": "tinh xảo, phức tạp, có nhiều chi tiết nhỏ"
+        },
+        {
+          "id": 30,
+          "word": "Từ vựng",
+          "pos": "loại từ",
+          "pron": "Phiên âm IPA",
+          "mean": "Nghĩa"
+        },
+        {
+          "id": 31,
+          "word": "inhabitant",
+          "pos": "noun",
+          "pron": "/ɪnˈhæbɪtənt/",
+          "mean": "cư dân, người sinh sống ở một nơi"
+        },
+        {
+          "id": 32,
+          "word": "modern-day",
+          "pos": "adjective",
+          "pron": "/ˈmɒdərn deɪ/",
+          "mean": "hiện đại, thuộc thời ngày nay"
+        },
+        {
+          "id": 33,
+          "word": "region",
+          "pos": "noun",
+          "pron": "/ˈriːdʒən/",
+          "mean": "vùng, khu vực"
+        },
+        {
+          "id": 34,
+          "word": "complex",
+          "pos": "adjective",
+          "pron": "/ˈkɒmpleks/",
+          "mean": "phức tạp"
+        },
+        {
+          "id": 35,
+          "word": "complex",
+          "pos": "noun",
+          "pron": "/ˈkɒmpleks/",
+          "mean": "khu phức hợp, tổ hợp công trình"
+        },
+        {
+          "id": 36,
+          "word": "negotiate",
+          "pos": "verb",
+          "pron": "/nɪˈɡəʊʃieɪt/",
+          "mean": "đi qua, vượt qua một cách khó khăn; thương lượng"
+        },
+        {
+          "id": 37,
+          "word": "elaborate",
+          "pos": "adjective",
+          "pron": "/ɪˈlæbərət/",
+          "mean": "công phu, tỉ mỉ, phức tạp về chi tiết"
+        },
+        {
+          "id": 38,
+          "word": "elaborate",
+          "pos": "verb",
+          "pron": "/ɪˈlæbəreɪt/",
+          "mean": "giải thích chi tiết, trình bày thêm"
+        },
+        {
+          "id": 39,
+          "word": "majority",
+          "pos": "noun",
+          "pron": "/məˈdʒɒrəti/",
+          "mean": "phần lớn, đa số"
+        },
+        {
+          "id": 40,
+          "word": "tank",
+          "pos": "noun",
+          "pron": "/tæŋk/",
+          "mean": "bể chứa, hồ chứa; xe tăng"
+        },
+        {
+          "id": 41,
+          "word": "tank",
+          "pos": "verb",
+          "pron": "/tæŋk/",
+          "mean": "thất bại nặng; giảm mạnh"
+        },
+        {
+          "id": 42,
+          "word": "function",
+          "pos": "noun",
+          "pron": "/ˈfʌŋkʃən/",
+          "mean": "chức năng, nhiệm vụ"
+        },
+        {
+          "id": 43,
+          "word": "function",
+          "pos": "verb",
+          "pron": "/ˈfʌŋkʃən/",
+          "mean": "hoạt động, vận hành"
+        },
+        {
+          "id": 44,
+          "word": "relate to",
+          "pos": "verb phrase",
+          "pron": "/rɪˈleɪt tuː/",
+          "mean": "liên quan đến"
+        },
+        {
+          "id": 45,
+          "word": "alter",
+          "pos": "verb",
+          "pron": "/ˈɔːltər/",
+          "mean": "thay đổi, làm biến đổi"
+        },
+        {
+          "id": 46,
+          "word": "shade",
+          "pos": "noun",
+          "pron": "/ʃeɪd/",
+          "mean": "bóng râm"
+        },
+        {
+          "id": 47,
+          "word": "shade",
+          "pos": "verb",
+          "pron": "/ʃeɪd/",
+          "mean": "che bóng, tạo bóng râm"
+        },
+        {
+          "id": 48,
+          "word": "monument",
+          "pos": "noun",
+          "pron": "/ˈmɒnjəmənt/",
+          "mean": "công trình tưởng niệm; di tích, công trình cổ"
+        },
+        {
+          "id": 49,
+          "word": "intricate",
+          "pos": "adjective",
           "pron": "/ˈɪntrɪkət/",
           "mean": "tinh xảo, phức tạp, có nhiều chi tiết nhỏ"
         }
@@ -167,5 +314,5 @@
       "words": []
     }
   ],
-  "nextId": 120
+  "nextId": 50
 }
