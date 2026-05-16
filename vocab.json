@@ -1,0 +1,171 @@
+{
+  "folders": [
+    {
+      "id": 1,
+      "name": "Reading",
+      "emoji": "📖",
+      "color": "var(--reading)",
+      "bg": "rgba(108,99,255,0.15)",
+      "words": [
+        {
+          "id": 100,
+          "word": "inhabitant",
+          "pos": "n",
+          "pron": "/ɪnˈhæbɪtənt/",
+          "mean": "cư dân, người sinh sống ở một nơi"
+        },
+        {
+          "id": 101,
+          "word": "modern-day",
+          "pos": "adj",
+          "pron": "/ˈmɒdərn deɪ/",
+          "mean": "hiện đại, thuộc thời ngày nay"
+        },
+        {
+          "id": 102,
+          "word": "region",
+          "pos": "n",
+          "pron": "/ˈriːdʒən/",
+          "mean": "vùng, khu vực"
+        },
+        {
+          "id": 103,
+          "word": "complex",
+          "pos": "adj",
+          "pron": "/ˈkɒmpleks/",
+          "mean": "phức tạp"
+        },
+        {
+          "id": 104,
+          "word": "complex",
+          "pos": "n",
+          "pron": "/ˈkɒmpleks/",
+          "mean": "khu phức hợp, tổ hợp công trình"
+        },
+        {
+          "id": 105,
+          "word": "negotiate",
+          "pos": "v",
+          "pron": "/nɪˈɡəʊʃieɪt/",
+          "mean": "đi qua, vượt qua một cách khó khăn; thương lượng"
+        },
+        {
+          "id": 106,
+          "word": "elaborate",
+          "pos": "adj",
+          "pron": "/ɪˈlæbərət/",
+          "mean": "công phu, tỉ mỉ, phức tạp về chi tiết"
+        },
+        {
+          "id": 107,
+          "word": "elaborate",
+          "pos": "v",
+          "pron": "/ɪˈlæbəreɪt/",
+          "mean": "giải thích chi tiết, trình bày thêm"
+        },
+        {
+          "id": 108,
+          "word": "majority",
+          "pos": "n",
+          "pron": "/məˈdʒɒrəti/",
+          "mean": "phần lớn, đa số"
+        },
+        {
+          "id": 109,
+          "word": "tank",
+          "pos": "n",
+          "pron": "/tæŋk/",
+          "mean": "bể chứa, hồ chứa; xe tăng"
+        },
+        {
+          "id": 110,
+          "word": "tank",
+          "pos": "v",
+          "pron": "/tæŋk/",
+          "mean": "thất bại nặng; giảm mạnh"
+        },
+        {
+          "id": 111,
+          "word": "function",
+          "pos": "n",
+          "pron": "/ˈfʌŋkʃən/",
+          "mean": "chức năng, nhiệm vụ"
+        },
+        {
+          "id": 112,
+          "word": "function",
+          "pos": "v",
+          "pron": "/ˈfʌŋkʃən/",
+          "mean": "hoạt động, vận hành"
+        },
+        {
+          "id": 113,
+          "word": "relate to",
+          "pos": "phrase",
+          "pron": "/rɪˈleɪt tuː/",
+          "mean": "liên quan đến"
+        },
+        {
+          "id": 114,
+          "word": "alter",
+          "pos": "v",
+          "pron": "/ˈɔːltər/",
+          "mean": "thay đổi, làm biến đổi"
+        },
+        {
+          "id": 115,
+          "word": "shade",
+          "pos": "n",
+          "pron": "/ʃeɪd/",
+          "mean": "bóng râm"
+        },
+        {
+          "id": 116,
+          "word": "shade",
+          "pos": "v",
+          "pron": "/ʃeɪd/",
+          "mean": "che bóng, tạo bóng râm"
+        },
+        {
+          "id": 117,
+          "word": "monument",
+          "pos": "n",
+          "pron": "/ˈmɒnjəmənt/",
+          "mean": "công trình tưởng niệm; di tích, công trình cổ"
+        },
+        {
+          "id": 118,
+          "word": "intricate",
+          "pos": "adj",
+          "pron": "/ˈɪntrɪkət/",
+          "mean": "tinh xảo, phức tạp, có nhiều chi tiết nhỏ"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Listening",
+      "emoji": "🎧",
+      "color": "var(--listening)",
+      "bg": "rgba(6,214,160,0.15)",
+      "words": []
+    },
+    {
+      "id": 3,
+      "name": "Writing",
+      "emoji": "✍️",
+      "color": "var(--writing)",
+      "bg": "rgba(255,209,102,0.15)",
+      "words": []
+    },
+    {
+      "id": 4,
+      "name": "Speaking",
+      "emoji": "🗣️",
+      "color": "var(--speaking)",
+      "bg": "rgba(255,107,107,0.15)",
+      "words": []
+    }
+  ],
+  "nextId": 120
+}
