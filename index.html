@@ -231,7 +231,7 @@ tr:hover td{background:#f9fbff}
     <div class="side-label">6 mục chính</div>
     <div class="main-nav" id="main-nav"></div>
     <div class="sidebar-note">
-      Dữ liệu lưu tạm trong trình duyệt. Muốn mọi người cùng thấy trên GitHub Pages, bấm <b>Export JSON</b> rồi upload đè file <b>vocab.json</b>.
+      Web tự đọc <b>vocab.json</b> khi mở trang. Muốn mọi người cùng thấy dữ liệu mới, bấm <b>Export JSON</b> rồi upload đè file <b>vocab.json</b>.
     </div>
   </aside>
 
@@ -421,6 +421,7 @@ const STUDY_TABS = [
 ];
 const STORAGE_KEY = 'vocab_study_v3';
 const OLD_STORAGE_KEY = 'll2';
+const REMOTE_CACHE_KEY = 'vocab_study_last_remote_v3';
 let db = null;
 let currentSection = 'reading';
 let currentTopicId = null;
@@ -512,17 +513,48 @@ function matchSectionKey(name){
   if(n.includes('collocation')) return 'collocation';
   return null;
 }
-async function loadInitialDB(forceRemote=false){
-  if(!forceRemote){
-    const local = localStorage.getItem(STORAGE_KEY);
-    if(local){ try { return ensureDB(JSON.parse(local)); } catch(e){} }
-    const old = localStorage.getItem(OLD_STORAGE_KEY);
-    if(old){ try { return ensureDB(JSON.parse(old)); } catch(e){} }
-  }
+async function fetchRemoteText(){
   try{
     const res = await fetch('vocab.json?ts=' + Date.now(), {cache:'no-store'});
-    if(res.ok){ return ensureDB(await res.json()); }
-  }catch(e){}
+    if(!res.ok) return null;
+    return await res.text();
+  }catch(e){ return null; }
+}
+
+async function loadInitialDB(forceRemote=false){
+  const localRaw = localStorage.getItem(STORAGE_KEY);
+  let localDB = null;
+  if(localRaw){ try { localDB = ensureDB(JSON.parse(localRaw)); } catch(e){} }
+
+  if(!localDB){
+    const oldRaw = localStorage.getItem(OLD_STORAGE_KEY);
+    if(oldRaw){ try { localDB = ensureDB(JSON.parse(oldRaw)); } catch(e){} }
+  }
+
+  const remoteText = await fetchRemoteText();
+  if(remoteText){
+    try{
+      const remoteDB = ensureDB(JSON.parse(remoteText));
+      const lastRemoteText = localStorage.getItem(REMOTE_CACHE_KEY);
+
+      // Bấm Sync hoặc máy mới: luôn lấy vocab.json từ GitHub Pages.
+      if(forceRemote || !localDB){
+        localStorage.setItem(REMOTE_CACHE_KEY, remoteText);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(remoteDB));
+        return remoteDB;
+      }
+
+      // Nếu vocab.json trên GitHub đã đổi so với lần web đọc gần nhất,
+      // tự cập nhật để người dùng không cần bấm Sync thủ công.
+      if(!lastRemoteText || remoteText !== lastRemoteText){
+        localStorage.setItem(REMOTE_CACHE_KEY, remoteText);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(remoteDB));
+        return remoteDB;
+      }
+    }catch(e){}
+  }
+
+  if(localDB) return localDB;
   return emptyDB();
 }
 function save(){ localStorage.setItem(STORAGE_KEY, JSON.stringify(db)); }
