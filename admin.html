@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Vocabulary Study</title>
+<title>Vocabulary Study Admin</title>
 <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <style>
@@ -215,12 +215,14 @@ tr:hover td{background:#f9fbff}
 <header>
   <div class="brand">
     <div class="logo-dot"></div>
-    <div class="brand-title">Vocabulary Study</div>
-    <div class="brand-pill">Student Mode</div>
+    <div class="brand-title">Vocabulary Study Admin</div>
+    <div class="brand-pill">Admin Mode</div>
   </div>
   <div class="header-meta">
     <span class="meta-pill">Tổng mục: <strong id="hd-items">0</strong></span>
     <span class="meta-pill">Topic: <strong id="hd-topics">0</strong></span>
+    <button class="top-btn" onclick="syncFromJson()">Sync vocab.json</button>
+    <button class="top-btn" onclick="exportJson()">Export JSON</button>
   </div>
 </header>
 
@@ -229,7 +231,7 @@ tr:hover td{background:#f9fbff}
     <div class="side-label">6 mục chính</div>
     <div class="main-nav" id="main-nav"></div>
     <div class="sidebar-note">
-      Bản học viên chỉ dùng để học. Dữ liệu được đọc tự động từ <b>vocab.json</b>; không có nút thêm, xóa hay xuất file.
+      Web tự đọc <b>vocab.json</b> khi mở trang. Muốn mọi người cùng thấy dữ liệu mới, bấm <b>Export JSON</b> rồi upload đè file <b>vocab.json</b>.
     </div>
   </aside>
 
@@ -252,12 +254,50 @@ tr:hover td{background:#f9fbff}
               <span>⌕</span>
               <input id="topic-search" placeholder="Tìm topic, ví dụ: Cam 10 Test 1..." oninput="renderTopics()">
             </div>
+            <div class="row" style="margin-bottom:12px">
+              <button class="btn primary" onclick="openTopicModal()">＋ Add topic</button>
+              <button class="btn" onclick="renameTopic()">Rename</button>
+            </div>
             <div class="topic-list" id="topic-list"></div>
           </div>
         </aside>
 
         <div>
           <div class="study-shell active" id="panel-list">
+            <div class="card">
+              <div class="card-title">✚ Add từ vựng / collocation vào topic đang chọn</div>
+              <div class="grid-2">
+                <div class="field"><label>Từ / Collocation</label><input id="f-word" placeholder="e.g. gain access to"></div>
+                <div class="field"><label>Từ loại</label>
+                  <select id="f-pos">
+                    <option value="n">n — Danh từ</option>
+                    <option value="v">v — Động từ</option>
+                    <option value="adj">adj — Tính từ</option>
+                    <option value="adv">adv — Trạng từ</option>
+                    <option value="prep">prep — Giới từ</option>
+                    <option value="phrase">phrase — Cụm từ</option>
+                    <option value="collocation">collocation — Collocation</option>
+                    <option value="sentence">sentence — Câu</option>
+                  </select>
+                </div>
+                <div class="field"><label>Phiên âm IPA</label><input id="f-pron" placeholder="e.g. /ɡeɪn ˈæk.ses tuː/"></div>
+                <div class="field"><label>Nghĩa tiếng Việt</label><input id="f-mean" placeholder="e.g. tiếp cận được"></div>
+              </div>
+              <div class="field" style="margin-top:14px"><label>Ví dụ / Ghi chú</label><input id="f-example" placeholder="e.g. Students can gain access to online materials."></div>
+              <div class="row" style="margin-top:16px">
+                <button class="btn primary" onclick="addItem()">＋ Thêm vào topic</button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-title">📥 Add file Excel / CSV vào topic đang chọn</div>
+              <div class="import-zone" id="drop-zone" onclick="document.getElementById('excel-input').click()" ondragover="handleDrag(event,true)" ondragleave="handleDrag(event,false)" ondrop="handleDrop(event)">
+                <input type="file" id="excel-input" accept=".xlsx,.xls,.csv" onchange="importExcel(this)">
+                <div class="big">📊</div>
+                <div><b>Kéo thả hoặc click để chọn file</b></div>
+                <div class="hint">Cột: Từ/Collocation | Từ loại | Phiên âm | Nghĩa | Ví dụ</div>
+              </div>
+            </div>
 
             <div class="card" style="padding:0;overflow:hidden">
               <div id="item-table-wrap"></div>
@@ -348,6 +388,20 @@ tr:hover td{background:#f9fbff}
   </main>
 </div>
 
+<div class="modal-overlay" id="topic-modal">
+  <div class="modal">
+    <h3>📁 Add topic / file học</h3>
+    <div class="field">
+      <label>Tên topic</label>
+      <input id="topic-name-input" placeholder="VD: Cam 10 Test 1, Environment, Work collocations..." onkeydown="if(event.key==='Enter')confirmTopicModal()">
+    </div>
+    <div class="row" style="justify-content:flex-end;margin-top:18px">
+      <button class="btn" onclick="closeTopicModal()">Hủy</button>
+      <button class="btn primary" onclick="confirmTopicModal()">Tạo topic</button>
+    </div>
+  </div>
+</div>
+
 <div class="notify" id="notify"></div>
 
 <script>
@@ -360,7 +414,7 @@ const SECTIONS = [
   {key:'dictation', name:'Nghe chép', icon:'🎙️', desc:'Chọn mục chính rồi chọn topic đã add để nghe và gõ lại.'}
 ];
 const STUDY_TABS = [
-  {key:'list', label:'📋 Danh sách'},
+  {key:'list', label:'📋 Topic & Add'},
   {key:'fc', label:'🃏 Flashcard'},
   {key:'quiz', label:'✏️ Multiple choice'},
   {key:'scramble', label:'🔀 Trộn từ'}
@@ -587,16 +641,30 @@ function renderTopics(){
   topics.forEach(t=>{
     const b=document.createElement('button');
     b.className='topic-item'+(t.id===currentTopicId?' active':'');
-    b.innerHTML = `<div class="topic-ico">📁</div><div style="overflow:hidden"><div class="topic-name">${escapeHtml(t.name)}</div><div class="topic-count">${t.items.length} mục</div></div>`;
+    b.innerHTML = `<div class="topic-ico">📁</div><div style="overflow:hidden"><div class="topic-name">${escapeHtml(t.name)}</div><div class="topic-count">${t.items.length} mục</div></div><div class="topic-actions"><button class="btn small red" title="Xóa" onclick="event.stopPropagation();deleteTopic(${t.id})">✕</button></div>`;
     b.onclick=()=>{currentTopicId=t.id; renderTopics(); renderPanels();};
     list.appendChild(b);
   });
 }
-function openTopicModal(){ toast('Bản học viên không cho thêm topic.','🔒'); }
-function closeTopicModal(){}
-function confirmTopicModal(){ toast('Bản học viên không cho thêm topic.','🔒'); }
-function renameTopic(){ toast('Bản học viên không cho đổi tên topic.','🔒'); }
-function deleteTopic(id){ toast('Bản học viên không cho xóa topic.','🔒'); }
+function openTopicModal(){ $('topic-name-input').value=''; $('topic-modal').classList.add('show'); setTimeout(()=>$('topic-name-input').focus(),80); }
+function closeTopicModal(){ $('topic-modal').classList.remove('show'); }
+function confirmTopicModal(){
+  const name=$('topic-name-input').value.trim(); if(!name) return;
+  const sec=sectionObj(); const t={id:uid(),name,items:[]}; sec.topics.push(t); currentTopicId=t.id; save(); closeTopicModal(); renderAll(); toast('Đã tạo topic','📁');
+}
+function renameTopic(){
+  const t=currentTopic(); if(!t) return;
+  const name=prompt('Tên topic mới:', t.name);
+  if(!name || !name.trim()) return;
+  t.name=name.trim(); save(); renderAll(); toast('Đã đổi tên topic','✏️');
+}
+function deleteTopic(id){
+  const sec=sectionObj(); const t=sec.topics.find(x=>x.id===id); if(!t) return;
+  if(!confirm(`Xóa topic "${t.name}" và toàn bộ mục bên trong?`)) return;
+  sec.topics=sec.topics.filter(x=>x.id!==id);
+  if(sec.topics.length===0) sec.topics.push({id:uid(),name:'New topic',items:[]});
+  currentTopicId=sec.topics[0].id; save(); renderAll(); toast('Đã xóa topic','🗑️');
+}
 function renderPanels(){
   renderSectionHeader();
   ['list','fc','quiz','scramble'].forEach(m => $('panel-'+m).classList.toggle('active', currentMode===m));
@@ -605,8 +673,7 @@ function renderPanels(){
   if(currentMode==='quiz') initQuiz();
   if(currentMode==='scramble') initScramble();
 }
-function addItem(){ return toast('Bản học viên không cho thêm dữ liệu. Dùng admin.html để chỉnh sửa.','🔒');
-/*
+function addItem(){
   const t=currentTopic(); if(!t) return toast('Chưa chọn topic','⚠️');
   const word=$('f-word').value.trim(); const pos=$('f-pos').value; const pron=$('f-pron').value.trim(); const mean=$('f-mean').value.trim(); const example=$('f-example').value.trim();
   if(!word || !mean) return toast('Cần nhập từ/collocation và nghĩa','⚠️');
@@ -614,20 +681,17 @@ function addItem(){ return toast('Bản học viên không cho thêm dữ liệu
   ['f-word','f-pron','f-mean','f-example'].forEach(id=>$(id).value='');
   renderHeaderStats(); renderMainNav(); renderTopics(); renderItemTable(); toast('Đã thêm vào topic','✓');
 }
-*/
-function deleteItem(id){ return toast('Bản học viên không cho xóa dữ liệu.','🔒');
-/*
+function deleteItem(id){
   const t=currentTopic(); if(!t) return;
   t.items=t.items.filter(x=>x.id!==id); save(); renderAll(); toast('Đã xóa mục','🗑️');
 }
-*/
 function renderItemTable(){
   const wrap=$('item-table-wrap'); const t=currentTopic();
   if(!t || t.items.length===0){ wrap.innerHTML='<div class="empty"><div>📝</div><h3>Topic này chưa có dữ liệu</h3><p>Thêm thủ công hoặc import Excel/CSV vào topic này.</p></div>'; return; }
-  wrap.innerHTML = `<div class="table-wrap"><table><thead><tr><th>Từ / Collocation</th><th>Loại</th><th>IPA</th><th>Nghĩa</th><th>Ví dụ</th><th style="width:70px;text-align:center">Nghe</th></tr></thead><tbody>
+  wrap.innerHTML = `<div class="table-wrap"><table><thead><tr><th>Từ / Collocation</th><th>Loại</th><th>IPA</th><th>Nghĩa</th><th>Ví dụ</th><th style="width:90px;text-align:center">Thao tác</th></tr></thead><tbody>
     ${t.items.map(it=>`<tr>
       <td class="td-word">${escapeHtml(it.word)}</td><td><span class="pos-tag">${escapeHtml(it.pos)}</span></td><td class="td-pron">${escapeHtml(it.pron||'—')}</td><td class="td-meaning">${escapeHtml(it.mean)}</td><td class="td-meaning">${escapeHtml(it.example||'—')}</td>
-      <td style="text-align:center"><button class="btn small" onclick="speak('${escAttr(it.word)}')">🔊</button></td>
+      <td style="text-align:center"><button class="btn small" onclick="speak('${escAttr(it.word)}')">🔊</button> <button class="btn small red" onclick="deleteItem(${it.id})">✕</button></td>
     </tr>`).join('')}</tbody></table></div>`;
 }
 
