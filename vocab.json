@@ -343,9 +343,592 @@
     "writing": {
       "topics": [
         {
-          "id": 3,
-          "name": "Writing",
-          "items": []
+          "id": 1779027203192,
+          "name": "task 1",
+          "items": [
+            {
+              "id": 1779027238622,
+              "word": "decreased substantially",
+              "pos": "verb + adverb",
+              "pron": "",
+              "mean": "giảm đáng kể / giảm mạnh",
+              "example": "Overall, air pollution decreased substantially over the period."
+            },
+            {
+              "id": 1779027233201,
+              "word": "mainly due to a major fall in industrial emissions",
+              "pos": "cause phrase",
+              "pron": "",
+              "mean": "chủ yếu do sự sụt giảm lớn trong khí thải công nghiệp",
+              "example": "The overall decline was mainly due to a major fall in industrial emissions."
+            },
+            {
+              "id": 1779027234861,
+              "word": "a major fall in industrial emissions",
+              "pos": "noun phrase",
+              "pron": "",
+              "mean": "một sự sụt giảm lớn trong khí thải công nghiệp",
+              "example": "There was a major fall in industrial emissions between 1990 and 2005."
+            },
+            {
+              "id": 1779027232848,
+              "word": "the largest individual source",
+              "pos": "noun phrase",
+              "pron": "",
+              "mean": "nguồn riêng lẻ lớn nhất",
+              "example": "Industry was the largest individual source of air pollutants throughout the period."
+            },
+            {
+              "id": 1779027232767,
+              "word": "remained comparatively low and stable",
+              "pos": "verb phrase",
+              "pron": "",
+              "mean": "duy trì tương đối thấp và ổn định",
+              "example": "Transport remained comparatively low and stable throughout the period."
+            },
+            {
+              "id": 1779027239249,
+              "word": "declined steadily",
+              "pos": "verb + adverb",
+              "pron": "",
+              "mean": "giảm đều đặn",
+              "example": "Household pollution declined steadily after 1990."
+            },
+            {
+              "id": 1779027237110,
+              "word": "became almost negligible",
+              "pos": "verb phrase",
+              "pron": "",
+              "mean": "trở nên gần như không đáng kể",
+              "example": "Household emissions became almost negligible by 2005."
+            },
+            {
+              "id": 1779027234061,
+              "word": "falling steadily",
+              "pos": "verb-ing phrase",
+              "pron": "",
+              "mean": "giảm đều đặn",
+              "example": "Total air pollution fell from 7 million tonnes to 5 million tonnes, falling steadily in the early years."
+            },
+            {
+              "id": 1779027234702,
+              "word": "levelled off slightly",
+              "pos": "verb + adverb",
+              "pron": "",
+              "mean": "chững lại nhẹ / đi ngang nhẹ",
+              "example": "The figure then levelled off slightly at just 4 million tonnes."
+            },
+            {
+              "id": 1779027239113,
+              "word": "followed a similar but even sharper downward pattern",
+              "pos": "verb phrase",
+              "pron": "",
+              "mean": "theo một xu hướng giảm tương tự nhưng còn rõ/mạnh hơn",
+              "example": "Industry followed a similar but even sharper downward pattern."
+            },
+            {
+              "id": 1779027238345,
+              "word": "dropped markedly",
+              "pos": "verb + adverb",
+              "pron": "",
+              "mean": "giảm rõ rệt / giảm mạnh",
+              "example": "Industrial emissions dropped markedly to around 3 million tonnes in 1996."
+            },
+            {
+              "id": 1779027236357,
+              "word": "had fallen further to about",
+              "pos": "past perfect phrase",
+              "pron": "",
+              "mean": "đã giảm thêm xuống khoảng",
+              "example": "By the end of the period, industrial emissions had fallen further to about 2 million tonnes."
+            },
+            {
+              "id": 1779027233524,
+              "word": "much smaller throughout",
+              "pos": "adjective phrase",
+              "pron": "",
+              "mean": "nhỏ hơn nhiều trong suốt giai đoạn",
+              "example": "The other two sources were much smaller throughout."
+            },
+            {
+              "id": 1779027238800,
+              "word": "remained close to this level for the whole period",
+              "pos": "verb phrase",
+              "pron": "",
+              "mean": "duy trì gần mức này trong suốt giai đoạn",
+              "example": "Transport remained close to this level for the whole period."
+            },
+            {
+              "id": 1779027235591,
+              "word": "reached almost zero",
+              "pos": "verb phrase",
+              "pron": "",
+              "mean": "chạm mức gần như bằng 0",
+              "example": "Household emissions reached almost zero by 2005."
+            }
+          ]
+        },
+        {
+          "id": 1779029322253,
+          "name": "study alone or group",
+          "items": [
+            {
+              "id": 1779029340468,
+              "word": "learn better",
+              "pos": "n",
+              "pron": "learn /lɜːrn/; better /ˈbetər/",
+              "mean": "học hiệu quả hơn",
+              "example": "learn = học; better = tốt hơn"
+            },
+            {
+              "id": 1779029333528,
+              "word": "in groups",
+              "pos": "n",
+              "pron": "in /ɪn/; groups /ɡruːps/",
+              "mean": "theo nhóm",
+              "example": "in = trong/theo; groups = nhóm"
+            },
+            {
+              "id": 1779029337420,
+              "word": "on their own",
+              "pos": "n",
+              "pron": "on /ɑːn/; own /oʊn/",
+              "mean": "tự mình, một mình",
+              "example": "on = theo; their = của họ; own = riêng"
+            },
+            {
+              "id": 1779029338540,
+              "word": "long debated",
+              "pos": "n",
+              "pron": "long /lɔːŋ/; debated /dɪˈbeɪtɪd/",
+              "mean": "được tranh luận từ lâu",
+              "example": "long = lâu dài; debated = được tranh luận"
+            },
+            {
+              "id": 1779029338340,
+              "word": "carry genuine merit",
+              "pos": "n",
+              "pron": "carry /ˈkæri/; genuine /ˈdʒenjuɪn/; merit /ˈmerɪt/",
+              "mean": "có giá trị thật sự",
+              "example": "carry = mang/có; genuine = thật sự; merit = giá trị/ưu điểm"
+            },
+            {
+              "id": 1779029333152,
+              "word": "depend on the individual",
+              "pos": "n",
+              "pron": "depend /dɪˈpend/; individual /ˌɪndɪˈvɪdʒuəl/",
+              "mean": "phụ thuộc vào từng cá nhân",
+              "example": "depend on = phụ thuộc vào; individual = cá nhân"
+            },
+            {
+              "id": 1779029334908,
+              "word": "subject matter",
+              "pos": "n",
+              "pron": "subject /ˈsʌbdʒekt/; matter /ˈmætər/",
+              "mean": "nội dung/môn học đang xét",
+              "example": "subject = chủ đề/môn; matter = vấn đề/nội dung"
+            },
+            {
+              "id": 1779029340095,
+              "word": "at hand",
+              "pos": "n",
+              "pron": "at /æt/; hand /hænd/",
+              "mean": "đang được bàn đến",
+              "example": "at = ở/tại; hand = tay/vấn đề trước mắt"
+            },
+            {
+              "id": 1779029340596,
+              "word": "favor group study",
+              "pos": "n",
+              "pron": "favor /ˈfeɪvər/; group /ɡruːp/; study /ˈstʌdi/",
+              "mean": "ủng hộ việc học nhóm",
+              "example": "favor = ủng hộ; group = nhóm; study = việc học"
+            },
+            {
+              "id": 1779029332886,
+              "word": "at its core",
+              "pos": "n",
+              "pron": "core /kɔːr/",
+              "mean": "về bản chất cốt lõi",
+              "example": "at = ở; its = của nó; core = cốt lõi"
+            },
+            {
+              "id": 1779029342083,
+              "word": "social experience",
+              "pos": "n",
+              "pron": "social /ˈsoʊʃəl/; experience /ɪkˈspɪriəns/",
+              "mean": "trải nghiệm mang tính xã hội",
+              "example": "social = xã hội; experience = trải nghiệm"
+            },
+            {
+              "id": 1779029337407,
+              "word": "work together",
+              "pos": "n",
+              "pron": "work /wɜːrk/; together /təˈɡeðər/",
+              "mean": "làm việc/học cùng nhau",
+              "example": "work = làm việc; together = cùng nhau"
+            },
+            {
+              "id": 1779029340828,
+              "word": "expose each other to different ways",
+              "pos": "n",
+              "pron": "expose /ɪkˈspoʊz/; different /ˈdɪfrənt/; ways /weɪz/",
+              "mean": "giúp nhau tiếp xúc với nhiều cách khác nhau",
+              "example": "expose = cho tiếp xúc; each other = lẫn nhau; different ways = nhiều cách khác nhau"
+            },
+            {
+              "id": 1779029338161,
+              "word": "ways of understanding",
+              "pos": "n",
+              "pron": "ways /weɪz/; understanding /ˌʌndərˈstændɪŋ/",
+              "mean": "cách hiểu",
+              "example": "ways = cách; understanding = sự hiểu"
+            },
+            {
+              "id": 1779029332866,
+              "word": "the same concept",
+              "pos": "n",
+              "pron": "same /seɪm/; concept /ˈkɑːnsept/",
+              "mean": "cùng một khái niệm",
+              "example": "same = giống/cùng; concept = khái niệm"
+            },
+            {
+              "id": 1779029341201,
+              "word": "struggle with a topic",
+              "pos": "n",
+              "pron": "struggle /ˈstrʌɡəl/; topic /ˈtɑːpɪk/",
+              "mean": "gặp khó khăn với một chủ đề",
+              "example": "struggle with = vật lộn/gặp khó với; topic = chủ đề"
+            },
+            {
+              "id": 1779029339947,
+              "word": "grasp it easily",
+              "pos": "n",
+              "pron": "grasp /ɡræsp/; easily /ˈiːzəli/",
+              "mean": "hiểu/nắm bắt dễ dàng",
+              "example": "grasp = nắm bắt/hiểu; easily = dễ dàng"
+            },
+            {
+              "id": 1779029338939,
+              "word": "informal language",
+              "pos": "n",
+              "pron": "informal /ɪnˈfɔːrməl/; language /ˈlæŋɡwɪdʒ/",
+              "mean": "ngôn ngữ thân mật, đời thường",
+              "example": "informal = không trang trọng; language = ngôn ngữ"
+            },
+            {
+              "id": 1779029341638,
+              "word": "relatable language",
+              "pos": "n",
+              "pron": "relatable /rɪˈleɪtəbəl/; language /ˈlæŋɡwɪdʒ/",
+              "mean": "ngôn ngữ dễ hiểu, gần gũi",
+              "example": "relatable = dễ liên hệ/gần gũi; language = ngôn ngữ"
+            },
+            {
+              "id": 1779029337351,
+              "word": "build critical skills",
+              "pos": "n",
+              "pron": "build /bɪld/; critical /ˈkrɪtɪkəl/; skills /skɪlz/",
+              "mean": "xây dựng kỹ năng quan trọng",
+              "example": "build = xây dựng; critical = quan trọng; skills = kỹ năng"
+            },
+            {
+              "id": 1779029333424,
+              "word": "essential beyond the classroom",
+              "pos": "n",
+              "pron": "essential /ɪˈsenʃəl/; beyond /bɪˈjɑːnd/; classroom /ˈklæsruːm/",
+              "mean": "cần thiết ngoài phạm vi lớp học",
+              "example": "essential = thiết yếu; beyond = vượt ra ngoài; classroom = lớp học"
+            },
+            {
+              "id": 1779029341322,
+              "word": "motivational dimension",
+              "pos": "n",
+              "pron": "motivational /ˌmoʊtɪˈveɪʃənəl/; dimension /daɪˈmenʃən/",
+              "mean": "khía cạnh động lực",
+              "example": "motivational = thuộc động lực; dimension = khía cạnh"
+            },
+            {
+              "id": 1779029337217,
+              "word": "study alongside others",
+              "pos": "n",
+              "pron": "study /ˈstʌdi/; alongside /əˌlɔːŋˈsaɪd/; others /ˈʌðərz/",
+              "mean": "học cùng với người khác",
+              "example": "study = học; alongside = bên cạnh/cùng với; others = người khác"
+            },
+            {
+              "id": 1779029334334,
+              "word": "create a sense of accountability",
+              "pos": "n",
+              "pron": "create /kriˈeɪt/; sense /sens/; accountability /əˌkaʊntəˈbɪləti/",
+              "mean": "tạo cảm giác có trách nhiệm",
+              "example": "create = tạo ra; sense = cảm giác; accountability = trách nhiệm"
+            },
+            {
+              "id": 1779029333260,
+              "word": "abandon a study session",
+              "pos": "n",
+              "pron": "abandon /əˈbændən/; study /ˈstʌdi/; session /ˈseʃən/",
+              "mean": "bỏ ngang một buổi học",
+              "example": "abandon = bỏ/huỷ; study = học; session = buổi"
+            },
+            {
+              "id": 1779029336817,
+              "word": "count on someone",
+              "pos": "n",
+              "pron": "count /kaʊnt/; on /ɑːn/",
+              "mean": "trông cậy vào ai",
+              "example": "count on = dựa vào/trông cậy"
+            },
+            {
+              "id": 1779029332822,
+              "word": "independent study",
+              "pos": "n",
+              "pron": "independent /ˌɪndɪˈpendənt/; study /ˈstʌdi/",
+              "mean": "việc tự học",
+              "example": "independent = độc lập; study = việc học"
+            },
+            {
+              "id": 1779029337772,
+              "word": "group settings",
+              "pos": "n",
+              "pron": "group /ɡruːp/; settings /ˈsetɪŋz/",
+              "mean": "môi trường học nhóm",
+              "example": "group = nhóm; settings = bối cảnh/môi trường"
+            },
+            {
+              "id": 1779029336343,
+              "word": "cannot replicate",
+              "pos": "n",
+              "pron": "replicate /ˈreplɪkeɪt/",
+              "mean": "không thể tái tạo/lặp lại",
+              "example": "cannot = không thể; replicate = tái tạo"
+            },
+            {
+              "id": 1779029334285,
+              "word": "study alone",
+              "pos": "n",
+              "pron": "study /ˈstʌdi/; alone /əˈloʊn/",
+              "mean": "học một mình",
+              "example": "study = học; alone = một mình"
+            },
+            {
+              "id": 1779029335883,
+              "word": "at their own pace",
+              "pos": "n",
+              "pron": "pace /peɪs/",
+              "mean": "theo tốc độ riêng của họ",
+              "example": "at = theo; their = của họ; own = riêng; pace = nhịp độ/tốc độ"
+            },
+            {
+              "id": 1779029342169,
+              "word": "free from distractions",
+              "pos": "n",
+              "pron": "free /friː/; distractions /dɪˈstrækʃənz/",
+              "mean": "không bị xao nhãng",
+              "example": "free from = không có/thoát khỏi; distractions = sự xao nhãng"
+            },
+            {
+              "id": 1779029332293,
+              "word": "off-topic conversations",
+              "pos": "n",
+              "pron": "off-topic /ˌɔːf ˈtɑːpɪk/; conversations /ˌkɑːnvərˈseɪʃənz/",
+              "mean": "các cuộc nói chuyện lạc đề",
+              "example": "off-topic = lạc đề; conversations = cuộc trò chuyện"
+            },
+            {
+              "id": 1779029341771,
+              "word": "social dynamics",
+              "pos": "n",
+              "pron": "social /ˈsoʊʃəl/; dynamics /daɪˈnæmɪks/",
+              "mean": "các tương tác/quan hệ xã hội phức tạp",
+              "example": "social = xã hội; dynamics = động lực/cách vận hành"
+            },
+            {
+              "id": 1779029332359,
+              "word": "develop stronger discipline",
+              "pos": "n",
+              "pron": "develop /dɪˈveləp/; stronger /ˈstrɔːŋɡər/; discipline /ˈdɪsəplɪn/",
+              "mean": "phát triển tính kỷ luật mạnh hơn",
+              "example": "develop = phát triển; stronger = mạnh hơn; discipline = kỷ luật"
+            },
+            {
+              "id": 1779029338882,
+              "word": "develop self-reliance",
+              "pos": "n",
+              "pron": "develop /dɪˈveləp/; self-reliance /ˌself rɪˈlaɪəns/",
+              "mean": "phát triển tính tự lực",
+              "example": "develop = phát triển; self-reliance = sự tự lực"
+            },
+            {
+              "id": 1779029334691,
+              "word": "serve them well",
+              "pos": "n",
+              "pron": "serve /sɜːrv/; well /wel/",
+              "mean": "có ích cho họ",
+              "example": "serve = phục vụ/giúp ích; well = tốt"
+            },
+            {
+              "id": 1779029340616,
+              "word": "peer support",
+              "pos": "n",
+              "pron": "peer /pɪr/; support /səˈpɔːrt/",
+              "mean": "sự hỗ trợ từ bạn bè đồng trang lứa",
+              "example": "peer = bạn cùng lứa/cùng trình độ; support = hỗ trợ"
+            },
+            {
+              "id": 1779029332973,
+              "word": "naturally introverted",
+              "pos": "n",
+              "pron": "naturally /ˈnætʃərəli/; introverted /ˈɪntrəvɜːrtɪd/",
+              "mean": "có tính hướng nội tự nhiên",
+              "example": "naturally = một cách tự nhiên; introverted = hướng nội"
+            },
+            {
+              "id": 1779029333953,
+              "word": "process information",
+              "pos": "n",
+              "pron": "process /ˈprɑːses/; information /ˌɪnfərˈmeɪʃən/",
+              "mean": "xử lý thông tin",
+              "example": "process = xử lý; information = thông tin"
+            },
+            {
+              "id": 1779029339417,
+              "word": "slowly and deeply",
+              "pos": "n",
+              "pron": "slowly /ˈsloʊli/; deeply /ˈdiːpli/",
+              "mean": "chậm rãi và sâu sắc",
+              "example": "slowly = chậm; deeply = sâu"
+            },
+            {
+              "id": 1779029342086,
+              "word": "solo study",
+              "pos": "n",
+              "pron": "solo /ˈsoʊloʊ/; study /ˈstʌdi/",
+              "mean": "việc học một mình",
+              "example": "solo = đơn lẻ/một mình; study = việc học"
+            },
+            {
+              "id": 1779029340398,
+              "word": "far more productive",
+              "pos": "n",
+              "pron": "far /fɑːr/; more /mɔːr/; productive /prəˈdʌktɪv/",
+              "mean": "hiệu quả hơn rất nhiều",
+              "example": "far = rất/nhiều; more = hơn; productive = hiệu quả"
+            },
+            {
+              "id": 1779029337952,
+              "word": "universally superior",
+              "pos": "n",
+              "pron": "universally /ˌjuːnɪˈvɜːrsəli/; superior /suːˈpɪriər/",
+              "mean": "vượt trội trong mọi trường hợp",
+              "example": "universally = một cách phổ quát; superior = vượt trội"
+            },
+            {
+              "id": 1779029339552,
+              "word": "a balanced position",
+              "pos": "n",
+              "pron": "balanced /ˈbælənst/; position /pəˈzɪʃən/",
+              "mean": "quan điểm cân bằng",
+              "example": "balanced = cân bằng; position = quan điểm/lập trường"
+            },
+            {
+              "id": 1779029334019,
+              "word": "consolidate understanding",
+              "pos": "n",
+              "pron": "consolidate /kənˈsɑːlɪdeɪt/; understanding /ˌʌndərˈstændɪŋ/",
+              "mean": "củng cố sự hiểu biết",
+              "example": "consolidate = củng cố; understanding = sự hiểu"
+            },
+            {
+              "id": 1779029341188,
+              "word": "challenge their thinking",
+              "pos": "n",
+              "pron": "challenge /ˈtʃælɪndʒ/; thinking /ˈθɪŋkɪŋ/",
+              "mean": "thử thách tư duy của họ",
+              "example": "challenge = thử thách; thinking = tư duy"
+            },
+            {
+              "id": 1779029339546,
+              "word": "prepare for collaborative tasks",
+              "pos": "n",
+              "pron": "prepare /prɪˈper/; collaborative /kəˈlæbərətɪv/; tasks /tæsks/",
+              "mean": "chuẩn bị cho các nhiệm vụ hợp tác",
+              "example": "prepare for = chuẩn bị cho; collaborative = mang tính hợp tác; tasks = nhiệm vụ"
+            },
+            {
+              "id": 1779029341557,
+              "word": "invest time in independent revision",
+              "pos": "n",
+              "pron": "invest /ɪnˈvest/; time /taɪm/; independent /ˌɪndɪˈpendənt/; revision /rɪˈvɪʒən/",
+              "mean": "đầu tư thời gian vào việc tự ôn tập",
+              "example": "invest = đầu tư; time = thời gian; independent = độc lập; revision = ôn tập"
+            },
+            {
+              "id": 1779029337441,
+              "word": "internalize what they have learned",
+              "pos": "n",
+              "pron": "internalize /ɪnˈtɜːrnəlaɪz/; learned /lɜːrnd/",
+              "mean": "thật sự hấp thụ/biến kiến thức thành của mình",
+              "example": "internalize = tiếp thu sâu; learned = đã học"
+            },
+            {
+              "id": 1779029335206,
+              "word": "play a meaningful role",
+              "pos": "n",
+              "pron": "play /pleɪ/; meaningful /ˈmiːnɪŋfəl/; role /roʊl/",
+              "mean": "đóng vai trò có ý nghĩa",
+              "example": "play = đóng; meaningful = có ý nghĩa; role = vai trò"
+            },
+            {
+              "id": 1779029338206,
+              "word": "learning environments",
+              "pos": "n",
+              "pron": "learning /ˈlɜːrnɪŋ/; environments /ɪnˈvaɪrənmənts/",
+              "mean": "môi trường học tập",
+              "example": "learning = việc học; environments = môi trường"
+            },
+            {
+              "id": 1779029332880,
+              "word": "blend both methods",
+              "pos": "n",
+              "pron": "blend /blend/; both /boʊθ/; methods /ˈmeθədz/",
+              "mean": "kết hợp cả hai phương pháp",
+              "example": "blend = pha trộn/kết hợp; both = cả hai; methods = phương pháp"
+            },
+            {
+              "id": 1779029338456,
+              "word": "default entirely to one",
+              "pos": "n",
+              "pron": "default /dɪˈfɔːlt/; entirely /ɪnˈtaɪərli/; one /wʌn/",
+              "mean": "mặc định hoàn toàn theo một cách",
+              "example": "default to = mặc định theo; entirely = hoàn toàn; one = một"
+            },
+            {
+              "id": 1779029338491,
+              "word": "the most effective learner",
+              "pos": "n",
+              "pron": "effective /ɪˈfektɪv/; learner /ˈlɜːrnər/",
+              "mean": "người học hiệu quả nhất",
+              "example": "most = nhất; effective = hiệu quả; learner = người học"
+            },
+            {
+              "id": 1779029335040,
+              "word": "know when to collaborate",
+              "pos": "n",
+              "pron": "know /noʊ/; collaborate /kəˈlæbəreɪt/",
+              "mean": "biết khi nào nên hợp tác",
+              "example": "know = biết; when = khi nào; collaborate = hợp tác"
+            },
+            {
+              "id": 1779029337072,
+              "word": "work alone",
+              "pos": "n",
+              "pron": "work /wɜːrk/; alone /əˈloʊn/",
+              "mean": "làm việc một mình",
+              "example": "work = làm việc; alone = một mình"
+            }
+          ]
         }
       ]
     },
