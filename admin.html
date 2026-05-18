@@ -428,9 +428,9 @@ let currentSection = 'reading';
 let currentTopicId = null;
 let currentMode = 'list';
 let fcCards=[], fcIdx=0, fcFlip=false;
-let qzCards=[], qzIdx=0, qzC=0, qzW=0;
-let scCards=[], scIdx=0, scC=0, scW=0, scAnswered=false;
-let dtCards=[], dtIdx=0, dtC=0, dtW=0, dtStreak=0, dtRate=.85, dtHintShown=false, dtExampleShown=false, dtAnswered=false;
+let qzCards=[], qzIdx=0, qzC=0, qzW=0, qzWrongItems=[];
+let scCards=[], scIdx=0, scC=0, scW=0, scAnswered=false, scWrongItems=[];
+let dtCards=[], dtIdx=0, dtC=0, dtW=0, dtStreak=0, dtRate=.85, dtHintShown=false, dtExampleShown=false, dtAnswered=false, dtWrongItems=[];
 
 const $ = id => document.getElementById(id);
 function uid(){ return Date.now() + Math.floor(Math.random()*9999); }
@@ -443,6 +443,37 @@ function normalizeAnswer(s){
     .replace(/\s+/g,' ');
 }
 function shuffle(arr){ const a=[...arr]; for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; }
+function uniqueById(items){
+  const seen = new Set();
+  return (items||[]).filter(it=>{
+    const key = it && it.id ? String(it.id) : normalizeAnswer((it?.word||'')+'|'+(it?.mean||''));
+    if(seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+function renderWrongReview(items, retryFnName){
+  const wrong = uniqueById(items);
+  if(!wrong.length){
+    return `<div class="card" style="margin-top:20px;text-align:left"><h3>🎉 Không có câu sai</h3><p class="page-sub">Bạn không cần học lại vòng sai trong lượt này.</p></div>`;
+  }
+  const rows = wrong.map((it,i)=>`<tr>
+    <td>${i+1}</td>
+    <td><strong>${escapeHtml(it.word || '')}</strong>${it.pron ? `<br><span class="td-pron">${escapeHtml(it.pron)}</span>` : ''}</td>
+    <td><span class="pos-tag">${escapeHtml(it.pos || '—')}</span></td>
+    <td>${escapeHtml(it.mean || '')}</td>
+  </tr>`).join('');
+  return `<div class="card" style="margin-top:22px;text-align:left">
+    <h3>📌 Các câu sai cần học lại (${wrong.length})</h3>
+    <p class="page-sub">Ôn lại đúng những mục này để nhớ chắc hơn.</p>
+    <div style="overflow:auto;margin-top:12px"><table class="data-table">
+      <thead><tr><th>#</th><th>Từ / Collocation</th><th>Loại</th><th>Nghĩa</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table></div>
+    <button class="btn primary" style="margin-top:16px" onclick="${retryFnName}()">🔁 Học lại các câu sai</button>
+  </div>`;
+}
+
 function toast(msg, icon='✓'){ const n=$('notify'); n.innerHTML=`<span>${icon}</span>${escapeHtml(msg)}`; n.classList.add('show'); setTimeout(()=>n.classList.remove('show'),2600); }
 function speak(text, rate=.88){
   if(!text || text==='—') return;
@@ -708,7 +739,9 @@ function flipFC(){ fcFlip=!fcFlip; $('fc-inner').classList.toggle('flipped', fcF
 function fcMove(dir){ const n=fcIdx+dir; if(n<0||n>=fcCards.length) return; fcIdx=n; fcFlip=false; renderFC(); }
 
 /* Quiz */
-function initQuiz(){ qzCards=shuffle(currentItems()); qzIdx=0; qzC=0; qzW=0; renderQuiz(); }
+function initQuiz(){ qzWrongItems=[]; startQuizWithCards(currentItems()); }
+function startQuizWithCards(cards){ qzCards=shuffle(cards||[]); qzIdx=0; qzC=0; qzW=0; renderQuiz(); }
+function retryWrongQuiz(){ const wrong=uniqueById(qzWrongItems); qzWrongItems=[]; startQuizWithCards(wrong); }
 function renderQuiz(){
   updateQuizBar();
   const area=$('qz-area');
@@ -723,14 +756,21 @@ function chooseQuiz(btn, ok, correct){
   document.querySelectorAll('.option').forEach(b=>b.disabled=true);
   const fb=$('qz-fb');
   if(ok){ btn.classList.add('correct'); qzC++; fb.className='feedback ok show'; fb.textContent='✓ Chính xác!'; }
-  else{ btn.classList.add('wrong'); qzW++; document.querySelectorAll('.option').forEach(b=>{ if(b.dataset.correct==='true') b.classList.add('correct');}); fb.className='feedback no show'; fb.innerHTML=`✗ Sai. Đáp án đúng: <strong>${escapeHtml(correct)}</strong>`; }
+  else{ btn.classList.add('wrong'); qzW++; qzWrongItems.push(qzCards[qzIdx]); document.querySelectorAll('.option').forEach(b=>{ if(b.dataset.correct==='true') b.classList.add('correct');}); fb.className='feedback no show'; fb.innerHTML=`✗ Sai. Đáp án đúng: <strong>${escapeHtml(correct)}</strong>`; }
   updateQuizBar(); $('qz-next').style.display='inline-flex';
 }
 function updateQuizBar(){ const total=qzCards.length; $('qz-label').textContent=`${Math.min(qzIdx,total)} / ${total} câu`; $('qz-fill').style.width=(total?qzIdx/total*100:0)+'%'; $('qz-c').textContent=qzC; $('qz-w').textContent=qzW; }
-function showQuizResult(){ const total=qzCards.length; const pct=total?Math.round(qzC/total*100):0; $('qz-area').innerHTML=`<div class="result-card"><div class="result-pct">${pct}%</div><div class="page-sub">${pct>=80?'Rất tốt!':'Ôn thêm một vòng nữa nha.'}</div><button class="btn primary" style="margin-top:20px" onclick="initQuiz()">Làm lại</button></div>`; $('qz-fill').style.width='100%'; }
+function showQuizResult(){
+  const total=qzCards.length; const pct=total?Math.round(qzC/total*100):0;
+  const review = renderWrongReview(qzWrongItems, 'retryWrongQuiz');
+  $('qz-area').innerHTML=`<div class="result-card"><div class="result-pct">${pct}%</div><div class="page-sub">${pct>=80?'Rất tốt!':'Ôn lại phần sai để chắc hơn nha.'}</div><button class="btn primary" style="margin-top:20px" onclick="initQuiz()">Làm lại toàn bộ</button></div>${review}`;
+  $('qz-fill').style.width='100%';
+}
 
 /* Scramble */
-function initScramble(){ scCards=shuffle(currentItems()); scIdx=0; scC=0; scW=0; scAnswered=false; renderScramble(); }
+function initScramble(){ scWrongItems=[]; startScrambleWithCards(currentItems()); }
+function startScrambleWithCards(cards){ scCards=shuffle(cards||[]); scIdx=0; scC=0; scW=0; scAnswered=false; renderScramble(); }
+function retryWrongScramble(){ const wrong=uniqueById(scWrongItems); scWrongItems=[]; startScrambleWithCards(wrong); }
 function scrambleTokens(text){
   const words=String(text||'').trim().split(/\s+/).filter(Boolean);
   if(words.length>1) return shuffle(words);
@@ -751,14 +791,19 @@ function checkScramble(){
   const ok=normalizeAnswer(ans)===normalizeAnswer(c.word); const fb=$('sc-fb');
   scAnswered=true;
   if(ok){ scC++; fb.className='feedback ok show'; fb.textContent='✓ Đúng rồi!'; }
-  else{ scW++; fb.className='feedback no show'; fb.innerHTML=`✗ Sai. Đáp án đúng: <strong>${escapeHtml(c.word)}</strong>`; }
+  else{ scW++; scWrongItems.push(c); fb.className='feedback no show'; fb.innerHTML=`✗ Sai. Đáp án đúng: <strong>${escapeHtml(c.word)}</strong>`; }
   const checkBtn=$('sc-check'); if(checkBtn) checkBtn.disabled=true;
   const nextBtn=$('sc-next'); if(nextBtn) nextBtn.style.display='inline-flex';
   updateScrambleBar();
 }
 function scNext(){ scIdx++; renderScramble(); }
 function updateScrambleBar(){ const total=scCards.length; $('sc-label').textContent=`${Math.min(scIdx,total)} / ${total} câu`; $('sc-fill').style.width=(total?scIdx/total*100:0)+'%'; $('sc-c').textContent=scC; $('sc-w').textContent=scW; }
-function showScrambleResult(){ const total=scCards.length; const pct=total?Math.round(scC/total*100):0; $('sc-area').innerHTML=`<div class="result-card"><div class="result-pct">${pct}%</div><div class="page-sub">${pct>=80?'Ổn áp rồi m!':'Làm lại để nhớ spelling/collocation hơn nha.'}</div><button class="btn primary" style="margin-top:20px" onclick="initScramble()">Làm lại</button></div>`; $('sc-fill').style.width='100%'; }
+function showScrambleResult(){
+  const total=scCards.length; const pct=total?Math.round(scC/total*100):0;
+  const review = renderWrongReview(scWrongItems, 'retryWrongScramble');
+  $('sc-area').innerHTML=`<div class="result-card"><div class="result-pct">${pct}%</div><div class="page-sub">${pct>=80?'Ổn áp rồi m!':'Làm lại phần sai để nhớ spelling/collocation hơn nha.'}</div><button class="btn primary" style="margin-top:20px" onclick="initScramble()">Làm lại toàn bộ</button></div>${review}`;
+  $('sc-fill').style.width='100%';
+}
 
 /* Dictation */
 function renderDictationSection(){
@@ -781,9 +826,13 @@ function selectedDictItems(){
   return (db.sections[key]?.topics||[]).filter(t=>ids.includes(t.id)).flatMap(t=>t.items.map(it=>({...it, topicName:t.name, sectionKey:key})));
 }
 function initDictation(showToast=true){
-  dtCards=shuffle(selectedDictItems()); dtIdx=0; dtC=0; dtW=0; dtStreak=0; dtHintShown=false; dtExampleShown=false; dtAnswered=false; renderDictation();
+  dtWrongItems=[]; startDictationWithCards(selectedDictItems(), showToast);
+}
+function startDictationWithCards(cards, showToast=false){
+  dtCards=shuffle(cards||[]); dtIdx=0; dtC=0; dtW=0; dtStreak=0; dtHintShown=false; dtExampleShown=false; dtAnswered=false; renderDictation();
   if(showToast) toast(`Bắt đầu nghe chép ${dtCards.length} mục`,'🎧');
 }
+function retryWrongDictation(){ const wrong=uniqueById(dtWrongItems); dtWrongItems=[]; startDictationWithCards(wrong, true); }
 function renderDictation(){
   updateDictBar();
   const area=$('dt-area');
@@ -854,7 +903,7 @@ function checkDictation(){
     fb.innerHTML=`✓ Đúng rồi! ${detail}`;
   }
   else{
-    dtW++; dtStreak=0;
+    dtW++; dtStreak=0; dtWrongItems.push(c);
     fb.className='feedback no show';
     fb.innerHTML=`✗ Sai. Đáp án đúng: ${detail}`;
   }
@@ -866,7 +915,8 @@ function dictNext(){ dtIdx++; renderDictation(); }
 function updateDictBar(){ const total=dtCards.length; $('dt-label').textContent=`${Math.min(dtIdx,total)} / ${total} câu`; $('dt-fill').style.width=(total?dtIdx/total*100:0)+'%'; $('dt-c').textContent=dtC; $('dt-w').textContent=dtW; $('dt-streak').textContent=dtStreak; }
 function showDictResult(){
   const total=dtCards.length; const pct=total?Math.round(dtC/total*100):0;
-  $('dt-area').innerHTML=`<div class="result-card"><div class="result-pct">${pct}%</div><div class="page-sub">${pct>=80?'Nghe chép tốt rồi đó!':'Luyện lại một vòng nữa sẽ chắc hơn.'}</div><button class="btn primary" style="margin-top:20px" onclick="initDictation()">Làm lại</button></div>`;
+  const review = renderWrongReview(dtWrongItems, 'retryWrongDictation');
+  $('dt-area').innerHTML=`<div class="result-card"><div class="result-pct">${pct}%</div><div class="page-sub">${pct>=80?'Nghe chép tốt rồi đó!':'Luyện lại phần sai một vòng nữa sẽ chắc hơn.'}</div><button class="btn primary" style="margin-top:20px" onclick="initDictation()">Làm lại toàn bộ</button></div>${review}`;
   $('dt-fill').style.width='100%';
 }
 
