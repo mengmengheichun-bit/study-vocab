@@ -4,19 +4,11 @@
     "reading": {
       "topics": [
         {
-          "id": 1,
-          "name": "Reading",
+          "id": 1779080863722,
+          "name": "cam 10 test 1- stepwells",
           "items": [
             {
-              "id": 10,
-              "word": "Từ vựng",
-              "pos": "loại từ",
-              "pron": "Phiên âm IPA",
-              "mean": "Nghĩa",
-              "example": ""
-            },
-            {
-              "id": 11,
+              "id": 1779080867070,
               "word": "inhabitant",
               "pos": "noun",
               "pron": "/ɪnˈhæbɪtənt/",
@@ -24,7 +16,7 @@
               "example": ""
             },
             {
-              "id": 12,
+              "id": 1779080864543,
               "word": "modern-day",
               "pos": "adjective",
               "pron": "/ˈmɒdərn deɪ/",
@@ -32,7 +24,7 @@
               "example": ""
             },
             {
-              "id": 13,
+              "id": 1779080870484,
               "word": "region",
               "pos": "noun",
               "pron": "/ˈriːdʒən/",
@@ -40,7 +32,7 @@
               "example": ""
             },
             {
-              "id": 14,
+              "id": 1779080867473,
               "word": "complex",
               "pos": "adjective",
               "pron": "/ˈkɒmpleks/",
@@ -48,7 +40,7 @@
               "example": ""
             },
             {
-              "id": 15,
+              "id": 1779080870736,
               "word": "complex",
               "pos": "noun",
               "pron": "/ˈkɒmpleks/",
@@ -56,7 +48,7 @@
               "example": ""
             },
             {
-              "id": 16,
+              "id": 1779080865446,
               "word": "negotiate",
               "pos": "verb",
               "pron": "/nɪˈɡəʊʃieɪt/",
@@ -64,7 +56,7 @@
               "example": ""
             },
             {
-              "id": 17,
+              "id": 1779080870915,
               "word": "elaborate",
               "pos": "adjective",
               "pron": "/ɪˈlæbərət/",
@@ -72,7 +64,7 @@
               "example": ""
             },
             {
-              "id": 18,
+              "id": 1779080868581,
               "word": "elaborate",
               "pos": "verb",
               "pron": "/ɪˈlæbəreɪt/",
@@ -80,7 +72,7 @@
               "example": ""
             },
             {
-              "id": 19,
+              "id": 1779080869647,
               "word": "majority",
               "pos": "noun",
               "pron": "/məˈdʒɒrəti/",
@@ -88,7 +80,7 @@
               "example": ""
             },
             {
-              "id": 20,
+              "id": 1779080863103,
               "word": "tank",
               "pos": "noun",
               "pron": "/tæŋk/",
@@ -96,7 +88,7 @@
               "example": ""
             },
             {
-              "id": 21,
+              "id": 1779080866606,
               "word": "tank",
               "pos": "verb",
               "pron": "/tæŋk/",
@@ -104,7 +96,7 @@
               "example": ""
             },
             {
-              "id": 22,
+              "id": 1779080869362,
               "word": "function",
               "pos": "noun",
               "pron": "/ˈfʌŋkʃən/",
@@ -112,7 +104,7 @@
               "example": ""
             },
             {
-              "id": 23,
+              "id": 1779080864331,
               "word": "function",
               "pos": "verb",
               "pron": "/ˈfʌŋkʃən/",
@@ -120,7 +112,7 @@
               "example": ""
             },
             {
-              "id": 24,
+              "id": 1779080867939,
               "word": "relate to",
               "pos": "verb phrase",
               "pron": "/rɪˈleɪt tuː/",
@@ -128,7 +120,7 @@
               "example": ""
             },
             {
-              "id": 25,
+              "id": 1779080869554,
               "word": "alter",
               "pos": "verb",
               "pron": "/ˈɔːltər/",
@@ -136,7 +128,7 @@
               "example": ""
             },
             {
-              "id": 26,
+              "id": 1779080866700,
               "word": "shade",
               "pos": "noun",
               "pron": "/ʃeɪd/",
@@ -144,7 +136,7 @@
               "example": ""
             },
             {
-              "id": 27,
+              "id": 1779080867698,
               "word": "shade",
               "pos": "verb",
               "pron": "/ʃeɪd/",
@@ -152,7 +144,7 @@
               "example": ""
             },
             {
-              "id": 28,
+              "id": 1779080865029,
               "word": "monument",
               "pos": "noun",
               "pron": "/ˈmɒnjəmənt/",
@@ -160,172 +152,154 @@
               "example": ""
             },
             {
-              "id": 29,
+              "id": 1779080867308,
               "word": "intricate",
               "pos": "adjective",
               "pron": "/ˈɪntrɪkət/",
               "mean": "tinh xảo, phức tạp, có nhiều chi tiết nhỏ",
               "example": ""
-            },
+            }
+          ]
+        },
+        {
+          "id": 1779080905271,
+          "name": "AT- tea and the industrial revolution",
+          "items": [
             {
-              "id": 30,
-              "word": "Từ vựng",
-              "pos": "loại từ",
-              "pron": "Phiên âm IPA",
-              "mean": "Nghĩa",
-              "example": ""
-            },
-            {
-              "id": 31,
-              "word": "inhabitant",
+              "id": 1779080914866,
+              "word": "enigma",
               "pos": "noun",
-              "pron": "/ɪnˈhæbɪtənt/",
-              "mean": "cư dân, người sinh sống ở một nơi",
-              "example": ""
+              "pron": "/ɪˈnɪɡ.mə/",
+              "mean": "điều bí ẩn; câu đố khó hiểu",
+              "example": "The cause of the sudden illness remained an enigma to researchers."
             },
             {
-              "id": 32,
-              "word": "modern-day",
+              "id": 1779080907184,
+              "word": "factor",
+              "pos": "noun",
+              "pron": "/ˈfæk.tər/",
+              "mean": "yếu tố; nhân tố",
+              "example": "Several factors contributed to the rapid spread of the disease."
+            },
+            {
+              "id": 1779080911928,
+              "word": "political system",
+              "pos": "noun phrase",
+              "pron": "/pəˈlɪt.ɪ.kəl ˈsɪs.təm/",
+              "mean": "hệ thống chính trị",
+              "example": "A stable political system can support long-term economic growth."
+            },
+            {
+              "id": 1779080911426,
+              "word": "epidemic",
+              "pos": "noun / adjective",
+              "pron": "/ˌep.ɪˈdem.ɪk/",
+              "mean": "dịch bệnh; mang tính dịch",
+              "example": "The epidemic spread quickly through several densely populated districts."
+            },
+            {
+              "id": 1779080912478,
+              "word": "densely populated urban areas",
+              "pos": "noun phrase",
+              "pron": "/ˈdens.li ˈpɑː.pjə.leɪ.tɪd ˈɝː.bən ˈer.i.əz/",
+              "mean": "các khu đô thị đông dân cư",
+              "example": "Densely populated urban areas are more vulnerable to infectious diseases."
+            },
+            {
+              "id": 1779080911642,
+              "word": "deduction",
+              "pos": "noun",
+              "pron": "/dɪˈdʌk.ʃən/",
+              "mean": "sự suy luận; phép suy diễn",
+              "example": "Her deduction was based on careful observation and reliable evidence."
+            },
+            {
+              "id": 1779080907521,
+              "word": "skepticism",
+              "pos": "noun",
+              "pron": "/ˈskep.tə.sɪ.zəm/",
+              "mean": "sự hoài nghi; thái độ nghi ngờ",
+              "example": "Public skepticism grew after officials gave conflicting information."
+            },
+            {
+              "id": 1779080910169,
+              "word": "environmental conditions",
+              "pos": "noun phrase",
+              "pron": "/ɪnˌvaɪ.rənˈmen.təl kənˈdɪʃ.ənz/",
+              "mean": "điều kiện môi trường",
+              "example": "Poor environmental conditions can increase the risk of disease."
+            },
+            {
+              "id": 1779080916588,
+              "word": "burst",
+              "pos": "verb / noun",
+              "pron": "/bɝːst/",
+              "mean": "nổ tung; vỡ ra; sự bùng nổ",
+              "example": "Old pipes may burst when the water pressure becomes too high."
+            },
+            {
+              "id": 1779080908069,
+              "word": "incidence",
+              "pos": "noun",
+              "pron": "/ˈɪn.sɪ.dəns/",
+              "mean": "tỷ lệ mắc mới; số ca xảy ra",
+              "example": "The incidence of malaria declined after mosquito control improved."
+            },
+            {
+              "id": 1779080915996,
+              "word": "waterborne diseases",
+              "pos": "plural noun phrase",
+              "pron": "/ˈwɔː.t̬ɚ.bɔːrn dɪˈziː.zɪz/",
+              "mean": "các bệnh lây truyền qua nước",
+              "example": "Waterborne diseases often spread through unsafe drinking water."
+            },
+            {
+              "id": 1779080909553,
+              "word": "prevalence of",
+              "pos": "noun phrase",
+              "pron": "/ˈprev.əl.əns əv/",
+              "mean": "mức độ phổ biến của; tỷ lệ hiện mắc của",
+              "example": "The prevalence of diabetes has increased in many countries."
+            },
+            {
+              "id": 1779080909885,
+              "word": "infant mortality",
+              "pos": "noun phrase",
+              "pron": "/ˈɪn.fənt mɔːrˈtæl.ə.ti/",
+              "mean": "tỷ lệ tử vong trẻ sơ sinh",
+              "example": "Better healthcare can reduce infant mortality in rural areas."
+            },
+            {
+              "id": 1779080909245,
+              "word": "industrial revolution",
+              "pos": "noun phrase",
+              "pron": "/ɪnˈdʌs.tri.əl ˌrev.əˈluː.ʃən/",
+              "mean": "cuộc Cách mạng Công nghiệp",
+              "example": "The Industrial Revolution transformed production, transport, and urban life."
+            },
+            {
+              "id": 1779080911299,
+              "word": "work-based revolution",
+              "pos": "noun phrase",
+              "pron": "/wɝːk beɪst ˌrev.əˈluː.ʃən/",
+              "mean": "cuộc cách mạng dựa trên lao động/công việc",
+              "example": "The work-based revolution changed how people organized daily labor."
+            },
+            {
+              "id": 1779080913077,
+              "word": "labor-saving devices",
+              "pos": "plural noun phrase",
+              "pron": "/ˈleɪ.bɚ ˌseɪ.vɪŋ dɪˈvaɪ.sɪz/",
+              "mean": "các thiết bị tiết kiệm sức lao động",
+              "example": "Labor-saving devices reduced the time spent on household tasks."
+            },
+            {
+              "id": 1779080912268,
+              "word": "industrious",
               "pos": "adjective",
-              "pron": "/ˈmɒdərn deɪ/",
-              "mean": "hiện đại, thuộc thời ngày nay",
-              "example": ""
-            },
-            {
-              "id": 33,
-              "word": "region",
-              "pos": "noun",
-              "pron": "/ˈriːdʒən/",
-              "mean": "vùng, khu vực",
-              "example": ""
-            },
-            {
-              "id": 34,
-              "word": "complex",
-              "pos": "adjective",
-              "pron": "/ˈkɒmpleks/",
-              "mean": "phức tạp",
-              "example": ""
-            },
-            {
-              "id": 35,
-              "word": "complex",
-              "pos": "noun",
-              "pron": "/ˈkɒmpleks/",
-              "mean": "khu phức hợp, tổ hợp công trình",
-              "example": ""
-            },
-            {
-              "id": 36,
-              "word": "negotiate",
-              "pos": "verb",
-              "pron": "/nɪˈɡəʊʃieɪt/",
-              "mean": "đi qua, vượt qua một cách khó khăn; thương lượng",
-              "example": ""
-            },
-            {
-              "id": 37,
-              "word": "elaborate",
-              "pos": "adjective",
-              "pron": "/ɪˈlæbərət/",
-              "mean": "công phu, tỉ mỉ, phức tạp về chi tiết",
-              "example": ""
-            },
-            {
-              "id": 38,
-              "word": "elaborate",
-              "pos": "verb",
-              "pron": "/ɪˈlæbəreɪt/",
-              "mean": "giải thích chi tiết, trình bày thêm",
-              "example": ""
-            },
-            {
-              "id": 39,
-              "word": "majority",
-              "pos": "noun",
-              "pron": "/məˈdʒɒrəti/",
-              "mean": "phần lớn, đa số",
-              "example": ""
-            },
-            {
-              "id": 40,
-              "word": "tank",
-              "pos": "noun",
-              "pron": "/tæŋk/",
-              "mean": "bể chứa, hồ chứa; xe tăng",
-              "example": ""
-            },
-            {
-              "id": 41,
-              "word": "tank",
-              "pos": "verb",
-              "pron": "/tæŋk/",
-              "mean": "thất bại nặng; giảm mạnh",
-              "example": ""
-            },
-            {
-              "id": 42,
-              "word": "function",
-              "pos": "noun",
-              "pron": "/ˈfʌŋkʃən/",
-              "mean": "chức năng, nhiệm vụ",
-              "example": ""
-            },
-            {
-              "id": 43,
-              "word": "function",
-              "pos": "verb",
-              "pron": "/ˈfʌŋkʃən/",
-              "mean": "hoạt động, vận hành",
-              "example": ""
-            },
-            {
-              "id": 44,
-              "word": "relate to",
-              "pos": "verb phrase",
-              "pron": "/rɪˈleɪt tuː/",
-              "mean": "liên quan đến",
-              "example": ""
-            },
-            {
-              "id": 45,
-              "word": "alter",
-              "pos": "verb",
-              "pron": "/ˈɔːltər/",
-              "mean": "thay đổi, làm biến đổi",
-              "example": ""
-            },
-            {
-              "id": 46,
-              "word": "shade",
-              "pos": "noun",
-              "pron": "/ʃeɪd/",
-              "mean": "bóng râm",
-              "example": ""
-            },
-            {
-              "id": 47,
-              "word": "shade",
-              "pos": "verb",
-              "pron": "/ʃeɪd/",
-              "mean": "che bóng, tạo bóng râm",
-              "example": ""
-            },
-            {
-              "id": 48,
-              "word": "monument",
-              "pos": "noun",
-              "pron": "/ˈmɒnjəmənt/",
-              "mean": "công trình tưởng niệm; di tích, công trình cổ",
-              "example": ""
-            },
-            {
-              "id": 49,
-              "word": "intricate",
-              "pos": "adjective",
-              "pron": "/ˈɪntrɪkət/",
-              "mean": "tinh xảo, phức tạp, có nhiều chi tiết nhỏ",
-              "example": ""
+              "pron": "/ɪnˈdʌs.tri.əs/",
+              "mean": "siêng năng; chăm chỉ",
+              "example": "She is an industrious student who reviews vocabulary every day."
             }
           ]
         }
@@ -1108,6 +1082,15 @@
               "example": "Sustainable tourism protects both nature and local communities."
             }
           ]
+        }
+      ]
+    },
+    "synonyms": {
+      "topics": [
+        {
+          "id": 1779080484565,
+          "name": "New topic",
+          "items": []
         }
       ]
     }
