@@ -228,7 +228,7 @@ tr:hover td{background:#f9fbff}
 
 <div class="app">
   <aside class="sidebar">
-    <div class="side-label">6 mục chính</div>
+    <div class="side-label">7 mục chính</div>
     <div class="main-nav" id="main-nav"></div>
     <div class="sidebar-note">
       Dữ liệu lưu tạm trong trình duyệt. Muốn mọi người cùng thấy trên GitHub Pages, bấm <b>Export JSON</b> rồi upload đè file <b>vocab.json</b>.
@@ -276,6 +276,7 @@ tr:hover td{background:#f9fbff}
                     <option value="adv">adv — Trạng từ</option>
                     <option value="prep">prep — Giới từ</option>
                     <option value="phrase">phrase — Cụm từ</option>
+              <option value="synonym">synonym — Từ đồng nghĩa</option>
                     <option value="collocation">collocation — Collocation</option>
                     <option value="sentence">sentence — Câu</option>
                   </select>
@@ -411,6 +412,7 @@ const SECTIONS = [
   {key:'writing', name:'Writing', icon:'✍️', desc:'Từ vựng học thuật, cấu trúc và cụm dùng cho IELTS Writing.'},
   {key:'speaking', name:'Speaking', icon:'🗣️', desc:'Từ vựng, câu trả lời mẫu, idiom và cụm tự nhiên dùng cho IELTS Speaking.'},
   {key:'collocation', name:'Collocation', icon:'🧩', desc:'Collocation gom theo topic để học flashcard, quiz, trộn từ và nghe chép.'},
+  {key:'synonyms', name:'Synonyms', icon:'🔁', desc:'Nhóm từ đồng nghĩa theo topic để học paraphrase, flashcard, quiz, trộn từ và nghe chép.'},
   {key:'dictation', name:'Nghe chép', icon:'🎙️', desc:'Chọn mục chính rồi chọn topic đã add để nghe và gõ lại.'}
 ];
 const STUDY_TABS = [
@@ -456,14 +458,15 @@ function emptyDB(){
     listening:{topics:[{id:2,name:'General Listening',items:[]}]},
     writing:{topics:[{id:3,name:'Task 2 Academic',items:[]}]},
     speaking:{topics:[{id:5,name:'Speaking Part 1',items:[]}]},
-    collocation:{topics:[{id:4,name:'Common Collocations',items:[]}]}
+    collocation:{topics:[{id:4,name:'Common Collocations',items:[]}]},
+    synonyms:{topics:[{id:6,name:'Common Synonyms',items:[]}]}
   }};
 }
 function ensureDB(x){
   const base = emptyDB();
   if(!x || typeof x !== 'object') return base;
   if(x.sections){
-    for(const s of ['reading','listening','writing','speaking','collocation']){
+    for(const s of ['reading','listening','writing','speaking','collocation','synonyms']){
       if(!x.sections[s]) x.sections[s] = {topics:[]};
       if(!Array.isArray(x.sections[s].topics)) x.sections[s].topics = [];
       x.sections[s].topics = x.sections[s].topics.map(t => ({
@@ -479,14 +482,14 @@ function ensureDB(x){
     const out = emptyDB();
     for(const sec of Object.values(out.sections)) sec.topics = [];
     x.folders.forEach((f, idx)=>{
-      const key = matchSectionKey(f.name) || ['reading','listening','writing','speaking','collocation'][idx] || 'reading';
+      const key = matchSectionKey(f.name) || ['reading','listening','writing','speaking','collocation','synonyms'][idx] || 'reading';
       out.sections[key].topics.push({
         id: Number(f.id) || uid(),
         name: String(f.name || 'Imported topic'),
         items: Array.isArray(f.words) ? f.words.map(normalizeItem).filter(it=>it.word && it.mean) : []
       });
     });
-    for(const s of ['reading','listening','writing','speaking','collocation']){
+    for(const s of ['reading','listening','writing','speaking','collocation','synonyms']){
       if(out.sections[s].topics.length===0) out.sections[s].topics.push({id:uid(),name:SECTIONS.find(x=>x.key===s).name,items:[]});
     }
     return out;
@@ -510,6 +513,7 @@ function matchSectionKey(name){
   if(n.includes('writing')) return 'writing';
   if(n.includes('speaking')) return 'speaking';
   if(n.includes('collocation')) return 'collocation';
+  if(n.includes('synonym') || n.includes('đồng nghĩa') || n.includes('dong nghia')) return 'synonyms';
   return null;
 }
 async function loadInitialDB(forceRemote=false){
@@ -551,7 +555,7 @@ function sectionStats(key){
 }
 function totalStats(){
   let items=0, topics=0;
-  for(const k of ['reading','listening','writing','speaking','collocation']){
+  for(const k of ['reading','listening','writing','speaking','collocation','synonyms']){
     const st=sectionStats(k); items+=st.items; topics+=st.topics;
   }
   return {items,topics};
