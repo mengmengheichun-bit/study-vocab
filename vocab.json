@@ -317,132 +317,6 @@
     "writing": {
       "topics": [
         {
-          "id": 1779027203192,
-          "name": "task 1",
-          "items": [
-            {
-              "id": 1779027238622,
-              "word": "decreased substantially",
-              "pos": "verb + adverb",
-              "pron": "",
-              "mean": "giảm đáng kể / giảm mạnh",
-              "example": "Overall, air pollution decreased substantially over the period."
-            },
-            {
-              "id": 1779027233201,
-              "word": "mainly due to a major fall in industrial emissions",
-              "pos": "cause phrase",
-              "pron": "",
-              "mean": "chủ yếu do sự sụt giảm lớn trong khí thải công nghiệp",
-              "example": "The overall decline was mainly due to a major fall in industrial emissions."
-            },
-            {
-              "id": 1779027234861,
-              "word": "a major fall in industrial emissions",
-              "pos": "noun phrase",
-              "pron": "",
-              "mean": "một sự sụt giảm lớn trong khí thải công nghiệp",
-              "example": "There was a major fall in industrial emissions between 1990 and 2005."
-            },
-            {
-              "id": 1779027232848,
-              "word": "the largest individual source",
-              "pos": "noun phrase",
-              "pron": "",
-              "mean": "nguồn riêng lẻ lớn nhất",
-              "example": "Industry was the largest individual source of air pollutants throughout the period."
-            },
-            {
-              "id": 1779027232767,
-              "word": "remained comparatively low and stable",
-              "pos": "verb phrase",
-              "pron": "",
-              "mean": "duy trì tương đối thấp và ổn định",
-              "example": "Transport remained comparatively low and stable throughout the period."
-            },
-            {
-              "id": 1779027239249,
-              "word": "declined steadily",
-              "pos": "verb + adverb",
-              "pron": "",
-              "mean": "giảm đều đặn",
-              "example": "Household pollution declined steadily after 1990."
-            },
-            {
-              "id": 1779027237110,
-              "word": "became almost negligible",
-              "pos": "verb phrase",
-              "pron": "",
-              "mean": "trở nên gần như không đáng kể",
-              "example": "Household emissions became almost negligible by 2005."
-            },
-            {
-              "id": 1779027234061,
-              "word": "falling steadily",
-              "pos": "verb-ing phrase",
-              "pron": "",
-              "mean": "giảm đều đặn",
-              "example": "Total air pollution fell from 7 million tonnes to 5 million tonnes, falling steadily in the early years."
-            },
-            {
-              "id": 1779027234702,
-              "word": "levelled off slightly",
-              "pos": "verb + adverb",
-              "pron": "",
-              "mean": "chững lại nhẹ / đi ngang nhẹ",
-              "example": "The figure then levelled off slightly at just 4 million tonnes."
-            },
-            {
-              "id": 1779027239113,
-              "word": "followed a similar but even sharper downward pattern",
-              "pos": "verb phrase",
-              "pron": "",
-              "mean": "theo một xu hướng giảm tương tự nhưng còn rõ/mạnh hơn",
-              "example": "Industry followed a similar but even sharper downward pattern."
-            },
-            {
-              "id": 1779027238345,
-              "word": "dropped markedly",
-              "pos": "verb + adverb",
-              "pron": "",
-              "mean": "giảm rõ rệt / giảm mạnh",
-              "example": "Industrial emissions dropped markedly to around 3 million tonnes in 1996."
-            },
-            {
-              "id": 1779027236357,
-              "word": "had fallen further to about",
-              "pos": "past perfect phrase",
-              "pron": "",
-              "mean": "đã giảm thêm xuống khoảng",
-              "example": "By the end of the period, industrial emissions had fallen further to about 2 million tonnes."
-            },
-            {
-              "id": 1779027233524,
-              "word": "much smaller throughout",
-              "pos": "adjective phrase",
-              "pron": "",
-              "mean": "nhỏ hơn nhiều trong suốt giai đoạn",
-              "example": "The other two sources were much smaller throughout."
-            },
-            {
-              "id": 1779027238800,
-              "word": "remained close to this level for the whole period",
-              "pos": "verb phrase",
-              "pron": "",
-              "mean": "duy trì gần mức này trong suốt giai đoạn",
-              "example": "Transport remained close to this level for the whole period."
-            },
-            {
-              "id": 1779027235591,
-              "word": "reached almost zero",
-              "pos": "verb phrase",
-              "pron": "",
-              "mean": "chạm mức gần như bằng 0",
-              "example": "Household emissions reached almost zero by 2005."
-            }
-          ]
-        },
-        {
           "id": 1779029322253,
           "name": "study alone or group",
           "items": [
@@ -901,6 +775,164 @@
               "pron": "work /wɜːrk/; alone /əˈloʊn/",
               "mean": "làm việc một mình",
               "example": "work = làm việc; alone = một mình"
+            }
+          ]
+        },
+        {
+          "id": 1779182947610,
+          "name": "task 1",
+          "items": [
+            {
+              "id": 1779182951324,
+              "word": "decreased substantially",
+              "pos": "verb + adverb",
+              "pron": "giảm đáng kể / giảm mạnh",
+              "mean": "Overall, air pollution decreased substantially over the period.",
+              "example": "Dùng để mô tả xu hướng giảm lớn."
+            },
+            {
+              "id": 1779182958600,
+              "word": "mainly due to a major fall in industrial emissions",
+              "pos": "cause phrase",
+              "pron": "chủ yếu do sự sụt giảm lớn trong khí thải công nghiệp",
+              "mean": "The overall decline was mainly due to a major fall in industrial emissions.",
+              "example": "Giữ nguyên cả cụm khi học vì đây là cụm nêu nguyên nhân."
+            },
+            {
+              "id": 1779182952796,
+              "word": "a major fall in industrial emissions",
+              "pos": "noun phrase",
+              "pron": "một sự sụt giảm lớn trong khí thải công nghiệp",
+              "mean": "There was a major fall in industrial emissions between 1990 and 2005.",
+              "example": "Dùng với there was / saw / experienced."
+            },
+            {
+              "id": 1779182957364,
+              "word": "the largest individual source",
+              "pos": "noun phrase",
+              "pron": "nguồn riêng lẻ lớn nhất",
+              "mean": "Industry was the largest individual source of air pollutants throughout the period.",
+              "example": "Dùng để chỉ nhóm/nguồn chiếm tỷ trọng lớn nhất."
+            },
+            {
+              "id": 1779182958030,
+              "word": "remained comparatively low and stable",
+              "pos": "verb phrase",
+              "pron": "duy trì tương đối thấp và ổn định",
+              "mean": "Transport remained comparatively low and stable throughout the period.",
+              "example": "Dùng cho số liệu ít biến động."
+            },
+            {
+              "id": 1779182960693,
+              "word": "declined steadily",
+              "pos": "verb + adverb",
+              "pron": "giảm đều đặn",
+              "mean": "Household pollution declined steadily after 1990.",
+              "example": "Nhấn mạnh xu hướng giảm từ từ, không đột ngột."
+            },
+            {
+              "id": 1779182958146,
+              "word": "became almost negligible",
+              "pos": "verb phrase",
+              "pron": "trở nên gần như không đáng kể",
+              "mean": "Household emissions became almost negligible by 2005.",
+              "example": "Dùng khi số liệu gần về 0 hoặc rất nhỏ."
+            },
+            {
+              "id": 1779182955468,
+              "word": "falling steadily",
+              "pos": "verb-ing phrase",
+              "pron": "giảm đều đặn",
+              "mean": "Total air pollution fell from 7 million tonnes to 5 million tonnes, falling steadily in the early years.",
+              "example": "Dạng V-ing dùng để nối ý mô tả xu hướng."
+            },
+            {
+              "id": 1779182960236,
+              "word": "levelled off slightly",
+              "pos": "verb + adverb",
+              "pron": "chững lại nhẹ / đi ngang nhẹ",
+              "mean": "The figure then levelled off slightly at just 4 million tonnes.",
+              "example": "Dùng khi số liệu gần như không thay đổi trong một giai đoạn."
+            },
+            {
+              "id": 1779182959268,
+              "word": "followed a similar but even sharper downward pattern",
+              "pos": "verb phrase",
+              "pron": "theo một xu hướng giảm tương tự nhưng còn rõ/mạnh hơn",
+              "mean": "Industry followed a similar but even sharper downward pattern.",
+              "example": "Cụm rất hay cho so sánh hai đường trên line chart."
+            },
+            {
+              "id": 1779182953221,
+              "word": "dropped markedly",
+              "pos": "verb + adverb",
+              "pron": "giảm rõ rệt / giảm mạnh",
+              "mean": "Industrial emissions dropped markedly to around 3 million tonnes in 1996.",
+              "example": "Dùng khi số liệu giảm nhanh và đáng chú ý."
+            },
+            {
+              "id": 1779182957095,
+              "word": "had fallen further to about",
+              "pos": "past perfect phrase",
+              "pron": "đã giảm thêm xuống khoảng",
+              "mean": "By the end of the period, industrial emissions had fallen further to about 2 million tonnes.",
+              "example": "Hay dùng với By the end of the period."
+            },
+            {
+              "id": 1779182960563,
+              "word": "much smaller throughout",
+              "pos": "adjective phrase",
+              "pron": "nhỏ hơn nhiều trong suốt giai đoạn",
+              "mean": "The other two sources were much smaller throughout.",
+              "example": "Dùng để so sánh nhóm nhỏ hơn rõ rệt."
+            },
+            {
+              "id": 1779182955701,
+              "word": "remained close to this level for the whole period",
+              "pos": "verb phrase",
+              "pron": "duy trì gần mức này trong suốt giai đoạn",
+              "mean": "Transport remained close to this level for the whole period.",
+              "example": "Dùng khi số liệu dao động ít quanh một mức."
+            },
+            {
+              "id": 1779182953860,
+              "word": "reached almost zero",
+              "pos": "verb phrase",
+              "pron": "chạm mức gần như bằng 0",
+              "mean": "Household emissions reached almost zero by 2005.",
+              "example": "Dùng để mô tả điểm kết thúc rất thấp."
+            },
+            {
+              "id": 1779182951154,
+              "word": "the structure of … changes very clearly over the period",
+              "pos": "sentence pattern",
+              "pron": "cấu trúc của … thay đổi rất rõ trong suốt giai đoạn",
+              "mean": "Overall, the structure of energy consumption changes very clearly over the period.",
+              "example": "Giữ nguyên cụm; dùng cho biểu đồ thể hiện cơ cấu/thành phần thay đổi theo thời gian."
+            },
+            {
+              "id": 1779182960667,
+              "word": "became increasingly dominant and was by far the largest share of…",
+              "pos": "verb phrase + superlative phrase",
+              "pron": "ngày càng chiếm ưu thế và vượt xa các nhóm khác để trở thành tỷ trọng lớn nhất của …",
+              "mean": "Coal became increasingly dominant and was by far the largest share of total energy use.",
+              "example": "Dùng để mô tả nhóm tăng mạnh và chiếm tỷ trọng lớn nhất rõ rệt."
+            },
+            {
+              "id": 1779182957259,
+              "word": "accounted for only a very small proportion throughout.",
+              "pos": "verb phrase",
+              "pron": "chỉ chiếm một tỷ lệ rất nhỏ trong suốt giai đoạn",
+              "mean": "Hydropower accounted for only a very small proportion throughout.",
+              "example": "Dùng cho nhóm có tỷ trọng nhỏ và ít thay đổi."
+            },
+            {
+              "id": 1779182959670,
+              "word": "had the lowest figures throughout",
+              "pos": "verb phrase",
+              "pron": "có số liệu thấp nhất trong suốt giai đoạn",
+              "mean": "Household emissions had the lowest figures throughout.",
+              "example": "Dùng để so sánh nhóm luôn thấp nhất trên biểu đồ."
             }
           ]
         }
