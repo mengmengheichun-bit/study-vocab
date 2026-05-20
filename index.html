@@ -252,6 +252,13 @@ tr:hover td{background:#f9fbff}
   font-weight:900;
 }
 
+
+.visibility-pill{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--border);background:#fff;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800;color:var(--text2)}
+.visibility-pill.hidden{background:#fff7ed;border-color:#fed7aa;color:#c2410c}
+.topic-item.is-hidden{opacity:.62;background:#f8fafc;border-style:dashed}
+.topic-hidden-note{font-size:11px;color:#c2410c;font-weight:800;margin-top:4px}
+.btn.eye{border-color:#bfdbfe;background:#eff6ff;color:#2563eb}
+.btn.eye.hidden{border-color:#fed7aa;background:#fff7ed;color:#c2410c}
 </style>
 </head>
 <body class="public-mode">
@@ -564,12 +571,12 @@ function speak(text, rate=.88){
 
 function emptyDB(){
   return { version:3, sections:{
-    reading:{topics:[{id:1,name:'Cam 10 Test 1',items:[]}]},
-    listening:{topics:[{id:2,name:'General Listening',items:[]}]},
-    writing:{topics:[{id:3,name:'Task 2 Academic',items:[]}]},
-    speaking:{topics:[{id:5,name:'Speaking Part 1',items:[]}]},
-    collocation:{topics:[{id:4,name:'Common Collocations',items:[]}]},
-    synonyms:{topics:[{id:6,name:'Common Synonyms',items:[]}]}
+    reading:{visible:true,topics:[{id:1,name:'Cam 10 Test 1',visible:true,items:[]}]},
+    listening:{visible:true,topics:[{id:2,name:'General Listening',visible:true,items:[]}]},
+    writing:{visible:true,topics:[{id:3,name:'Task 2 Academic',visible:true,items:[]}]},
+    speaking:{visible:true,topics:[{id:5,name:'Speaking Part 1',visible:true,items:[]}]},
+    collocation:{visible:true,topics:[{id:4,name:'Common Collocations',visible:true,items:[]}]},
+    synonyms:{visible:true,topics:[{id:6,name:'Common Synonyms',visible:true,items:[]}]}
   }};
 }
 function ensureDB(x){
@@ -577,11 +584,13 @@ function ensureDB(x){
   if(!x || typeof x !== 'object') return base;
   if(x.sections){
     for(const s of ['reading','listening','writing','speaking','collocation','synonyms']){
-      if(!x.sections[s]) x.sections[s] = {topics:[]};
+      if(!x.sections[s]) x.sections[s] = {topics:[], visible:true};
+      x.sections[s].visible = x.sections[s].visible !== false;
       if(!Array.isArray(x.sections[s].topics)) x.sections[s].topics = [];
       x.sections[s].topics = x.sections[s].topics.map(t => ({
         id: Number(t.id) || uid(),
         name: String(t.name||'Untitled topic'),
+        visible: t.visible !== false,
         items: Array.isArray(t.items) ? t.items.map(normalizeItem).filter(it=>it.word && it.mean) : []
       }));
     }
@@ -596,11 +605,12 @@ function ensureDB(x){
       out.sections[key].topics.push({
         id: Number(f.id) || uid(),
         name: String(f.name || 'Imported topic'),
+        visible: f.visible !== false,
         items: Array.isArray(f.words) ? f.words.map(normalizeItem).filter(it=>it.word && it.mean) : []
       });
     });
     for(const s of ['reading','listening','writing','speaking','collocation','synonyms']){
-      if(out.sections[s].topics.length===0) out.sections[s].topics.push({id:uid(),name:SECTIONS.find(x=>x.key===s).name,items:[]});
+      if(out.sections[s].topics.length===0) out.sections[s].topics.push({id:uid(),name:SECTIONS.find(x=>x.key===s).name,visible:true,items:[]});
     }
     return out;
   }
@@ -654,15 +664,19 @@ function sectionObj(key=currentSection){ return db.sections[key]; }
 function currentTopic(){
   const sec = sectionObj();
   if(!sec || !sec.topics.length) return null;
-  let t = sec.topics.find(x=>x.id===currentTopicId);
-  if(!t){ t = sec.topics[0]; currentTopicId = t.id; }
+  let topics = currentSection==='dictation' ? sec.topics : visibleTopics(currentSection);
+  let t = topics.find(x=>x.id===currentTopicId);
+  if(!t){ t = topics[0]; currentTopicId = t ? t.id : null; }
   return t;
 }
 function currentItems(){ const t=currentTopic(); return t ? t.items : []; }
 function sectionStats(key){
   const s = db.sections[key]; if(!s) return {topics:0,items:0};
-  return {topics:s.topics.length, items:s.topics.reduce((sum,t)=>sum+t.items.length,0)};
+  const vt = visibleTopics(key); return {topics:vt.length, items:vt.reduce((sum,t)=>sum+t.items.length,0)};
 }
+function isSectionVisible(key){ return key==='dictation' || db.sections?.[key]?.visible !== false; }
+function visibleNormalSections(){ return SECTIONS.filter(s=>s.key!=='dictation' && isSectionVisible(s.key)); }
+function visibleTopics(key){ return (db.sections?.[key]?.topics||[]).filter(t=>t.visible !== false); }
 function totalStats(){
   let items=0, topics=0;
   for(const k of ['reading','listening','writing','speaking','collocation','synonyms']){
@@ -672,6 +686,7 @@ function totalStats(){
 }
 
 function renderAll(){
+  if(currentSection !== 'dictation' && !isSectionVisible(currentSection)){ const first=visibleNormalSections()[0]; currentSection = first ? first.key : 'dictation'; currentTopicId=null; }
   renderMainNav(); renderHeaderStats(); renderSectionHeader();
   if(currentSection==='dictation') renderDictationSection();
   else renderNormalSection();
@@ -683,7 +698,7 @@ function renderHeaderStats(){
 }
 function renderMainNav(){
   const nav=$('main-nav'); nav.innerHTML='';
-  SECTIONS.forEach(s=>{
+  SECTIONS.filter(s=>s.key==='dictation' || isSectionVisible(s.key)).forEach(s=>{
     const st = s.key==='dictation' ? {topics:0,items:0} : sectionStats(s.key);
     const btn=document.createElement('button');
     btn.className='nav-item' + (currentSection===s.key?' active':'');
@@ -710,14 +725,15 @@ function renderNormalSection(){
   $('normal-section').style.display='block';
   $('dictation-section').style.display='none';
   const sec=sectionObj();
-  if(sec.topics.length===0){ sec.topics.push({id:uid(),name:'New topic',items:[]}); save(); }
-  if(!currentTopicId || !sec.topics.find(t=>t.id===currentTopicId)) currentTopicId = sec.topics[0].id;
+  const vt = visibleTopics(currentSection);
+  if(vt.length===0){ currentTopicId=null; }
+  else if(!currentTopicId || !vt.find(t=>t.id===currentTopicId)) currentTopicId = vt[0].id;
   renderTopics(); renderPanels();
 }
 function renderTopics(){
   const list=$('topic-list'); const sec=sectionObj(); if(!list || !sec) return;
   const q=normalizeAnswer($('topic-search')?.value||'');
-  const topics = sec.topics.filter(t=>normalizeAnswer(t.name).includes(q));
+  const topics = visibleTopics(currentSection).filter(t=>normalizeAnswer(t.name).includes(q));
   list.innerHTML='';
   if(topics.length===0){ list.innerHTML='<div class="empty" style="padding:28px"><div>🔍</div><h3>Không tìm thấy</h3><p>Thử tên topic khác nha.</p></div>'; return; }
   topics.forEach(t=>{
@@ -913,13 +929,13 @@ function showScrambleResult(){
 function renderDictationSection(){
   $('normal-section').style.display='none'; $('dictation-section').style.display='block';
   const sel=$('dict-section');
-  sel.innerHTML = SECTIONS.filter(s=>s.key!=='dictation').map(s=>`<option value="${s.key}">${s.icon} ${s.name}</option>`).join('');
+  sel.innerHTML = visibleNormalSections().map(s=>`<option value="${s.key}">${s.icon} ${s.name}</option>`).join('');
   if(!sel.value) sel.value='reading';
   renderDictTopics(); initDictation(false);
 }
 function renderDictTopics(){
   const key=$('dict-section').value || 'reading'; const q=normalizeAnswer($('dict-search').value||'');
-  const topics=(db.sections[key]?.topics||[]).filter(t=>normalizeAnswer(t.name).includes(q));
+  const topics=visibleTopics(key).filter(t=>normalizeAnswer(t.name).includes(q));
   const wrap=$('dict-topic-list');
   if(topics.length===0){ wrap.innerHTML='<div class="empty" style="padding:20px"><div>🔍</div><h3>Không có topic</h3></div>'; return; }
   wrap.innerHTML=topics.map(t=>`<label class="check-card"><input type="checkbox" class="dict-topic-check" value="${t.id}" checked><span><b>${escapeHtml(t.name)}</b><br><small style="color:var(--text3)">${t.items.length} mục</small></span></label>`).join('');
@@ -927,7 +943,7 @@ function renderDictTopics(){
 function selectAllDictTopics(checked){ document.querySelectorAll('.dict-topic-check').forEach(x=>x.checked=checked); }
 function selectedDictItems(){
   const key=$('dict-section').value || 'reading'; const ids=[...document.querySelectorAll('.dict-topic-check:checked')].map(x=>Number(x.value));
-  return (db.sections[key]?.topics||[]).filter(t=>ids.includes(t.id)).flatMap(t=>t.items.map(it=>({...it, topicName:t.name, sectionKey:key})));
+  return visibleTopics(key).filter(t=>ids.includes(t.id)).flatMap(t=>t.items.map(it=>({...it, topicName:t.name, sectionKey:key}))); 
 }
 function initDictation(showToast=true){
   dtWrongItems=[]; startDictationWithCards(selectedDictItems(), showToast);

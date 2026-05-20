@@ -1122,7 +1122,64 @@
         {
           "id": 1779080484565,
           "name": "New topic",
-          "items": []
+          "items": [
+            {
+              "id": 1779251575250,
+              "word": "be forced to",
+              "pos": "/biː fɔːrst tuː/",
+              "pron": "bị buộc phải",
+              "mean": "be compelled to",
+              "example": "Many governments have been compelled to reassess their energy policies."
+            },
+            {
+              "id": 1779251576394,
+              "word": "shift to",
+              "pos": "/ʃɪft tuː/",
+              "pron": "chuyển sang",
+              "mean": "transition to",
+              "example": "The transition to renewable sources can be politically and economically difficult."
+            },
+            {
+              "id": 1779251570359,
+              "word": "fossil fuel industry",
+              "pos": "/ˈfɑːsəl ˈfjuːəl ˈɪndəstri/",
+              "pron": "ngành công nghiệp nhiên liệu hóa thạch",
+              "mean": "fossil fuel corporations",
+              "example": "Renewable energy policies often encounter resistance from fossil fuel corporations."
+            },
+            {
+              "id": 1779251574871,
+              "word": "face strong opposition",
+              "pos": "/feɪs strɔːŋ ˌɑːpəˈzɪʃən/",
+              "pron": "đối mặt với sự phản đối mạnh mẽ",
+              "mean": "draw heavy criticism",
+              "example": "Policies that rapidly phase out coal often draw heavy criticism from affected industries."
+            },
+            {
+              "id": 1779251575360,
+              "word": "draw heavy criticism",
+              "pos": "/drɔː ˈhevi ˈkrɪtɪsɪzəm/",
+              "pron": "vấp phải sự chỉ trích nặng nề",
+              "mean": "encounter significant resistance",
+              "example": "The transition to renewable sources frequently encounters significant resistance."
+            },
+            {
+              "id": 1779251570710,
+              "word": "grow increasingly severe",
+              "pos": "/ɡroʊ ɪnˈkriːsɪŋli səˈvɪr/",
+              "pron": "ngày càng nghiêm trọng",
+              "mean": "become increasingly acute",
+              "example": "Against the backdrop of an increasingly acute climate crisis, governments must act more decisively."
+            },
+            {
+              "id": 1779251572927,
+              "word": "economic influence remains considerable",
+              "pos": "/ˌiːkəˈnɑːmɪk ˈɪnfluəns rɪˈmeɪnz kənˈsɪdərəbl/",
+              "pron": "vốn có ảnh hưởng lớn tới nền kinh tế quốc gia",
+              "mean": "grip on national economies is deeply entrenched",
+              "example": "Fossil fuel corporations have a grip on national economies that is deeply entrenched."
+            }
+          ]
         }
       ]
     }

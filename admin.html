@@ -211,6 +211,13 @@ tr:hover td{background:#f9fbff}
   .fc-face{padding:28px}
   .table-wrap table{min-width:720px}
 }
+
+.visibility-pill{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--border);background:#fff;border-radius:999px;padding:6px 10px;font-size:12px;font-weight:800;color:var(--text2)}
+.visibility-pill.hidden{background:#fff7ed;border-color:#fed7aa;color:#c2410c}
+.topic-item.is-hidden{opacity:.62;background:#f8fafc;border-style:dashed}
+.topic-hidden-note{font-size:11px;color:#c2410c;font-weight:800;margin-top:4px}
+.btn.eye{border-color:#bfdbfe;background:#eff6ff;color:#2563eb}
+.btn.eye.hidden{border-color:#fed7aa;background:#fff7ed;color:#c2410c}
 </style>
 </head>
 <body>
@@ -523,12 +530,12 @@ function speak(text, rate=.88){
 
 function emptyDB(){
   return { version:3, sections:{
-    reading:{topics:[{id:1,name:'Cam 10 Test 1',items:[]}]},
-    listening:{topics:[{id:2,name:'General Listening',items:[]}]},
-    writing:{topics:[{id:3,name:'Task 2 Academic',items:[]}]},
-    speaking:{topics:[{id:5,name:'Speaking Part 1',items:[]}]},
-    collocation:{topics:[{id:4,name:'Common Collocations',items:[]}]},
-    synonyms:{topics:[{id:6,name:'Common Synonyms',items:[]}]}
+    reading:{visible:true,topics:[{id:1,name:'Cam 10 Test 1',visible:true,items:[]}]},
+    listening:{visible:true,topics:[{id:2,name:'General Listening',visible:true,items:[]}]},
+    writing:{visible:true,topics:[{id:3,name:'Task 2 Academic',visible:true,items:[]}]},
+    speaking:{visible:true,topics:[{id:5,name:'Speaking Part 1',visible:true,items:[]}]},
+    collocation:{visible:true,topics:[{id:4,name:'Common Collocations',visible:true,items:[]}]},
+    synonyms:{visible:true,topics:[{id:6,name:'Common Synonyms',visible:true,items:[]}]}
   }};
 }
 function ensureDB(x){
@@ -536,11 +543,13 @@ function ensureDB(x){
   if(!x || typeof x !== 'object') return base;
   if(x.sections){
     for(const s of ['reading','listening','writing','speaking','collocation','synonyms']){
-      if(!x.sections[s]) x.sections[s] = {topics:[]};
+      if(!x.sections[s]) x.sections[s] = {topics:[], visible:true};
+      x.sections[s].visible = x.sections[s].visible !== false;
       if(!Array.isArray(x.sections[s].topics)) x.sections[s].topics = [];
       x.sections[s].topics = x.sections[s].topics.map(t => ({
         id: Number(t.id) || uid(),
         name: String(t.name||'Untitled topic'),
+        visible: t.visible !== false,
         items: Array.isArray(t.items) ? t.items.map(normalizeItem).filter(it=>it.word && it.mean) : []
       }));
     }
@@ -555,11 +564,12 @@ function ensureDB(x){
       out.sections[key].topics.push({
         id: Number(f.id) || uid(),
         name: String(f.name || 'Imported topic'),
+        visible: f.visible !== false,
         items: Array.isArray(f.words) ? f.words.map(normalizeItem).filter(it=>it.word && it.mean) : []
       });
     });
     for(const s of ['reading','listening','writing','speaking','collocation','synonyms']){
-      if(out.sections[s].topics.length===0) out.sections[s].topics.push({id:uid(),name:SECTIONS.find(x=>x.key===s).name,items:[]});
+      if(out.sections[s].topics.length===0) out.sections[s].topics.push({id:uid(),name:SECTIONS.find(x=>x.key===s).name,visible:true,items:[]});
     }
     return out;
   }
@@ -646,7 +656,9 @@ function renderMainNav(){
     const st = s.key==='dictation' ? {topics:0,items:0} : sectionStats(s.key);
     const btn=document.createElement('button');
     btn.className='nav-item' + (currentSection===s.key?' active':'');
-    btn.innerHTML = `<div class="nav-ico">${s.icon}</div><div class="nav-txt">${s.name}<small>${s.key==='dictation'?'chọn nguồn học':`${st.topics} topic • ${st.items} mục`}</small></div>`;
+    const secObj = s.key==='dictation' ? null : db.sections[s.key];
+    const visBadge = s.key!=='dictation' && secObj?.visible === false ? '<small style="color:#c2410c">🙈 đang ẩn với học viên</small>' : '';
+    btn.innerHTML = `<div class="nav-ico">${s.icon}</div><div class="nav-txt">${s.name}<small>${s.key==='dictation'?'chọn nguồn học':`${st.topics} topic • ${st.items} mục`}</small>${visBadge}</div>`;
     btn.onclick=()=>{ currentSection=s.key; currentMode = s.key==='dictation' ? 'dictation' : 'list'; currentTopicId=null; renderAll(); };
     nav.appendChild(btn);
   });
@@ -655,7 +667,8 @@ function renderSectionHeader(){
   const s=SECTIONS.find(x=>x.key===currentSection);
   $('section-kicker').textContent = `${s.icon} ${s.name}`;
   $('section-title').textContent = s.name;
-  $('section-sub').textContent = s.desc;
+  const secObj = currentSection==='dictation' ? null : db.sections[currentSection];
+  $('section-sub').innerHTML = escapeHtml(s.desc) + (secObj ? ` <span class="visibility-pill ${secObj.visible===false?'hidden':''}">${secObj.visible===false?'🙈 Đang ẩn với học viên':'👁 Đang hiện với học viên'}</span> <button class="btn small eye ${secObj.visible===false?'hidden':''}" onclick="toggleSectionVisibility()">${secObj.visible===false?'Hiện mục này':'Ẩn mục này'}</button>` : '');
   const tabs=$('study-tabs'); tabs.innerHTML='';
   if(currentSection==='dictation'){ tabs.style.display='none'; return; }
   tabs.style.display='flex';
@@ -669,7 +682,7 @@ function renderNormalSection(){
   $('normal-section').style.display='block';
   $('dictation-section').style.display='none';
   const sec=sectionObj();
-  if(sec.topics.length===0){ sec.topics.push({id:uid(),name:'New topic',items:[]}); save(); }
+  if(sec.topics.length===0){ sec.topics.push({id:uid(),name:'New topic',visible:true,items:[]}); save(); }
   if(!currentTopicId || !sec.topics.find(t=>t.id===currentTopicId)) currentTopicId = sec.topics[0].id;
   renderTopics(); renderPanels();
 }
@@ -682,16 +695,29 @@ function renderTopics(){
   topics.forEach(t=>{
     const b=document.createElement('button');
     b.className='topic-item'+(t.id===currentTopicId?' active':'');
-    b.innerHTML = `<div class="topic-ico">📁</div><div style="overflow:hidden"><div class="topic-name">${escapeHtml(t.name)}</div><div class="topic-count">${t.items.length} mục</div></div><div class="topic-actions"><button class="btn small red" title="Xóa" onclick="event.stopPropagation();deleteTopic(${t.id})">✕</button></div>`;
+    b.className += t.visible===false ? ' is-hidden' : '';
+    b.innerHTML = `<div class="topic-ico">${t.visible===false?'🙈':'📁'}</div><div style="overflow:hidden"><div class="topic-name">${escapeHtml(t.name)}</div><div class="topic-count">${t.items.length} mục</div>${t.visible===false?'<div class="topic-hidden-note">Đang ẩn với học viên</div>':''}</div><div class="topic-actions"><button class="btn small eye ${t.visible===false?'hidden':''}" title="Ẩn/hiện với học viên" onclick="event.stopPropagation();toggleTopicVisibility(${t.id})">${t.visible===false?'👁':'🙈'}</button><button class="btn small red" title="Xóa" onclick="event.stopPropagation();deleteTopic(${t.id})">✕</button></div>`;
     b.onclick=()=>{currentTopicId=t.id; renderTopics(); renderPanels();};
     list.appendChild(b);
   });
+}
+
+function toggleSectionVisibility(){
+  if(currentSection==='dictation') return;
+  const sec = sectionObj(); if(!sec) return;
+  sec.visible = sec.visible === false ? true : false;
+  save(); renderAll(); toast(sec.visible===false?'Đã ẩn mục này với học viên':'Đã hiện mục này với học viên', sec.visible===false?'🙈':'👁');
+}
+function toggleTopicVisibility(id){
+  const sec=sectionObj(); const t=sec?.topics.find(x=>x.id===id); if(!t) return;
+  t.visible = t.visible === false ? true : false;
+  save(); renderAll(); toast(t.visible===false?'Đã ẩn topic với học viên':'Đã hiện topic với học viên', t.visible===false?'🙈':'👁');
 }
 function openTopicModal(){ $('topic-name-input').value=''; $('topic-modal').classList.add('show'); setTimeout(()=>$('topic-name-input').focus(),80); }
 function closeTopicModal(){ $('topic-modal').classList.remove('show'); }
 function confirmTopicModal(){
   const name=$('topic-name-input').value.trim(); if(!name) return;
-  const sec=sectionObj(); const t={id:uid(),name,items:[]}; sec.topics.push(t); currentTopicId=t.id; save(); closeTopicModal(); renderAll(); toast('Đã tạo topic','📁');
+  const sec=sectionObj(); const t={id:uid(),name,visible:true,items:[]}; sec.topics.push(t); currentTopicId=t.id; save(); closeTopicModal(); renderAll(); toast('Đã tạo topic','📁');
 }
 function renameTopic(){
   const t=currentTopic(); if(!t) return;
@@ -703,7 +729,7 @@ function deleteTopic(id){
   const sec=sectionObj(); const t=sec.topics.find(x=>x.id===id); if(!t) return;
   if(!confirm(`Xóa topic "${t.name}" và toàn bộ mục bên trong?`)) return;
   sec.topics=sec.topics.filter(x=>x.id!==id);
-  if(sec.topics.length===0) sec.topics.push({id:uid(),name:'New topic',items:[]});
+  if(sec.topics.length===0) sec.topics.push({id:uid(),name:'New topic',visible:true,items:[]});
   currentTopicId=sec.topics[0].id; save(); renderAll(); toast('Đã xóa topic','🗑️');
 }
 function renderPanels(){
