@@ -111,6 +111,8 @@ header{
 .sub-tab{white-space:nowrap;border:none;background:transparent;border-radius:13px;color:var(--text2);font-size:13px;font-weight:900;padding:10px 14px}
 .sub-tab:hover{background:var(--surface2);color:var(--accent)}
 .sub-tab.active{background:var(--accent);color:#fff}
+.study-dir-select{background:#fff;border:1px solid var(--border);border-radius:12px;padding:8px 10px;color:var(--text2);font-size:12px;font-weight:800;outline:none}
+.study-dir-select:focus{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-glow)}
 
 .table-wrap{overflow:auto;border-radius:20px;border:1px solid var(--border);background:#fff}
 table{width:100%;border-collapse:separate;border-spacing:0}
@@ -309,8 +311,12 @@ tr:hover td{background:#f9fbff}
             <div class="progress-card">
               <div class="score">Thẻ <span id="fc-cur">0</span>/<span id="fc-total">0</span></div>
               <div class="row">
+                <select class="study-dir-select" onchange="setStudyDirection(this.value)" title="Chiều học">
+                  <option value="en-vi">A → B: Từ → Nghĩa</option>
+                  <option value="vi-en">B → A: Nghĩa → Từ</option>
+                </select>
                 <button class="btn small" onclick="shuffleFC()">🔀 Xáo trộn</button>
-                <button class="btn small" onclick="speak(currentFCWord())">🔊 Nghe</button>
+                <button class="btn small" onclick="speak(currentFCWord())">🔊 Nghe từ Anh</button>
               </div>
             </div>
             <div class="fc-stage" onclick="flipFC()">
@@ -339,6 +345,10 @@ tr:hover td{background:#f9fbff}
               <div class="score" id="qz-label">0 / 0 câu</div>
               <div class="progress-bar"><div class="progress-fill" id="qz-fill"></div></div>
               <div class="score">✓ <span id="qz-c">0</span>　✗ <span id="qz-w">0</span></div>
+              <select class="study-dir-select" onchange="setStudyDirection(this.value)" title="Chiều học">
+                <option value="en-vi">A → B</option>
+                <option value="vi-en">B → A</option>
+              </select>
               <button class="btn small" onclick="initQuiz()">↺ Làm lại</button>
             </div>
             <div id="qz-area"></div>
@@ -349,6 +359,10 @@ tr:hover td{background:#f9fbff}
               <div class="score" id="sc-label">0 / 0 câu</div>
               <div class="progress-bar"><div class="progress-fill" id="sc-fill"></div></div>
               <div class="score">✓ <span id="sc-c">0</span>　✗ <span id="sc-w">0</span></div>
+              <select class="study-dir-select" onchange="setStudyDirection(this.value)" title="Chiều học">
+                <option value="vi-en">B → A</option>
+                <option value="en-vi">A → B</option>
+              </select>
               <button class="btn small" onclick="initScramble()">↺ Làm lại</button>
             </div>
             <div id="sc-area"></div>
@@ -427,6 +441,7 @@ let db = null;
 let currentSection = 'reading';
 let currentTopicId = null;
 let currentMode = 'list';
+let studyDirection = 'en-vi';
 let fcCards=[], fcIdx=0, fcFlip=false;
 let qzCards=[], qzIdx=0, qzC=0, qzW=0, qzWrongItems=[];
 let scCards=[], scIdx=0, scC=0, scW=0, scAnswered=false, scWrongItems=[];
@@ -452,6 +467,21 @@ function uniqueById(items){
     return true;
   });
 }
+
+function syncDirectionSelects(){
+  document.querySelectorAll('.study-dir-select').forEach(sel => { sel.value = studyDirection; });
+}
+function setStudyDirection(dir){
+  studyDirection = dir === 'vi-en' ? 'vi-en' : 'en-vi';
+  syncDirectionSelects();
+  if(currentMode==='fc') { fcFlip=false; renderFC(); }
+  if(currentMode==='quiz') initQuiz();
+  if(currentMode==='scramble') initScramble();
+}
+function promptSide(it){ return studyDirection==='vi-en' ? (it.mean || '') : (it.word || ''); }
+function answerSide(it){ return studyDirection==='vi-en' ? (it.word || '') : (it.mean || ''); }
+function promptLabel(){ return studyDirection==='vi-en' ? 'Nghĩa tiếng Việt' : 'Từ / Collocation'; }
+function answerLabel(){ return studyDirection==='vi-en' ? 'từ/collocation đúng' : 'nghĩa đúng'; }
 function renderWrongReview(items, retryFnName){
   const wrong = uniqueById(items);
   if(!wrong.length){
@@ -670,6 +700,7 @@ function deleteTopic(id){
 }
 function renderPanels(){
   renderSectionHeader();
+  syncDirectionSelects();
   ['list','fc','quiz','scramble'].forEach(m => $('panel-'+m).classList.toggle('active', currentMode===m));
   if(currentMode==='list') renderItemTable();
   if(currentMode==='fc') initFC();
@@ -733,7 +764,22 @@ function renderFC(){
   const c=fcCards[fcIdx]; $('fc-inner').classList.toggle('flipped', fcFlip);
   $('fc-total').textContent=fcCards.length; $('fc-cur').textContent=fcCards.length ? fcIdx+1 : 0;
   $('fc-prev').disabled=fcIdx<=0; $('fc-next').disabled=fcIdx>=fcCards.length-1;
-  $('fc-pos').textContent=c?.pos || '—'; $('fc-word').textContent=c?.word || 'Chưa có từ'; $('fc-pron').textContent=c?.pron || ''; $('fc-meaning').textContent=c?.mean || '—'; $('fc-example').textContent=c?.example || '';
+  if(!c){
+    $('fc-pos').textContent='—'; $('fc-word').textContent='Chưa có từ'; $('fc-pron').textContent=''; $('fc-meaning').textContent='—'; $('fc-example').textContent=''; return;
+  }
+  if(studyDirection==='vi-en'){
+    $('fc-pos').textContent='B → A';
+    $('fc-word').textContent=c.mean || '—';
+    $('fc-pron').textContent='Nhớ lại từ/collocation tiếng Anh';
+    $('fc-meaning').textContent=c.word || '—';
+    $('fc-example').innerHTML = `${c.pos ? '<span class="pos-tag">'+escapeHtml(c.pos)+'</span> ' : ''}${c.pron ? '<span class="td-pron">'+escapeHtml(c.pron)+'</span><br>' : ''}${escapeHtml(c.example || '')}`;
+  } else {
+    $('fc-pos').textContent=c.pos || '—';
+    $('fc-word').textContent=c.word || '—';
+    $('fc-pron').textContent=c.pron || '';
+    $('fc-meaning').textContent=c.mean || '—';
+    $('fc-example').textContent=c.example || '';
+  }
 }
 function flipFC(){ fcFlip=!fcFlip; $('fc-inner').classList.toggle('flipped', fcFlip); }
 function fcMove(dir){ const n=fcIdx+dir; if(n<0||n>=fcCards.length) return; fcIdx=n; fcFlip=false; renderFC(); }
@@ -747,9 +793,13 @@ function renderQuiz(){
   const area=$('qz-area');
   if(qzCards.length<4){ area.innerHTML='<div class="empty"><div>✏️</div><h3>Cần ít nhất 4 mục</h3><p>Multiple choice cần 4 đáp án để trộn.</p></div>'; return; }
   if(qzIdx>=qzCards.length){ showQuizResult(); return; }
+  syncDirectionSelects();
   const c=qzCards[qzIdx]; const all=currentItems(); const opts=shuffle([c,...shuffle(all.filter(x=>x.id!==c.id)).slice(0,3)]);
-  area.innerHTML=`<div class="listen-card"><div class="pos-tag">${escapeHtml(c.pos)}</div><div class="fc-word" style="margin-top:14px">${escapeHtml(c.word)}</div><div class="fc-pron">${escapeHtml(c.pron||'')}</div><button class="btn" onclick="speak('${escAttr(c.word)}')">🔊 Nghe</button><div class="page-sub">Chọn nghĩa đúng</div></div>
-  <div class="option-grid">${opts.map((o,i)=>`<button class="option" onclick="chooseQuiz(this,${o.id===c.id},'${escAttr(c.mean)}')" data-correct="${o.id===c.id}"><span class="letter">${'ABCD'[i]}</span>${escapeHtml(o.mean)}</button>`).join('')}</div>
+  const prompt = promptSide(c);
+  const promptMeta = studyDirection==='vi-en' ? 'Chọn từ/collocation tiếng Anh đúng' : 'Chọn nghĩa tiếng Việt đúng';
+  const sub = studyDirection==='vi-en' ? '' : `<div class="fc-pron">${escapeHtml(c.pron||'')}</div><button class="btn" onclick="speak('${escAttr(c.word)}')">🔊 Nghe</button>`;
+  area.innerHTML=`<div class="listen-card"><div class="pos-tag">${escapeHtml(studyDirection==='vi-en' ? 'B → A' : c.pos)}</div><div class="fc-word" style="margin-top:14px">${escapeHtml(prompt)}</div>${sub}<div class="page-sub">${promptMeta}</div></div>
+  <div class="option-grid">${opts.map((o,i)=>`<button class="option" onclick="chooseQuiz(this,${o.id===c.id},'${escAttr(answerSide(c))}')" data-correct="${o.id===c.id}"><span class="letter">${'ABCD'[i]}</span>${escapeHtml(answerSide(o))}</button>`).join('')}</div>
   <div class="feedback" id="qz-fb"></div><div style="text-align:center"><button class="btn primary" id="qz-next" style="display:none" onclick="qzIdx++;renderQuiz()">Câu tiếp theo →</button></div>`;
 }
 function chooseQuiz(btn, ok, correct){
@@ -781,17 +831,22 @@ function renderScramble(){
   const area=$('sc-area');
   if(scCards.length===0){ area.innerHTML='<div class="empty"><div>🔀</div><h3>Chưa có dữ liệu</h3><p>Thêm dữ liệu vào topic trước nha.</p></div>'; return; }
   if(scIdx>=scCards.length){ showScrambleResult(); return; }
-  const c=scCards[scIdx]; const tokens=scrambleTokens(c.word); scAnswered=false;
-  area.innerHTML=`<div class="scramble-box"><div class="pos-tag">${escapeHtml(c.pos)}</div><div class="page-sub" style="margin-top:10px">Sắp xếp lại để tạo đúng từ/collocation</div><div class="token-row">${tokens.map(t=>`<span class="token">${escapeHtml(t)}</span>`).join('')}</div><div class="answer-input field"><input id="sc-answer" placeholder="Gõ đáp án đúng..." onkeydown="if(event.key==='Enter'){ scAnswered ? scNext() : checkScramble(); }"></div><div class="page-sub" style="margin-top:12px">Nghĩa: ${escapeHtml(c.mean)}</div><div class="row" style="justify-content:center;margin-top:18px"><button class="btn" onclick="speak('${escAttr(c.word)}')">🔊 Nghe</button><button class="btn primary" id="sc-check" onclick="checkScramble()">Kiểm tra</button><button class="btn" onclick="$('sc-answer').value='${escAttr(c.word)}'">Hiện đáp án</button></div><div class="feedback" id="sc-fb"></div><div style="text-align:center;margin-top:16px"><button class="btn primary" id="sc-next" style="display:none" onclick="scNext()">Câu tiếp theo →</button></div></div>`;
+  syncDirectionSelects();
+  const c=scCards[scIdx];
+  const target = answerSide(c);
+  const clue = studyDirection==='vi-en' ? `Nghĩa: ${escapeHtml(c.mean)}` : `Từ: ${escapeHtml(c.word)}`;
+  const tokens=scrambleTokens(target); scAnswered=false;
+  area.innerHTML=`<div class="scramble-box"><div class="pos-tag">${escapeHtml(studyDirection==='vi-en' ? 'B → A' : 'A → B')}</div><div class="page-sub" style="margin-top:10px">Sắp xếp lại để tạo đúng ${escapeHtml(answerLabel())}</div><div class="token-row">${tokens.map(t=>`<span class="token">${escapeHtml(t)}</span>`).join('')}</div><div class="answer-input field"><input id="sc-answer" placeholder="Gõ đáp án đúng..." onkeydown="if(event.key==='Enter'){ scAnswered ? scNext() : checkScramble(); }"></div><div class="page-sub" style="margin-top:12px">${clue}</div><div class="row" style="justify-content:center;margin-top:18px"><button class="btn" onclick="speak('${escAttr(c.word)}')">🔊 Nghe từ Anh</button><button class="btn primary" id="sc-check" onclick="checkScramble()">Kiểm tra</button><button class="btn" onclick="$('sc-answer').value='${escAttr(target)}'">Hiện đáp án</button></div><div class="feedback" id="sc-fb"></div><div style="text-align:center;margin-top:16px"><button class="btn primary" id="sc-next" style="display:none" onclick="scNext()">Câu tiếp theo →</button></div></div>`;
   setTimeout(()=>$('sc-answer')?.focus(),50);
 }
 function checkScramble(){
   if(scAnswered) return;
   const c=scCards[scIdx]; const ans=$('sc-answer').value;
-  const ok=normalizeAnswer(ans)===normalizeAnswer(c.word); const fb=$('sc-fb');
+  const target = answerSide(c);
+  const ok=normalizeAnswer(ans)===normalizeAnswer(target); const fb=$('sc-fb');
   scAnswered=true;
   if(ok){ scC++; fb.className='feedback ok show'; fb.textContent='✓ Đúng rồi!'; }
-  else{ scW++; scWrongItems.push(c); fb.className='feedback no show'; fb.innerHTML=`✗ Sai. Đáp án đúng: <strong>${escapeHtml(c.word)}</strong>`; }
+  else{ scW++; scWrongItems.push(c); fb.className='feedback no show'; fb.innerHTML=`✗ Sai. Đáp án đúng: <strong>${escapeHtml(target)}</strong>`; }
   const checkBtn=$('sc-check'); if(checkBtn) checkBtn.disabled=true;
   const nextBtn=$('sc-next'); if(nextBtn) nextBtn.style.display='inline-flex';
   updateScrambleBar();
