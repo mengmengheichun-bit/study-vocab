@@ -384,6 +384,13 @@ tr:hover td{background:#f9fbff}
             <input id="dict-search" placeholder="Tìm Reading / Cam 10 Test 1..." oninput="renderDictTopics()">
           </div>
         </div>
+        <div class="field" style="max-width:360px;margin-bottom:14px">
+          <label>Chiều luyện trong Nghe chép</label>
+          <select class="study-dir-select" onchange="setStudyDirection(this.value)" title="Chiều học">
+            <option value="en-vi">Nghe Anh → gõ Anh</option>
+            <option value="vi-en">Nghĩa Việt → gõ Anh</option>
+          </select>
+        </div>
         <div class="row" style="margin-bottom:12px">
           <button class="btn small" onclick="selectAllDictTopics(true)">Chọn tất cả</button>
           <button class="btn small" onclick="selectAllDictTopics(false)">Bỏ chọn</button>
@@ -477,6 +484,7 @@ function setStudyDirection(dir){
   if(currentMode==='fc') { fcFlip=false; renderFC(); }
   if(currentMode==='quiz') initQuiz();
   if(currentMode==='scramble') initScramble();
+  if(currentSection==='dictation') renderDictation();
 }
 function promptSide(it){ return studyDirection==='vi-en' ? (it.mean || '') : (it.word || ''); }
 function answerSide(it){ return studyDirection==='vi-en' ? (it.word || '') : (it.mean || ''); }
@@ -894,17 +902,18 @@ function renderDictation(){
   if(dtCards.length===0){ area.innerHTML='<div class="empty"><div>🎧</div><h3>Chưa có mục để nghe chép</h3><p>Chọn ít nhất một topic có dữ liệu từ Reading/Listening/Writing/Speaking/Collocation.</p></div>'; return; }
   if(dtIdx>=dtCards.length){ showDictResult(); return; }
   const c=dtCards[dtIdx]; dtHintShown=false; dtExampleShown=false; dtAnswered=false;
+  const reverseMode = studyDirection === 'vi-en';
   area.innerHTML=`<div class="listen-card">
     <div class="page-sub" style="text-align:right">Nguồn: ${escapeHtml(c.topicName)}</div>
-    <div class="headphone">🎧</div>
-    <div class="fc-word" style="font-size:32px">Nghe và gõ lại</div>
-    <div class="dict-word-hint">Nghĩa: ${escapeHtml(c.mean)}</div>
+    <div class="headphone">${reverseMode ? '🔁' : '🎧'}</div>
+    <div class="fc-word" style="font-size:32px">${reverseMode ? 'Nhìn nghĩa và gõ tiếng Anh' : 'Nghe và gõ lại'}</div>
+    <div class="dict-word-hint">${reverseMode ? 'Nghĩa tiếng Việt' : 'Nghĩa'}: ${escapeHtml(c.mean)}</div>
     <div class="row rate-row">
       ${[.7,.85,1,1.15].map(r=>`<button class="btn small rate-btn ${Number(dtRate)===Number(r)?'active':''}" data-rate="${r}" onclick="setDictRate(${r})">${r}x</button>`).join('')}
     </div>
-    <button class="btn primary" style="font-size:18px;padding:15px 28px" onclick="speak('${escAttr(c.word)}',dtRate)">🔊 Nghe</button>
+    <button class="btn primary" style="font-size:18px;padding:15px 28px" onclick="speak('${escAttr(c.word)}',dtRate)">${reverseMode ? '🔊 Nghe đáp án' : '🔊 Nghe'}</button>
     <button class="btn" onclick="speakWordsSeparately('${escAttr(c.word)}')">Nghe từng từ</button>
-    <div class="answer-input field" style="margin-top:22px"><input id="dt-answer" placeholder="Gõ từ/collocation bạn nghe được..." autocomplete="off" onkeydown="if(event.key==='Enter'){ dtAnswered ? dictNext() : checkDictation(); }"></div>
+    <div class="answer-input field" style="margin-top:22px"><input id="dt-answer" placeholder="${reverseMode ? 'Gõ từ/collocation tiếng Anh từ nghĩa trên...' : 'Gõ từ/collocation bạn nghe được...'}" autocomplete="off" onkeydown="if(event.key==='Enter'){ dtAnswered ? dictNext() : checkDictation(); }"></div>
     <div class="row" style="justify-content:center;margin-top:16px">
       <button class="btn" onclick="showDictHint()">Gợi ý</button>
       <button class="btn" onclick="showDictExample()">Xem ví dụ</button>
@@ -914,13 +923,13 @@ function renderDictation(){
     <div class="feedback" id="dt-fb"></div>
     <div style="text-align:center;margin-top:16px"><button class="btn primary" id="dt-next" style="display:none" onclick="dictNext()">Câu tiếp theo →</button></div>
   </div>`;
-  setTimeout(()=>{ $('dt-answer')?.focus(); speak(c.word, dtRate); },180);
+  setTimeout(()=>{ $('dt-answer')?.focus(); if(!reverseMode) speak(c.word, dtRate); },180);
 }
 function setDictRate(rate){
   dtRate = Number(rate);
   renderDictRateButtons();
   const c = dtCards[dtIdx];
-  if(c) speak(c.word, dtRate);
+  if(c && studyDirection !== 'vi-en') speak(c.word, dtRate);
 }
 function renderDictRateButtons(){
   document.querySelectorAll('.rate-btn').forEach(b=>{
