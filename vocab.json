@@ -399,7 +399,7 @@
         },
         {
           "id": 1779335983584,
-          "name": "cam 11, test 1-1",
+          "name": "cam 11, test 1-1; hiring a public room",
           "visible": true,
           "items": [
             {
@@ -529,6 +529,2427 @@
               "pron": "plural noun",
               "mean": "cơ sở, tòa nhà, mặt bằng kinh doanh",
               "example": "Smoking is not allowed on the premises."
+            }
+          ]
+        },
+        {
+          "id": 1779371829394,
+          "name": "name",
+          "visible": true,
+          "items": [
+            {
+              "id": 1779371841914,
+              "word": "James",
+              "pos": "n",
+              "pron": "",
+              "mean": "James",
+              "example": ""
+            },
+            {
+              "id": 1779371833612,
+              "word": "Emily",
+              "pos": "n",
+              "pron": "",
+              "mean": "Emily",
+              "example": ""
+            },
+            {
+              "id": 1779371841817,
+              "word": "Lucas",
+              "pos": "n",
+              "pron": "",
+              "mean": "Lucas",
+              "example": ""
+            },
+            {
+              "id": 1779371837898,
+              "word": "Sofia",
+              "pos": "n",
+              "pron": "",
+              "mean": "Sofia",
+              "example": ""
+            },
+            {
+              "id": 1779371837786,
+              "word": "Ethan",
+              "pos": "n",
+              "pron": "",
+              "mean": "Ethan",
+              "example": ""
+            },
+            {
+              "id": 1779371833910,
+              "word": "Chloe",
+              "pos": "n",
+              "pron": "",
+              "mean": "Chloe",
+              "example": ""
+            },
+            {
+              "id": 1779371840358,
+              "word": "Aaron",
+              "pos": "n",
+              "pron": "",
+              "mean": "Aaron",
+              "example": ""
+            },
+            {
+              "id": 1779371839135,
+              "word": "Diana",
+              "pos": "n",
+              "pron": "",
+              "mean": "Diana",
+              "example": ""
+            },
+            {
+              "id": 1779371837473,
+              "word": "Mason",
+              "pos": "n",
+              "pron": "",
+              "mean": "Mason",
+              "example": ""
+            },
+            {
+              "id": 1779371834532,
+              "word": "Layla",
+              "pos": "n",
+              "pron": "",
+              "mean": "Layla",
+              "example": ""
+            },
+            {
+              "id": 1779371836699,
+              "word": "Grace",
+              "pos": "n",
+              "pron": "",
+              "mean": "Grace",
+              "example": ""
+            },
+            {
+              "id": 1779371837845,
+              "word": "Tyler",
+              "pos": "n",
+              "pron": "",
+              "mean": "Tyler",
+              "example": ""
+            },
+            {
+              "id": 1779371836822,
+              "word": "Kayla",
+              "pos": "n",
+              "pron": "",
+              "mean": "Kayla",
+              "example": ""
+            },
+            {
+              "id": 1779371837048,
+              "word": "Dylan",
+              "pos": "n",
+              "pron": "",
+              "mean": "Dylan",
+              "example": ""
+            },
+            {
+              "id": 1779371832598,
+              "word": "Nadia",
+              "pos": "n",
+              "pron": "",
+              "mean": "Nadia",
+              "example": ""
+            },
+            {
+              "id": 1779371839791,
+              "word": "Bryan",
+              "pos": "n",
+              "pron": "",
+              "mean": "Bryan",
+              "example": ""
+            },
+            {
+              "id": 1779371841250,
+              "word": "Tessa",
+              "pos": "n",
+              "pron": "",
+              "mean": "Tessa",
+              "example": ""
+            },
+            {
+              "id": 1779371838668,
+              "word": "Colin",
+              "pos": "n",
+              "pron": "",
+              "mean": "Colin",
+              "example": ""
+            },
+            {
+              "id": 1779371833177,
+              "word": "Fiona",
+              "pos": "n",
+              "pron": "",
+              "mean": "Fiona",
+              "example": ""
+            },
+            {
+              "id": 1779371833149,
+              "word": "Logan",
+              "pos": "n",
+              "pron": "",
+              "mean": "Logan",
+              "example": ""
+            },
+            {
+              "id": 1779371839260,
+              "word": "Daniel",
+              "pos": "n",
+              "pron": "",
+              "mean": "Daniel",
+              "example": ""
+            },
+            {
+              "id": 1779371834184,
+              "word": "Hannah",
+              "pos": "n",
+              "pron": "",
+              "mean": "Hannah",
+              "example": ""
+            },
+            {
+              "id": 1779371835913,
+              "word": "Nathan",
+              "pos": "n",
+              "pron": "",
+              "mean": "Nathan",
+              "example": ""
+            },
+            {
+              "id": 1779371837105,
+              "word": "Olivia",
+              "pos": "n",
+              "pron": "",
+              "mean": "Olivia",
+              "example": ""
+            },
+            {
+              "id": 1779371840421,
+              "word": "Elijah",
+              "pos": "n",
+              "pron": "",
+              "mean": "Elijah",
+              "example": ""
+            },
+            {
+              "id": 1779371835617,
+              "word": "Amelia",
+              "pos": "n",
+              "pron": "",
+              "mean": "Amelia",
+              "example": ""
+            },
+            {
+              "id": 1779371833025,
+              "word": "Andrew",
+              "pos": "n",
+              "pron": "",
+              "mean": "Andrew",
+              "example": ""
+            },
+            {
+              "id": 1779371834160,
+              "word": "Isabel",
+              "pos": "n",
+              "pron": "",
+              "mean": "Isabel",
+              "example": ""
+            },
+            {
+              "id": 1779371842246,
+              "word": "Samuel",
+              "pos": "n",
+              "pron": "",
+              "mean": "Samuel",
+              "example": ""
+            },
+            {
+              "id": 1779371834108,
+              "word": "Stella",
+              "pos": "n",
+              "pron": "",
+              "mean": "Stella",
+              "example": ""
+            },
+            {
+              "id": 1779371839718,
+              "word": "Julian",
+              "pos": "n",
+              "pron": "",
+              "mean": "Julian",
+              "example": ""
+            },
+            {
+              "id": 1779371835493,
+              "word": "Naomi",
+              "pos": "n",
+              "pron": "",
+              "mean": "Naomi",
+              "example": ""
+            },
+            {
+              "id": 1779371840964,
+              "word": "Marcus",
+              "pos": "n",
+              "pron": "",
+              "mean": "Marcus",
+              "example": ""
+            },
+            {
+              "id": 1779371833665,
+              "word": "Vivian",
+              "pos": "n",
+              "pron": "",
+              "mean": "Vivian",
+              "example": ""
+            },
+            {
+              "id": 1779371833886,
+              "word": "Calvin",
+              "pos": "n",
+              "pron": "",
+              "mean": "Calvin",
+              "example": ""
+            },
+            {
+              "id": 1779371834665,
+              "word": "Helena",
+              "pos": "n",
+              "pron": "",
+              "mean": "Helena",
+              "example": ""
+            },
+            {
+              "id": 1779371836239,
+              "word": "Tristan",
+              "pos": "n",
+              "pron": "",
+              "mean": "Tristan",
+              "example": ""
+            },
+            {
+              "id": 1779371837801,
+              "word": "Serena",
+              "pos": "n",
+              "pron": "",
+              "mean": "Serena",
+              "example": ""
+            },
+            {
+              "id": 1779371839866,
+              "word": "Arthur",
+              "pos": "n",
+              "pron": "",
+              "mean": "Arthur",
+              "example": ""
+            },
+            {
+              "id": 1779371835637,
+              "word": "Bianca",
+              "pos": "n",
+              "pron": "",
+              "mean": "Bianca",
+              "example": ""
+            },
+            {
+              "id": 1779371840823,
+              "word": "Michael",
+              "pos": "n",
+              "pron": "",
+              "mean": "Michael",
+              "example": ""
+            },
+            {
+              "id": 1779371834761,
+              "word": "Rebecca",
+              "pos": "n",
+              "pron": "",
+              "mean": "Rebecca",
+              "example": ""
+            },
+            {
+              "id": 1779371833734,
+              "word": "Anthony",
+              "pos": "n",
+              "pron": "",
+              "mean": "Anthony",
+              "example": ""
+            },
+            {
+              "id": 1779371841582,
+              "word": "Jessica",
+              "pos": "n",
+              "pron": "",
+              "mean": "Jessica",
+              "example": ""
+            },
+            {
+              "id": 1779371834050,
+              "word": "Matthew",
+              "pos": "n",
+              "pron": "",
+              "mean": "Matthew",
+              "example": ""
+            },
+            {
+              "id": 1779371836925,
+              "word": "Melissa",
+              "pos": "n",
+              "pron": "",
+              "mean": "Melissa",
+              "example": ""
+            },
+            {
+              "id": 1779371834789,
+              "word": "Timothy",
+              "pos": "n",
+              "pron": "",
+              "mean": "Timothy",
+              "example": ""
+            },
+            {
+              "id": 1779371836502,
+              "word": "Valeria",
+              "pos": "n",
+              "pron": "",
+              "mean": "Valeria",
+              "example": ""
+            },
+            {
+              "id": 1779371833706,
+              "word": "Patrick",
+              "pos": "n",
+              "pron": "",
+              "mean": "Patrick",
+              "example": ""
+            },
+            {
+              "id": 1779371839516,
+              "word": "Natalie",
+              "pos": "n",
+              "pron": "",
+              "mean": "Natalie",
+              "example": ""
+            },
+            {
+              "id": 1779371835709,
+              "word": "Charles",
+              "pos": "n",
+              "pron": "",
+              "mean": "Charles",
+              "example": ""
+            },
+            {
+              "id": 1779371842313,
+              "word": "Jasmine",
+              "pos": "n",
+              "pron": "",
+              "mean": "Jasmine",
+              "example": ""
+            },
+            {
+              "id": 1779371835005,
+              "word": "Richard",
+              "pos": "n",
+              "pron": "",
+              "mean": "Richard",
+              "example": ""
+            },
+            {
+              "id": 1779371842264,
+              "word": "Sabrina",
+              "pos": "n",
+              "pron": "",
+              "mean": "Sabrina",
+              "example": ""
+            },
+            {
+              "id": 1779371840263,
+              "word": "Vincent",
+              "pos": "n",
+              "pron": "",
+              "mean": "Vincent",
+              "example": ""
+            },
+            {
+              "id": 1779371833459,
+              "word": "Tabitha",
+              "pos": "n",
+              "pron": "",
+              "mean": "Tabitha",
+              "example": ""
+            },
+            {
+              "id": 1779371832940,
+              "word": "Leonard",
+              "pos": "n",
+              "pron": "",
+              "mean": "Leonard",
+              "example": ""
+            },
+            {
+              "id": 1779371836974,
+              "word": "Yolanda",
+              "pos": "n",
+              "pron": "",
+              "mean": "Yolanda",
+              "example": ""
+            },
+            {
+              "id": 1779371840383,
+              "word": "Brandon",
+              "pos": "n",
+              "pron": "",
+              "mean": "Brandon",
+              "example": ""
+            },
+            {
+              "id": 1779371833865,
+              "word": "Celeste",
+              "pos": "n",
+              "pron": "",
+              "mean": "Celeste",
+              "example": ""
+            },
+            {
+              "id": 1779371842221,
+              "word": "Jonathan",
+              "pos": "n",
+              "pron": "",
+              "mean": "Jonathan",
+              "example": ""
+            },
+            {
+              "id": 1779371837317,
+              "word": "Samantha",
+              "pos": "n",
+              "pron": "",
+              "mean": "Samantha",
+              "example": ""
+            },
+            {
+              "id": 1779371840181,
+              "word": "Nicholas",
+              "pos": "n",
+              "pron": "",
+              "mean": "Nicholas",
+              "example": ""
+            },
+            {
+              "id": 1779371834552,
+              "word": "Veronica",
+              "pos": "n",
+              "pron": "",
+              "mean": "Veronica",
+              "example": ""
+            },
+            {
+              "id": 1779371833833,
+              "word": "Benjamin",
+              "pos": "n",
+              "pron": "",
+              "mean": "Benjamin",
+              "example": ""
+            },
+            {
+              "id": 1779371834153,
+              "word": "Victoria",
+              "pos": "n",
+              "pron": "",
+              "mean": "Victoria",
+              "example": ""
+            },
+            {
+              "id": 1779371833125,
+              "word": "Dominick",
+              "pos": "n",
+              "pron": "",
+              "mean": "Dominick",
+              "example": ""
+            },
+            {
+              "id": 1779371832666,
+              "word": "Clarissa",
+              "pos": "n",
+              "pron": "",
+              "mean": "Clarissa",
+              "example": ""
+            },
+            {
+              "id": 1779371841791,
+              "word": "Theodore",
+              "pos": "n",
+              "pron": "",
+              "mean": "Theodore",
+              "example": ""
+            },
+            {
+              "id": 1779371834681,
+              "word": "Beatrice",
+              "pos": "n",
+              "pron": "",
+              "mean": "Beatrice",
+              "example": ""
+            },
+            {
+              "id": 1779371838809,
+              "word": "Matthias",
+              "pos": "n",
+              "pron": "",
+              "mean": "Matthias",
+              "example": ""
+            },
+            {
+              "id": 1779371833500,
+              "word": "Hermione",
+              "pos": "n",
+              "pron": "",
+              "mean": "Hermione",
+              "example": ""
+            },
+            {
+              "id": 1779371833534,
+              "word": "Cristian",
+              "pos": "n",
+              "pron": "",
+              "mean": "Cristian",
+              "example": ""
+            },
+            {
+              "id": 1779371833290,
+              "word": "Angelica",
+              "pos": "n",
+              "pron": "",
+              "mean": "Angelica",
+              "example": ""
+            },
+            {
+              "id": 1779371834031,
+              "word": "Jeremiah",
+              "pos": "n",
+              "pron": "",
+              "mean": "Jeremiah",
+              "example": ""
+            },
+            {
+              "id": 1779371842210,
+              "word": "Scarlett",
+              "pos": "n",
+              "pron": "",
+              "mean": "Scarlett",
+              "example": ""
+            },
+            {
+              "id": 1779371836928,
+              "word": "Reginald",
+              "pos": "n",
+              "pron": "",
+              "mean": "Reginald",
+              "example": ""
+            },
+            {
+              "id": 1779371833905,
+              "word": "Penelope",
+              "pos": "n",
+              "pron": "",
+              "mean": "Penelope",
+              "example": ""
+            },
+            {
+              "id": 1779371835443,
+              "word": "Emmanuel",
+              "pos": "n",
+              "pron": "",
+              "mean": "Emmanuel",
+              "example": ""
+            },
+            {
+              "id": 1779371838561,
+              "word": "Felicity",
+              "pos": "n",
+              "pron": "",
+              "mean": "Felicity",
+              "example": ""
+            },
+            {
+              "id": 1779371839305,
+              "word": "Harrison",
+              "pos": "n",
+              "pron": "",
+              "mean": "Harrison",
+              "example": ""
+            },
+            {
+              "id": 1779371837207,
+              "word": "Lavender",
+              "pos": "n",
+              "pron": "",
+              "mean": "Lavender",
+              "example": ""
+            },
+            {
+              "id": 1779371838461,
+              "word": "Cornelius",
+              "pos": "n",
+              "pron": "",
+              "mean": "Cornelius",
+              "example": ""
+            },
+            {
+              "id": 1779371837511,
+              "word": "Rosalind",
+              "pos": "n",
+              "pron": "",
+              "mean": "Rosalind",
+              "example": ""
+            },
+            {
+              "id": 1779371833678,
+              "word": "Gideon",
+              "pos": "n",
+              "pron": "",
+              "mean": "Gideon",
+              "example": ""
+            },
+            {
+              "id": 1779371840719,
+              "word": "Isabelle",
+              "pos": "n",
+              "pron": "",
+              "mean": "Isabelle",
+              "example": ""
+            },
+            {
+              "id": 1779371841725,
+              "word": "Thaddeus",
+              "pos": "n",
+              "pron": "",
+              "mean": "Thaddeus",
+              "example": ""
+            },
+            {
+              "id": 1779371840938,
+              "word": "Mirabelle",
+              "pos": "n",
+              "pron": "",
+              "mean": "Mirabelle",
+              "example": ""
+            },
+            {
+              "id": 1779371833031,
+              "word": "Augustus",
+              "pos": "n",
+              "pron": "",
+              "mean": "Augustus",
+              "example": ""
+            },
+            {
+              "id": 1779371839397,
+              "word": "Celestine",
+              "pos": "n",
+              "pron": "",
+              "mean": "Celestine",
+              "example": ""
+            },
+            {
+              "id": 1779371838954,
+              "word": "Fitzgerald",
+              "pos": "n",
+              "pron": "",
+              "mean": "Fitzgerald",
+              "example": ""
+            },
+            {
+              "id": 1779371834366,
+              "word": "Genevieve",
+              "pos": "n",
+              "pron": "",
+              "mean": "Genevieve",
+              "example": ""
+            },
+            {
+              "id": 1779371836560,
+              "word": "Percival",
+              "pos": "n",
+              "pron": "",
+              "mean": "Percival",
+              "example": ""
+            },
+            {
+              "id": 1779371842501,
+              "word": "Seraphina",
+              "pos": "n",
+              "pron": "",
+              "mean": "Seraphina",
+              "example": ""
+            },
+            {
+              "id": 1779371832976,
+              "word": "Bartholomew",
+              "pos": "n",
+              "pron": "",
+              "mean": "Bartholomew",
+              "example": ""
+            },
+            {
+              "id": 1779371837975,
+              "word": "Evangeline",
+              "pos": "n",
+              "pron": "",
+              "mean": "Evangeline",
+              "example": ""
+            },
+            {
+              "id": 1779371836353,
+              "word": "Maximilian",
+              "pos": "n",
+              "pron": "",
+              "mean": "Maximilian",
+              "example": ""
+            },
+            {
+              "id": 1779371840461,
+              "word": "Clementine",
+              "pos": "n",
+              "pron": "",
+              "mean": "Clementine",
+              "example": ""
+            },
+            {
+              "id": 1779371836143,
+              "word": "Alexandros",
+              "pos": "n",
+              "pron": "",
+              "mean": "Alexandros",
+              "example": ""
+            },
+            {
+              "id": 1779371840086,
+              "word": "Wilhelmina",
+              "pos": "n",
+              "pron": "",
+              "mean": "Wilhelmina",
+              "example": ""
+            }
+          ]
+        },
+        {
+          "id": 1779372218172,
+          "name": "phone",
+          "visible": true,
+          "items": [
+            {
+              "id": 1779372241860,
+              "word": "74823916053",
+              "pos": "n",
+              "pron": "",
+              "mean": "74823916053",
+              "example": ""
+            },
+            {
+              "id": 1779372242255,
+              "word": "31956274801",
+              "pos": "n",
+              "pron": "",
+              "mean": "31956274801",
+              "example": ""
+            },
+            {
+              "id": 1779372241634,
+              "word": "89027463518",
+              "pos": "n",
+              "pron": "",
+              "mean": "89027463518",
+              "example": ""
+            },
+            {
+              "id": 1779372243821,
+              "word": "56134982070",
+              "pos": "n",
+              "pron": "",
+              "mean": "56134982070",
+              "example": ""
+            },
+            {
+              "id": 1779372241708,
+              "word": "20748531964",
+              "pos": "n",
+              "pron": "",
+              "mean": "20748531964",
+              "example": ""
+            },
+            {
+              "id": 1779372240994,
+              "word": "93615807342",
+              "pos": "n",
+              "pron": "",
+              "mean": "93615807342",
+              "example": ""
+            },
+            {
+              "id": 1779372241604,
+              "word": "47290163855",
+              "pos": "n",
+              "pron": "",
+              "mean": "47290163855",
+              "example": ""
+            },
+            {
+              "id": 1779372245241,
+              "word": "61837524093",
+              "pos": "n",
+              "pron": "",
+              "mean": "61837524093",
+              "example": ""
+            },
+            {
+              "id": 1779372245708,
+              "word": "8453971626",
+              "pos": "n",
+              "pron": "",
+              "mean": "8453971626",
+              "example": ""
+            },
+            {
+              "id": 1779372238719,
+              "word": "35791048267",
+              "pos": "n",
+              "pron": "",
+              "mean": "35791048267",
+              "example": ""
+            },
+            {
+              "id": 1779372239405,
+              "word": "72864309581",
+              "pos": "n",
+              "pron": "",
+              "mean": "72864309581",
+              "example": ""
+            },
+            {
+              "id": 1779372245792,
+              "word": "19530687244",
+              "pos": "n",
+              "pron": "",
+              "mean": "19530687244",
+              "example": ""
+            },
+            {
+              "id": 1779372246061,
+              "word": "84071256393",
+              "pos": "n",
+              "pron": "",
+              "mean": "84071256393",
+              "example": ""
+            },
+            {
+              "id": 1779372244756,
+              "word": "26948715030",
+              "pos": "n",
+              "pron": "",
+              "mean": "26948715030",
+              "example": ""
+            },
+            {
+              "id": 1779372241998,
+              "word": "53187462809",
+              "pos": "n",
+              "pron": "",
+              "mean": "53187462809",
+              "example": ""
+            },
+            {
+              "id": 1779372238633,
+              "word": "90624873151",
+              "pos": "n",
+              "pron": "",
+              "mean": "90624873151",
+              "example": ""
+            },
+            {
+              "id": 1779372245641,
+              "word": "67315092843",
+              "pos": "n",
+              "pron": "",
+              "mean": "67315092843",
+              "example": ""
+            },
+            {
+              "id": 1779372245093,
+              "word": "42089637516",
+              "pos": "n",
+              "pron": "",
+              "mean": "42089637516",
+              "example": ""
+            },
+            {
+              "id": 1779372245495,
+              "word": "15763948202",
+              "pos": "n",
+              "pron": "",
+              "mean": "15763948202",
+              "example": ""
+            },
+            {
+              "id": 1779372245606,
+              "word": "78432516970",
+              "pos": "n",
+              "pron": "",
+              "mean": "78432516970",
+              "example": ""
+            },
+            {
+              "id": 1779372239320,
+              "word": "34971802653",
+              "pos": "n",
+              "pron": "",
+              "mean": "34971802653",
+              "example": ""
+            },
+            {
+              "id": 1779372243399,
+              "word": "61258094387",
+              "pos": "n",
+              "pron": "",
+              "mean": "61258094387",
+              "example": ""
+            },
+            {
+              "id": 1779372239925,
+              "word": "9846327155",
+              "pos": "n",
+              "pron": "",
+              "mean": "9846327155",
+              "example": ""
+            },
+            {
+              "id": 1779372245564,
+              "word": "87534160292",
+              "pos": "n",
+              "pron": "",
+              "mean": "87534160292",
+              "example": ""
+            },
+            {
+              "id": 1779372240830,
+              "word": "23197485063",
+              "pos": "n",
+              "pron": "",
+              "mean": "23197485063",
+              "example": ""
+            },
+            {
+              "id": 1779372243390,
+              "word": "50863941728",
+              "pos": "n",
+              "pron": "",
+              "mean": "50863941728",
+              "example": ""
+            },
+            {
+              "id": 1779372245834,
+              "word": "96742318054",
+              "pos": "n",
+              "pron": "",
+              "mean": "96742318054",
+              "example": ""
+            },
+            {
+              "id": 1779372236317,
+              "word": "18035796423",
+              "pos": "n",
+              "pron": "",
+              "mean": "18035796423",
+              "example": ""
+            },
+            {
+              "id": 1779372240418,
+              "word": "75291064838",
+              "pos": "n",
+              "pron": "",
+              "mean": "75291064838",
+              "example": ""
+            },
+            {
+              "id": 1779372243243,
+              "word": "42687530196",
+              "pos": "n",
+              "pron": "",
+              "mean": "42687530196",
+              "example": ""
+            },
+            {
+              "id": 1779372245710,
+              "word": "69174825043",
+              "pos": "n",
+              "pron": "",
+              "mean": "69174825043",
+              "example": ""
+            },
+            {
+              "id": 1779372244594,
+              "word": "27843096512",
+              "pos": "n",
+              "pron": "",
+              "mean": "27843096512",
+              "example": ""
+            },
+            {
+              "id": 1779372240319,
+              "word": "84519367280",
+              "pos": "n",
+              "pron": "",
+              "mean": "84519367280",
+              "example": ""
+            },
+            {
+              "id": 1779372240569,
+              "word": "31076952843",
+              "pos": "n",
+              "pron": "",
+              "mean": "31076952843",
+              "example": ""
+            },
+            {
+              "id": 1779372246271,
+              "word": "58392147065",
+              "pos": "n",
+              "pron": "",
+              "mean": "58392147065",
+              "example": ""
+            },
+            {
+              "id": 1779372245925,
+              "word": "93758204316",
+              "pos": "n",
+              "pron": "",
+              "mean": "93758204316",
+              "example": ""
+            },
+            {
+              "id": 1779372246274,
+              "word": "16483729050",
+              "pos": "n",
+              "pron": "",
+              "mean": "16483729050",
+              "example": ""
+            },
+            {
+              "id": 1779372243919,
+              "word": "70925618433",
+              "pos": "n",
+              "pron": "",
+              "mean": "70925618433",
+              "example": ""
+            },
+            {
+              "id": 1779372238252,
+              "word": "47361082597",
+              "pos": "n",
+              "pron": "",
+              "mean": "47361082597",
+              "example": ""
+            },
+            {
+              "id": 1779372239644,
+              "word": "24897563140",
+              "pos": "n",
+              "pron": "",
+              "mean": "24897563140",
+              "example": ""
+            },
+            {
+              "id": 1779372241831,
+              "word": "81654329076",
+              "pos": "n",
+              "pron": "",
+              "mean": "81654329076",
+              "example": ""
+            },
+            {
+              "id": 1779372237895,
+              "word": "39270815643",
+              "pos": "n",
+              "pron": "",
+              "mean": "39270815643",
+              "example": ""
+            },
+            {
+              "id": 1779372236896,
+              "word": "6918543827",
+              "pos": "n",
+              "pron": "",
+              "mean": "6918543827",
+              "example": ""
+            },
+            {
+              "id": 1779372241438,
+              "word": "73245681093",
+              "pos": "n",
+              "pron": "",
+              "mean": "73245681093",
+              "example": ""
+            },
+            {
+              "id": 1779372240874,
+              "word": "50832967415",
+              "pos": "n",
+              "pron": "",
+              "mean": "50832967415",
+              "example": ""
+            },
+            {
+              "id": 1779372237364,
+              "word": "97416082358",
+              "pos": "n",
+              "pron": "",
+              "mean": "97416082358",
+              "example": ""
+            },
+            {
+              "id": 1779372242888,
+              "word": "64073519826",
+              "pos": "n",
+              "pron": "",
+              "mean": "64073519826",
+              "example": ""
+            },
+            {
+              "id": 1779372237028,
+              "word": "21849736053",
+              "pos": "n",
+              "pron": "",
+              "mean": "21849736053",
+              "example": ""
+            },
+            {
+              "id": 1779372240542,
+              "word": "88237465190",
+              "pos": "n",
+              "pron": "",
+              "mean": "88237465190",
+              "example": ""
+            },
+            {
+              "id": 1779372244359,
+              "word": "45692178034",
+              "pos": "n",
+              "pron": "",
+              "mean": "45692178034",
+              "example": ""
+            },
+            {
+              "id": 1779372236284,
+              "word": "13057824693",
+              "pos": "n",
+              "pron": "",
+              "mean": "13057824693",
+              "example": ""
+            },
+            {
+              "id": 1779372245515,
+              "word": "70394256817",
+              "pos": "n",
+              "pron": "",
+              "mean": "70394256817",
+              "example": ""
+            },
+            {
+              "id": 1779372240009,
+              "word": "37841965023",
+              "pos": "n",
+              "pron": "",
+              "mean": "37841965023",
+              "example": ""
+            },
+            {
+              "id": 1779372237564,
+              "word": "94276538140",
+              "pos": "n",
+              "pron": "",
+              "mean": "94276538140",
+              "example": ""
+            },
+            {
+              "id": 1779372237063,
+              "word": "61823074956",
+              "pos": "n",
+              "pron": "",
+              "mean": "61823074956",
+              "example": ""
+            },
+            {
+              "id": 1779372236633,
+              "word": "28547913062",
+              "pos": "n",
+              "pron": "",
+              "mean": "28547913062",
+              "example": ""
+            },
+            {
+              "id": 1779372244009,
+              "word": "85163402798",
+              "pos": "n",
+              "pron": "",
+              "mean": "85163402798",
+              "example": ""
+            },
+            {
+              "id": 1779372244372,
+              "word": "42709856314",
+              "pos": "n",
+              "pron": "",
+              "mean": "42709856314",
+              "example": ""
+            },
+            {
+              "id": 1779372241726,
+              "word": "9384721650",
+              "pos": "n",
+              "pron": "",
+              "mean": "9384721650",
+              "example": ""
+            },
+            {
+              "id": 1779372237000,
+              "word": "76951038427",
+              "pos": "n",
+              "pron": "",
+              "mean": "76951038427",
+              "example": ""
+            },
+            {
+              "id": 1779372242717,
+              "word": "53287469103",
+              "pos": "n",
+              "pron": "",
+              "mean": "53287469103",
+              "example": ""
+            },
+            {
+              "id": 1779372244277,
+              "word": "20634897556",
+              "pos": "n",
+              "pron": "",
+              "mean": "20634897556",
+              "example": ""
+            },
+            {
+              "id": 1779372240408,
+              "word": "87019345262",
+              "pos": "n",
+              "pron": "",
+              "mean": "87019345262",
+              "example": ""
+            },
+            {
+              "id": 1779372241340,
+              "word": "34756182093",
+              "pos": "n",
+              "pron": "",
+              "mean": "34756182093",
+              "example": ""
+            },
+            {
+              "id": 1779372237994,
+              "word": "91482637508",
+              "pos": "n",
+              "pron": "",
+              "mean": "91482637508",
+              "example": ""
+            },
+            {
+              "id": 1779372236906,
+              "word": "58127964032",
+              "pos": "n",
+              "pron": "",
+              "mean": "58127964032",
+              "example": ""
+            },
+            {
+              "id": 1779372239726,
+              "word": "15864293740",
+              "pos": "n",
+              "pron": "",
+              "mean": "15864293740",
+              "example": ""
+            },
+            {
+              "id": 1779372240934,
+              "word": "72503841967",
+              "pos": "n",
+              "pron": "",
+              "mean": "72503841967",
+              "example": ""
+            },
+            {
+              "id": 1779372241866,
+              "word": "49138576024",
+              "pos": "n",
+              "pron": "",
+              "mean": "49138576024",
+              "example": ""
+            },
+            {
+              "id": 1779372240627,
+              "word": "6875293418",
+              "pos": "n",
+              "pron": "",
+              "mean": "6875293418",
+              "example": ""
+            },
+            {
+              "id": 1779372240072,
+              "word": "63294180753",
+              "pos": "n",
+              "pron": "",
+              "mean": "63294180753",
+              "example": ""
+            },
+            {
+              "id": 1779372243746,
+              "word": "30741859262",
+              "pos": "n",
+              "pron": "",
+              "mean": "30741859262",
+              "example": ""
+            },
+            {
+              "id": 1779372244155,
+              "word": "97358024615",
+              "pos": "n",
+              "pron": "",
+              "mean": "97358024615",
+              "example": ""
+            },
+            {
+              "id": 1779372238747,
+              "word": "54813796042",
+              "pos": "n",
+              "pron": "",
+              "mean": "54813796042",
+              "example": ""
+            },
+            {
+              "id": 1779372243861,
+              "word": "21096453877",
+              "pos": "n",
+              "pron": "",
+              "mean": "21096453877",
+              "example": ""
+            },
+            {
+              "id": 1779372244144,
+              "word": "78643920153",
+              "pos": "n",
+              "pron": "",
+              "mean": "78643920153",
+              "example": ""
+            },
+            {
+              "id": 1779372242024,
+              "word": "45287136098",
+              "pos": "n",
+              "pron": "",
+              "mean": "45287136098",
+              "example": ""
+            },
+            {
+              "id": 1779372238128,
+              "word": "2954873621",
+              "pos": "n",
+              "pron": "",
+              "mean": "2954873621",
+              "example": ""
+            },
+            {
+              "id": 1779372241165,
+              "word": "69371508244",
+              "pos": "n",
+              "pron": "",
+              "mean": "69371508244",
+              "example": ""
+            },
+            {
+              "id": 1779372238469,
+              "word": "36918724053",
+              "pos": "n",
+              "pron": "",
+              "mean": "36918724053",
+              "example": ""
+            },
+            {
+              "id": 1779372239966,
+              "word": "83452096718",
+              "pos": "n",
+              "pron": "",
+              "mean": "83452096718",
+              "example": ""
+            },
+            {
+              "id": 1779372245530,
+              "word": "50197384263",
+              "pos": "n",
+              "pron": "",
+              "mean": "50197384263",
+              "example": ""
+            },
+            {
+              "id": 1779372243659,
+              "word": "17834562099",
+              "pos": "n",
+              "pron": "",
+              "mean": "17834562099",
+              "example": ""
+            },
+            {
+              "id": 1779372244398,
+              "word": "74251908436",
+              "pos": "n",
+              "pron": "",
+              "mean": "74251908436",
+              "example": ""
+            },
+            {
+              "id": 1779372237670,
+              "word": "41698073852",
+              "pos": "n",
+              "pron": "",
+              "mean": "41698073852",
+              "example": ""
+            },
+            {
+              "id": 1779372244480,
+              "word": "8375641297",
+              "pos": "n",
+              "pron": "",
+              "mean": "8375641297",
+              "example": ""
+            },
+            {
+              "id": 1779372239457,
+              "word": "65932817043",
+              "pos": "n",
+              "pron": "",
+              "mean": "65932817043",
+              "example": ""
+            },
+            {
+              "id": 1779372237881,
+              "word": "32479158606",
+              "pos": "n",
+              "pron": "",
+              "mean": "32479158606",
+              "example": ""
+            },
+            {
+              "id": 1779372240837,
+              "word": "99816423075",
+              "pos": "n",
+              "pron": "",
+              "mean": "99816423075",
+              "example": ""
+            },
+            {
+              "id": 1779372236764,
+              "word": "57043986212",
+              "pos": "n",
+              "pron": "",
+              "mean": "57043986212",
+              "example": ""
+            },
+            {
+              "id": 1779372242804,
+              "word": "24680531497",
+              "pos": "n",
+              "pron": "",
+              "mean": "24680531497",
+              "example": ""
+            },
+            {
+              "id": 1779372242756,
+              "word": "81357294063",
+              "pos": "n",
+              "pron": "",
+              "mean": "81357294063",
+              "example": ""
+            },
+            {
+              "id": 1779372239478,
+              "word": "48923760518",
+              "pos": "n",
+              "pron": "",
+              "mean": "48923760518",
+              "example": ""
+            },
+            {
+              "id": 1779372240392,
+              "word": "15467082394",
+              "pos": "n",
+              "pron": "",
+              "mean": "15467082394",
+              "example": ""
+            },
+            {
+              "id": 1779372243262,
+              "word": "72894315067",
+              "pos": "n",
+              "pron": "",
+              "mean": "72894315067",
+              "example": ""
+            },
+            {
+              "id": 1779372243048,
+              "word": "39251678043",
+              "pos": "n",
+              "pron": "",
+              "mean": "39251678043",
+              "example": ""
+            },
+            {
+              "id": 1779372244419,
+              "word": "6738924156",
+              "pos": "n",
+              "pron": "",
+              "mean": "6738924156",
+              "example": ""
+            },
+            {
+              "id": 1779372243315,
+              "word": "63185047392",
+              "pos": "n",
+              "pron": "",
+              "mean": "63185047392",
+              "example": ""
+            },
+            {
+              "id": 1779372245287,
+              "word": "20842759631",
+              "pos": "n",
+              "pron": "",
+              "mean": "20842759631",
+              "example": ""
+            },
+            {
+              "id": 1779372239993,
+              "word": "87469302158",
+              "pos": "n",
+              "pron": "",
+              "mean": "87469302158",
+              "example": ""
+            }
+          ]
+        },
+        {
+          "id": 1779372253317,
+          "name": "postcode",
+          "visible": true,
+          "items": [
+            {
+              "id": 1779372250598,
+              "word": "A3K 9M2",
+              "pos": "n",
+              "pron": "",
+              "mean": "A3K 9M2",
+              "example": ""
+            },
+            {
+              "id": 1779372254979,
+              "word": "BX47 3QP",
+              "pos": "n",
+              "pron": "",
+              "mean": "BX47 3QP",
+              "example": ""
+            },
+            {
+              "id": 1779372249049,
+              "word": "90210",
+              "pos": "n",
+              "pron": "",
+              "mean": "90210",
+              "example": ""
+            },
+            {
+              "id": 1779372254458,
+              "word": "SW1A 2AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "SW1A 2AA",
+              "example": ""
+            },
+            {
+              "id": 1779372255237,
+              "word": "7N8 K4L",
+              "pos": "n",
+              "pron": "",
+              "mean": "7N8 K4L",
+              "example": ""
+            },
+            {
+              "id": 1779372253500,
+              "word": "EC2R 8AH",
+              "pos": "n",
+              "pron": "",
+              "mean": "EC2R 8AH",
+              "example": ""
+            },
+            {
+              "id": 1779372251263,
+              "word": "45231",
+              "pos": "n",
+              "pron": "",
+              "mean": "45231",
+              "example": ""
+            },
+            {
+              "id": 1779372254230,
+              "word": "M5H 2N2",
+              "pos": "n",
+              "pron": "",
+              "mean": "M5H 2N2",
+              "example": ""
+            },
+            {
+              "id": 1779372252214,
+              "word": "WC2N 5DU",
+              "pos": "n",
+              "pron": "",
+              "mean": "WC2N 5DU",
+              "example": ""
+            },
+            {
+              "id": 1779372254475,
+              "word": "3QX 7YB",
+              "pos": "n",
+              "pron": "",
+              "mean": "3QX 7YB",
+              "example": ""
+            },
+            {
+              "id": 1779372252816,
+              "word": "10001",
+              "pos": "n",
+              "pron": "",
+              "mean": "10001",
+              "example": ""
+            },
+            {
+              "id": 1779372249648,
+              "word": "NW1 6XE",
+              "pos": "n",
+              "pron": "",
+              "mean": "NW1 6XE",
+              "example": ""
+            },
+            {
+              "id": 1779372253541,
+              "word": "6K9 P3R",
+              "pos": "n",
+              "pron": "",
+              "mean": "6K9 P3R",
+              "example": ""
+            },
+            {
+              "id": 1779372250008,
+              "word": "SE1 7PB",
+              "pos": "n",
+              "pron": "",
+              "mean": "SE1 7PB",
+              "example": ""
+            },
+            {
+              "id": 1779372255283,
+              "word": "75008",
+              "pos": "n",
+              "pron": "",
+              "mean": "75008",
+              "example": ""
+            },
+            {
+              "id": 1779372250114,
+              "word": "V6B 4N9",
+              "pos": "n",
+              "pron": "",
+              "mean": "V6B 4N9",
+              "example": ""
+            },
+            {
+              "id": 1779372254390,
+              "word": "E14 5AB",
+              "pos": "n",
+              "pron": "",
+              "mean": "E14 5AB",
+              "example": ""
+            },
+            {
+              "id": 1779372253970,
+              "word": "2000",
+              "pos": "n",
+              "pron": "",
+              "mean": "2000",
+              "example": ""
+            },
+            {
+              "id": 1779372249277,
+              "word": "TW9 4DU",
+              "pos": "n",
+              "pron": "",
+              "mean": "TW9 4DU",
+              "example": ""
+            },
+            {
+              "id": 1779372252414,
+              "word": "8M3 L6W",
+              "pos": "n",
+              "pron": "",
+              "mean": "8M3 L6W",
+              "example": ""
+            },
+            {
+              "id": 1779372253203,
+              "word": "BS1 4DJ",
+              "pos": "n",
+              "pron": "",
+              "mean": "BS1 4DJ",
+              "example": ""
+            },
+            {
+              "id": 1779372249882,
+              "word": "33101",
+              "pos": "n",
+              "pron": "",
+              "mean": "33101",
+              "example": ""
+            },
+            {
+              "id": 1779372257279,
+              "word": "YO1 9SB",
+              "pos": "n",
+              "pron": "",
+              "mean": "YO1 9SB",
+              "example": ""
+            },
+            {
+              "id": 1779372250727,
+              "word": "5P7 K2N",
+              "pos": "n",
+              "pron": "",
+              "mean": "5P7 K2N",
+              "example": ""
+            },
+            {
+              "id": 1779372254910,
+              "word": "OX1 3DB",
+              "pos": "n",
+              "pron": "",
+              "mean": "OX1 3DB",
+              "example": ""
+            },
+            {
+              "id": 1779372251403,
+              "word": "60601",
+              "pos": "n",
+              "pron": "",
+              "mean": "60601",
+              "example": ""
+            },
+            {
+              "id": 1779372257411,
+              "word": "L1 8JQ",
+              "pos": "n",
+              "pron": "",
+              "mean": "L1 8JQ",
+              "example": ""
+            },
+            {
+              "id": 1779372253333,
+              "word": "4XQ 9TM",
+              "pos": "n",
+              "pron": "",
+              "mean": "4XQ 9TM",
+              "example": ""
+            },
+            {
+              "id": 1779372257366,
+              "word": "EH1 1YZ",
+              "pos": "n",
+              "pron": "",
+              "mean": "EH1 1YZ",
+              "example": ""
+            },
+            {
+              "id": 1779372252591,
+              "word": "94102",
+              "pos": "n",
+              "pron": "",
+              "mean": "94102",
+              "example": ""
+            },
+            {
+              "id": 1779372249740,
+              "word": "B1 1BB",
+              "pos": "n",
+              "pron": "",
+              "mean": "B1 1BB",
+              "example": ""
+            },
+            {
+              "id": 1779372250557,
+              "word": "7W5 R3K",
+              "pos": "n",
+              "pron": "",
+              "mean": "7W5 R3K",
+              "example": ""
+            },
+            {
+              "id": 1779372253880,
+              "word": "LS1 4AP",
+              "pos": "n",
+              "pron": "",
+              "mean": "LS1 4AP",
+              "example": ""
+            },
+            {
+              "id": 1779372253161,
+              "word": "20001",
+              "pos": "n",
+              "pron": "",
+              "mean": "20001",
+              "example": ""
+            },
+            {
+              "id": 1779372257207,
+              "word": "CF10 1EP",
+              "pos": "n",
+              "pron": "",
+              "mean": "CF10 1EP",
+              "example": ""
+            },
+            {
+              "id": 1779372251874,
+              "word": "9N2 Q8X",
+              "pos": "n",
+              "pron": "",
+              "mean": "9N2 Q8X",
+              "example": ""
+            },
+            {
+              "id": 1779372252588,
+              "word": "G1 1DX",
+              "pos": "n",
+              "pron": "",
+              "mean": "G1 1DX",
+              "example": ""
+            },
+            {
+              "id": 1779372253602,
+              "word": "30301",
+              "pos": "n",
+              "pron": "",
+              "mean": "30301",
+              "example": ""
+            },
+            {
+              "id": 1779372254522,
+              "word": "BN1 1AE",
+              "pos": "n",
+              "pron": "",
+              "mean": "BN1 1AE",
+              "example": ""
+            },
+            {
+              "id": 1779372251974,
+              "word": "6T4 M7P",
+              "pos": "n",
+              "pron": "",
+              "mean": "6T4 M7P",
+              "example": ""
+            },
+            {
+              "id": 1779372249462,
+              "word": "PL1 2LP",
+              "pos": "n",
+              "pron": "",
+              "mean": "PL1 2LP",
+              "example": ""
+            },
+            {
+              "id": 1779372257401,
+              "word": "80201",
+              "pos": "n",
+              "pron": "",
+              "mean": "80201",
+              "example": ""
+            },
+            {
+              "id": 1779372255445,
+              "word": "S1 2HH",
+              "pos": "n",
+              "pron": "",
+              "mean": "S1 2HH",
+              "example": ""
+            },
+            {
+              "id": 1779372253547,
+              "word": "3R8 N5W",
+              "pos": "n",
+              "pron": "",
+              "mean": "3R8 N5W",
+              "example": ""
+            },
+            {
+              "id": 1779372252982,
+              "word": "AB10 1XG",
+              "pos": "n",
+              "pron": "",
+              "mean": "AB10 1XG",
+              "example": ""
+            },
+            {
+              "id": 1779372257171,
+              "word": "2101",
+              "pos": "n",
+              "pron": "",
+              "mean": "2101",
+              "example": ""
+            },
+            {
+              "id": 1779372252284,
+              "word": "CH1 2AN",
+              "pos": "n",
+              "pron": "",
+              "mean": "CH1 2AN",
+              "example": ""
+            },
+            {
+              "id": 1779372256321,
+              "word": "8Q6 L4Y",
+              "pos": "n",
+              "pron": "",
+              "mean": "8Q6 L4Y",
+              "example": ""
+            },
+            {
+              "id": 1779372249138,
+              "word": "DT1 1JG",
+              "pos": "n",
+              "pron": "",
+              "mean": "DT1 1JG",
+              "example": ""
+            },
+            {
+              "id": 1779372255773,
+              "word": "70101",
+              "pos": "n",
+              "pron": "",
+              "mean": "70101",
+              "example": ""
+            },
+            {
+              "id": 1779372255221,
+              "word": "HG1 2AE",
+              "pos": "n",
+              "pron": "",
+              "mean": "HG1 2AE",
+              "example": ""
+            },
+            {
+              "id": 1779372254083,
+              "word": "5K3 T9M",
+              "pos": "n",
+              "pron": "",
+              "mean": "5K3 T9M",
+              "example": ""
+            },
+            {
+              "id": 1779372249147,
+              "word": "IP1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "IP1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372250503,
+              "word": "10101",
+              "pos": "n",
+              "pron": "",
+              "mean": "10101",
+              "example": ""
+            },
+            {
+              "id": 1779372252566,
+              "word": "KT1 1LJ",
+              "pos": "n",
+              "pron": "",
+              "mean": "KT1 1LJ",
+              "example": ""
+            },
+            {
+              "id": 1779372255451,
+              "word": "7P9 X2Q",
+              "pos": "n",
+              "pron": "",
+              "mean": "7P9 X2Q",
+              "example": ""
+            },
+            {
+              "id": 1779372255644,
+              "word": "LU1 2NP",
+              "pos": "n",
+              "pron": "",
+              "mean": "LU1 2NP",
+              "example": ""
+            },
+            {
+              "id": 1779372251259,
+              "word": "40201",
+              "pos": "n",
+              "pron": "",
+              "mean": "40201",
+              "example": ""
+            },
+            {
+              "id": 1779372253583,
+              "word": "MK9 2FX",
+              "pos": "n",
+              "pron": "",
+              "mean": "MK9 2FX",
+              "example": ""
+            },
+            {
+              "id": 1779372251501,
+              "word": "4W7 R6N",
+              "pos": "n",
+              "pron": "",
+              "mean": "4W7 R6N",
+              "example": ""
+            },
+            {
+              "id": 1779372252146,
+              "word": "NG1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "NG1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372250456,
+              "word": "50301",
+              "pos": "n",
+              "pron": "",
+              "mean": "50301",
+              "example": ""
+            },
+            {
+              "id": 1779372256465,
+              "word": "OL1 1BD",
+              "pos": "n",
+              "pron": "",
+              "mean": "OL1 1BD",
+              "example": ""
+            },
+            {
+              "id": 1779372256362,
+              "word": "9X5 K3L",
+              "pos": "n",
+              "pron": "",
+              "mean": "9X5 K3L",
+              "example": ""
+            },
+            {
+              "id": 1779372252476,
+              "word": "PE1 1EJ",
+              "pos": "n",
+              "pron": "",
+              "mean": "PE1 1EJ",
+              "example": ""
+            },
+            {
+              "id": 1779372250491,
+              "word": "60101",
+              "pos": "n",
+              "pron": "",
+              "mean": "60101",
+              "example": ""
+            },
+            {
+              "id": 1779372256165,
+              "word": "RG1 1EE",
+              "pos": "n",
+              "pron": "",
+              "mean": "RG1 1EE",
+              "example": ""
+            },
+            {
+              "id": 1779372253373,
+              "word": "2M4 T8P",
+              "pos": "n",
+              "pron": "",
+              "mean": "2M4 T8P",
+              "example": ""
+            },
+            {
+              "id": 1779372252908,
+              "word": "SK1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "SK1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372254269,
+              "word": "77001",
+              "pos": "n",
+              "pron": "",
+              "mean": "77001",
+              "example": ""
+            },
+            {
+              "id": 1779372257262,
+              "word": "TN1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "TN1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372254362,
+              "word": "6N3 Q7W",
+              "pos": "n",
+              "pron": "",
+              "mean": "6N3 Q7W",
+              "example": ""
+            },
+            {
+              "id": 1779372255610,
+              "word": "UB8 1JN",
+              "pos": "n",
+              "pron": "",
+              "mean": "UB8 1JN",
+              "example": ""
+            },
+            {
+              "id": 1779372252157,
+              "word": "85001",
+              "pos": "n",
+              "pron": "",
+              "mean": "85001",
+              "example": ""
+            },
+            {
+              "id": 1779372257762,
+              "word": "WA1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "WA1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372251903,
+              "word": "3T6 Y9K",
+              "pos": "n",
+              "pron": "",
+              "mean": "3T6 Y9K",
+              "example": ""
+            },
+            {
+              "id": 1779372250863,
+              "word": "YO30 6ZR",
+              "pos": "n",
+              "pron": "",
+              "mean": "YO30 6ZR",
+              "example": ""
+            },
+            {
+              "id": 1779372252784,
+              "word": "97201",
+              "pos": "n",
+              "pron": "",
+              "mean": "97201",
+              "example": ""
+            },
+            {
+              "id": 1779372253862,
+              "word": "ZE1 0PX",
+              "pos": "n",
+              "pron": "",
+              "mean": "ZE1 0PX",
+              "example": ""
+            },
+            {
+              "id": 1779372249082,
+              "word": "8L5 M2X",
+              "pos": "n",
+              "pron": "",
+              "mean": "8L5 M2X",
+              "example": ""
+            },
+            {
+              "id": 1779372250998,
+              "word": "AL1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "AL1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372252357,
+              "word": "15201",
+              "pos": "n",
+              "pron": "",
+              "mean": "15201",
+              "example": ""
+            },
+            {
+              "id": 1779372256740,
+              "word": "BD1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "BD1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372257565,
+              "word": "4Q8 N6T",
+              "pos": "n",
+              "pron": "",
+              "mean": "4Q8 N6T",
+              "example": ""
+            },
+            {
+              "id": 1779372255106,
+              "word": "CB2 1TN",
+              "pos": "n",
+              "pron": "",
+              "mean": "CB2 1TN",
+              "example": ""
+            },
+            {
+              "id": 1779372249876,
+              "word": "32201",
+              "pos": "n",
+              "pron": "",
+              "mean": "32201",
+              "example": ""
+            },
+            {
+              "id": 1779372256419,
+              "word": "DE1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "DE1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372255840,
+              "word": "7Y3 P5R",
+              "pos": "n",
+              "pron": "",
+              "mean": "7Y3 P5R",
+              "example": ""
+            },
+            {
+              "id": 1779372250965,
+              "word": "EN1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "EN1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372255868,
+              "word": "19101",
+              "pos": "n",
+              "pron": "",
+              "mean": "19101",
+              "example": ""
+            },
+            {
+              "id": 1779372257865,
+              "word": "FY1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "FY1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372251628,
+              "word": "5X9 W4M",
+              "pos": "n",
+              "pron": "",
+              "mean": "5X9 W4M",
+              "example": ""
+            },
+            {
+              "id": 1779372251902,
+              "word": "GU1 4YD",
+              "pos": "n",
+              "pron": "",
+              "mean": "GU1 4YD",
+              "example": ""
+            },
+            {
+              "id": 1779372254970,
+              "word": "28201",
+              "pos": "n",
+              "pron": "",
+              "mean": "28201",
+              "example": ""
+            },
+            {
+              "id": 1779372251803,
+              "word": "HX1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "HX1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372249546,
+              "word": "3L7 K8Q",
+              "pos": "n",
+              "pron": "",
+              "mean": "3L7 K8Q",
+              "example": ""
+            },
+            {
+              "id": 1779372250679,
+              "word": "IG1 1AA",
+              "pos": "n",
+              "pron": "",
+              "mean": "IG1 1AA",
+              "example": ""
+            },
+            {
+              "id": 1779372253170,
+              "word": "45301",
+              "pos": "n",
+              "pron": "",
+              "mean": "45301",
+              "example": ""
+            },
+            {
+              "id": 1779372257613,
+              "word": "JE2 3NF",
+              "pos": "n",
+              "pron": "",
+              "mean": "JE2 3NF",
+              "example": ""
+            },
+            {
+              "id": 1779372254728,
+              "word": "6R4 T2N",
+              "pos": "n",
+              "pron": "",
+              "mean": "6R4 T2N",
+              "example": ""
             }
           ]
         }
@@ -1156,6 +3577,213 @@
               "pron": "có số liệu thấp nhất trong suốt giai đoạn",
               "mean": "Household emissions had the lowest figures throughout.",
               "example": "Dùng để so sánh nhóm luôn thấp nhất trên biểu đồ."
+            }
+          ]
+        },
+        {
+          "id": 1779372437253,
+          "name": "consume local food",
+          "visible": true,
+          "items": [
+            {
+              "id": 1779372443131,
+              "word": "a considerable amount of",
+              "pos": "/ə kənˈsɪd.ər.ə.bəl əˈmaʊnt əv/",
+              "pron": "phrase",
+              "mean": "một lượng đáng kể",
+              "example": "A considerable amount of food is wasted every day in large cities."
+            },
+            {
+              "id": 1779372446939,
+              "word": "produced by local farmers",
+              "pos": "/prəˈduːst baɪ ˈloʊ.kəl ˈfɑːr.mɚz/",
+              "pron": "phrase",
+              "mean": "được sản xuất bởi nông dân địa phương",
+              "example": "Food produced by local farmers is often fresher and cheaper."
+            },
+            {
+              "id": 1779372444496,
+              "word": "environmental damage",
+              "pos": "/ɪnˌvaɪ.rənˈmen.t̬əl ˈdæm.ɪdʒ/",
+              "pron": "noun phrase",
+              "mean": "thiệt hại về môi trường",
+              "example": "Long-distance transportation can cause serious environmental damage."
+            },
+            {
+              "id": 1779372443839,
+              "word": "complex supply chains",
+              "pos": "/ˈkɑːm.pleks səˈplaɪ tʃeɪnz/",
+              "pron": "noun phrase",
+              "mean": "chuỗi cung ứng phức tạp",
+              "example": "Imported food often depends on complex supply chains."
+            },
+            {
+              "id": 1779372449775,
+              "word": "travel thousands of miles",
+              "pos": "/ˈtræv.əl ˈθaʊ.zəndz əv maɪlz/",
+              "pron": "verb phrase",
+              "mean": "di chuyển hàng ngàn dặm",
+              "example": "Some products travel thousands of miles before reaching consumers."
+            },
+            {
+              "id": 1779372447189,
+              "word": "refrigerated warehouses",
+              "pos": "/rɪˈfrɪdʒ.ə.reɪ.t̬ɪd ˈwer.haʊ.zɪz/",
+              "pron": "noun phrase",
+              "mean": "kho lạnh",
+              "example": "Meat and dairy products are usually stored in refrigerated warehouses."
+            },
+            {
+              "id": 1779372441295,
+              "word": "packaging facilities",
+              "pos": "/ˈpæk.ɪ.dʒɪŋ fəˈsɪl.ə.t̬iz/",
+              "pron": "noun phrase",
+              "mean": "cơ sở đóng gói",
+              "example": "Food passes through packaging facilities before it is sold."
+            },
+            {
+              "id": 1779372444652,
+              "word": "multiple distribution centres",
+              "pos": "/ˈmʌl.tə.pəl ˌdɪs.trəˈbjuː.ʃən ˈsen.t̬ɚz/",
+              "pron": "noun phrase",
+              "mean": "nhiều trung tâm phân phối",
+              "example": "Imported goods may go through multiple distribution centres."
+            },
+            {
+              "id": 1779372449438,
+              "word": "carbon footprint",
+              "pos": "/ˈkɑːr.bən ˈfʊt.prɪnt/",
+              "pron": "noun phrase",
+              "mean": "lượng khí thải carbon do một hoạt động tạo ra",
+              "example": "Buying local food can reduce a household’s carbon footprint."
+            },
+            {
+              "id": 1779372450961,
+              "word": "transport emissions",
+              "pos": "/ˈtræn.spɔːrt ɪˈmɪʃ.ənz/",
+              "pron": "noun phrase",
+              "mean": "khí thải từ giao thông vận tải",
+              "example": "Transport emissions increase when food is shipped across continents."
+            },
+            {
+              "id": 1779372445267,
+              "word": "environmental burden",
+              "pos": "/ɪnˌvaɪ.rənˈmen.t̬əl ˈbɝː.dən/",
+              "pron": "noun phrase",
+              "mean": "gánh nặng môi trường",
+              "example": "Plastic packaging adds to the environmental burden of modern consumption."
+            },
+            {
+              "id": 1779372445691,
+              "word": "modern food logistics",
+              "pos": "/ˈmɑː.dɚn fuːd ləˈdʒɪs.tɪks/",
+              "pron": "noun phrase",
+              "mean": "hệ thống hậu cần thực phẩm hiện đại",
+              "example": "Modern food logistics require energy, storage and transportation."
+            },
+            {
+              "id": 1779372451043,
+              "word": "regional economies",
+              "pos": "/ˈriː.dʒən.əl ɪˈkɑː.nə.miz/",
+              "pron": "noun phrase",
+              "mean": "nền kinh tế khu vực",
+              "example": "Supporting local farmers can strengthen regional economies."
+            },
+            {
+              "id": 1779372441230,
+              "word": "overseas suppliers",
+              "pos": "/ˌoʊ.vɚˈsiːz səˈplaɪ.ɚz/",
+              "pron": "noun phrase",
+              "mean": "nhà cung cấp nước ngoài",
+              "example": "Many supermarkets rely heavily on overseas suppliers."
+            },
+            {
+              "id": 1779372451098,
+              "word": "multinational companies",
+              "pos": "/ˌmʌl.tiˈnæʃ.ən.əl ˈkʌm.pə.niz/",
+              "pron": "noun phrase",
+              "mean": "các công ty đa quốc gia",
+              "example": "Multinational companies control a large share of the global food market."
+            },
+            {
+              "id": 1779372445779,
+              "word": "remain economically active",
+              "pos": "/rɪˈmeɪn ˌek.əˈnɑː.mɪ.kəl.i ˈæk.tɪv/",
+              "pron": "verb phrase",
+              "mean": "vẫn duy trì hoạt động kinh tế",
+              "example": "Small farms can remain economically active if local demand increases."
+            },
+            {
+              "id": 1779372443071,
+              "word": "improve economic resilience",
+              "pos": "/ɪmˈpruːv ˌek.əˈnɑː.mɪk rɪˈzɪl.jəns/",
+              "pron": "verb phrase",
+              "mean": "cải thiện khả năng phục hồi kinh tế",
+              "example": "Local production can improve economic resilience during global crises."
+            },
+            {
+              "id": 1779372445653,
+              "word": "the most sustainable choice",
+              "pos": "/ðə moʊst səˈsteɪ.nə.bəl tʃɔɪs/",
+              "pron": "noun phrase",
+              "mean": "lựa chọn bền vững nhất",
+              "example": "Local food is not always the most sustainable choice."
+            },
+            {
+              "id": 1779372450453,
+              "word": "excessive irrigation",
+              "pos": "/ɪkˈses.ɪv ˌɪr.əˈɡeɪ.ʃən/",
+              "pron": "noun phrase",
+              "mean": "việc tưới tiêu quá mức",
+              "example": "Growing crops in dry regions may require excessive irrigation."
+            },
+            {
+              "id": 1779372443377,
+              "word": "fertilisers",
+              "pos": "/ˈfɝː.t̬əl.aɪ.zɚz/",
+              "pron": "noun",
+              "mean": "phân bón",
+              "example": "Overusing fertilisers can damage soil and water quality."
+            },
+            {
+              "id": 1779372446303,
+              "word": "prioritised",
+              "pos": "/praɪˈɔːr.ə.taɪzd/",
+              "pron": "verb / adjective",
+              "mean": "được ưu tiên",
+              "example": "Local food should be prioritised when it suits the region’s climate."
+            },
+            {
+              "id": 1779372444442,
+              "word": "promoted indiscriminately",
+              "pos": "/prəˈmoʊ.t̬ɪd ˌɪn.dɪˈskrɪm.ə.nət.li/",
+              "pron": "verb phrase",
+              "mean": "được thúc đẩy một cách bừa bãi, không chọn lọc",
+              "example": "Renewable projects should not be promoted indiscriminately without proper planning."
+            },
+            {
+              "id": 1779372441722,
+              "word": "encouraged selectively",
+              "pos": "/ɪnˈkɝː.ɪdʒd səˈlek.tɪv.li/",
+              "pron": "verb phrase",
+              "mean": "được khuyến khích có chọn lọc",
+              "example": "Local farming should be encouraged selectively in suitable areas."
+            },
+            {
+              "id": 1779372446369,
+              "word": "strain natural resources",
+              "pos": "/streɪn ˈnætʃ.ɚ.əl ˈriː.sɔːr.sɪz/",
+              "pron": "verb phrase",
+              "mean": "gây áp lực lên tài nguyên thiên nhiên",
+              "example": "Producing unsuitable crops can strain natural resources."
+            },
+            {
+              "id": 1779372447078,
+              "word": "natural conditions",
+              "pos": "/ˈnætʃ.ɚ.əl kənˈdɪʃ.ənz/",
+              "pron": "noun phrase",
+              "mean": "điều kiện tự nhiên",
+              "example": "Farmers should grow crops that match local natural conditions."
             }
           ]
         }
