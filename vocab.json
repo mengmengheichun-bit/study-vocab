@@ -6,6 +6,7 @@
         {
           "id": 1779080863722,
           "name": "cam 10 test 1- stepwells",
+          "visible": true,
           "items": [
             {
               "id": 1779080867070,
@@ -164,6 +165,7 @@
         {
           "id": 1779080905271,
           "name": "AT- tea and the industrial revolution",
+          "visible": true,
           "items": [
             {
               "id": 1779080914866,
@@ -303,22 +305,242 @@
             }
           ]
         }
-      ]
+      ],
+      "visible": true
     },
     "listening": {
       "topics": [
         {
-          "id": 2,
-          "name": "Listening",
-          "items": []
+          "id": 1779335345317,
+          "name": "cam 10, test 1-1 : SELF-DRIVE TOURS IN THE USA",
+          "visible": true,
+          "items": [
+            {
+              "id": 1779335502954,
+              "word": "theme park",
+              "pos": "/ˈθiːm pɑːrk/",
+              "pron": "noun",
+              "mean": "công viên giải trí theo chủ đề",
+              "example": "We spent the whole day at a theme park with roller coasters and water rides."
+            },
+            {
+              "id": 1779335502794,
+              "word": "lodge",
+              "pos": "/lɑːdʒ/",
+              "pron": "noun / verb",
+              "mean": "nhà nghỉ nhỏ, thường ở vùng núi/rừng; ở tạm",
+              "example": "We stayed in a small lodge near the national park."
+            },
+            {
+              "id": 1779335493800,
+              "word": "flight",
+              "pos": "/flaɪt/",
+              "pron": "noun",
+              "mean": "chuyến bay",
+              "example": "Our flight to London was delayed for two hours."
+            },
+            {
+              "id": 1779335495897,
+              "word": "castle",
+              "pos": "/ˈkæs.əl/",
+              "pron": "noun",
+              "mean": "lâu đài",
+              "example": "The old castle attracts thousands of tourists every year."
+            },
+            {
+              "id": 1779335497248,
+              "word": "brochure",
+              "pos": "/broʊˈʃʊr/",
+              "pron": "noun",
+              "mean": "tờ rơi / sách giới thiệu thông tin du lịch, sản phẩm, dịch vụ",
+              "example": "The travel agency gave us a brochure about tours in Japan."
+            },
+            {
+              "id": 1779335502160,
+              "word": "advert",
+              "pos": "/ˈæd.vɜːrt/",
+              "pron": "noun",
+              "mean": "quảng cáo",
+              "example": "I saw an advert for a cheap holiday package online."
+            },
+            {
+              "id": 1779335494308,
+              "word": "desert",
+              "pos": "/ˈdez.ɚt/",
+              "pron": "noun",
+              "mean": "sa mạc",
+              "example": "The Sahara is the largest hot desert in the world."
+            },
+            {
+              "id": 1779335497330,
+              "word": "sunbathe",
+              "pos": "/ˈsʌn.beɪð/",
+              "pron": "verb",
+              "mean": "tắm nắng",
+              "example": "Many tourists like to sunbathe on the beach in summer."
+            },
+            {
+              "id": 1779335500209,
+              "word": "accommodation",
+              "pos": "/əˌkɑː.məˈdeɪ.ʃən/",
+              "pron": "noun",
+              "mean": "chỗ ở, nơi lưu trú",
+              "example": "The price includes flights and accommodation for three nights."
+            },
+            {
+              "id": 1779335590380,
+              "word": "campsite",
+              "pos": "n",
+              "pron": "/ˈkæmp.saɪt/",
+              "mean": "khu cắm trại",
+              "example": "There are still another 50 to 60 campsites available in the park."
+            }
+          ]
+        },
+        {
+          "id": 1779335983584,
+          "name": "cam 11, test 1-1",
+          "visible": true,
+          "items": [
+            {
+              "id": 1779336023888,
+              "word": "decoration",
+              "pos": "/ˌdek.əˈreɪ.ʃən/",
+              "pron": "noun",
+              "mean": "sự trang trí; đồ trang trí nói chung",
+              "example": "The decoration of the hall took nearly three hours."
+            },
+            {
+              "id": 1779336031207,
+              "word": "decorations",
+              "pos": "/ˌdek.əˈreɪ.ʃənz/",
+              "pron": "plural noun",
+              "mean": "các món đồ trang trí",
+              "example": "We need more decorations for the party."
+            },
+            {
+              "id": 1779336026084,
+              "word": "parking",
+              "pos": "/ˈpɑːr.kɪŋ/",
+              "pron": "noun",
+              "mean": "chỗ đậu xe; việc đậu xe",
+              "example": "Free parking is available behind the building."
+            },
+            {
+              "id": 1779336027424,
+              "word": "entry",
+              "pos": "/ˈen.tri/",
+              "pron": "noun",
+              "mean": "lối vào; quyền vào cửa; sự tham gia",
+              "example": "Entry to the museum is free on Sundays."
+            },
+            {
+              "id": 1779336031655,
+              "word": "stage",
+              "pos": "/steɪdʒ/",
+              "pron": "noun",
+              "mean": "sân khấu; giai đoạn",
+              "example": "The band will perform on the main stage tonight."
+            },
+            {
+              "id": 1779336030565,
+              "word": "floor",
+              "pos": "/flɔːr/",
+              "pron": "noun",
+              "mean": "sàn nhà; tầng lầu",
+              "example": "The conference room is on the second floor."
+            },
+            {
+              "id": 1779336027219,
+              "word": "code",
+              "pos": "/koʊd/",
+              "pron": "noun / verb",
+              "mean": "mã số, mật mã; viết mã",
+              "example": "Please enter the security code before opening the door."
+            },
+            {
+              "id": 1779336023217,
+              "word": "hire",
+              "pos": "/haɪr/",
+              "pron": "verb / noun",
+              "mean": "thuê; tuyển dụng",
+              "example": "We need to hire a photographer for the event."
+            },
+            {
+              "id": 1779336022917,
+              "word": "insist",
+              "pos": "/ɪnˈsɪst/",
+              "pron": "verb",
+              "mean": "khăng khăng, nhất quyết",
+              "example": "She insisted on paying for the tickets herself."
+            },
+            {
+              "id": 1779336024331,
+              "word": "organize",
+              "pos": "/ˈɔːr.ɡən.aɪz/",
+              "pron": "verb",
+              "mean": "tổ chức, sắp xếp",
+              "example": "They organized a music festival in the city centre."
+            },
+            {
+              "id": 1779336030814,
+              "word": "facility",
+              "pos": "/fəˈsɪl.ə.ti/",
+              "pron": "noun",
+              "mean": "cơ sở vật chất; tiện nghi",
+              "example": "The hotel has excellent sports facilities."
+            },
+            {
+              "id": 1779336031472,
+              "word": "license",
+              "pos": "/ˈlaɪ.səns/",
+              "pron": "noun / verb",
+              "mean": "giấy phép; cấp phép",
+              "example": "You need a license to run this type of business."
+            },
+            {
+              "id": 1779336027134,
+              "word": "straightforward",
+              "pos": "/ˌstreɪtˈfɔːr.wɚd/",
+              "pron": "adjective",
+              "mean": "đơn giản, dễ hiểu, không phức tạp",
+              "example": "The instructions were clear and straightforward."
+            },
+            {
+              "id": 1779336024020,
+              "word": "band",
+              "pos": "/bænd/",
+              "pron": "noun",
+              "mean": "ban nhạc; dải, nhóm",
+              "example": "A local band played live music at the wedding."
+            },
+            {
+              "id": 1779336030335,
+              "word": "premise",
+              "pos": "/ˈprem.ɪs/",
+              "pron": "noun",
+              "mean": "tiền đề, cơ sở lập luận",
+              "example": "The argument is based on a false premise."
+            },
+            {
+              "id": 1779336023178,
+              "word": "premises",
+              "pos": "/ˈprem.ɪ.sɪz/",
+              "pron": "plural noun",
+              "mean": "cơ sở, tòa nhà, mặt bằng kinh doanh",
+              "example": "Smoking is not allowed on the premises."
+            }
+          ]
         }
-      ]
+      ],
+      "visible": true
     },
     "writing": {
       "topics": [
         {
           "id": 1779029322253,
           "name": "study alone or group",
+          "visible": true,
           "items": [
             {
               "id": 1779029340468,
@@ -781,6 +1003,7 @@
         {
           "id": 1779182947610,
           "name": "task 1",
+          "visible": true,
           "items": [
             {
               "id": 1779182951324,
@@ -936,22 +1159,26 @@
             }
           ]
         }
-      ]
+      ],
+      "visible": true
     },
     "speaking": {
       "topics": [
         {
           "id": 4,
           "name": "Speaking",
+          "visible": true,
           "items": []
         }
-      ]
+      ],
+      "visible": true
     },
     "collocation": {
       "topics": [
         {
           "id": 1778993515419,
           "name": "travel",
+          "visible": true,
           "items": [
             {
               "id": 1778993544656,
@@ -1115,13 +1342,15 @@
             }
           ]
         }
-      ]
+      ],
+      "visible": true
     },
     "synonyms": {
       "topics": [
         {
           "id": 1779080484565,
           "name": "New topic",
+          "visible": false,
           "items": [
             {
               "id": 1779251575250,
@@ -1181,7 +1410,8 @@
             }
           ]
         }
-      ]
+      ],
+      "visible": true
     }
   }
 }
