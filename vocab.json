@@ -304,6 +304,85 @@
               "example": "She is an industrious student who reviews vocabulary every day."
             }
           ]
+        },
+        {
+          "id": 1779679900982,
+          "name": "cam 11- test 1: Crop-growing skyscrapers",
+          "visible": true,
+          "items": [
+            {
+              "id": 1779679920839,
+              "word": "conservative",
+              "pos": "/kənˈsɝː.və.t̬ɪv/",
+              "pron": "adjective / noun",
+              "mean": "bảo thủ; người có tư tưởng bảo thủ",
+              "example": "Older people are often more conservative about changes in education."
+            },
+            {
+              "id": 1779679917201,
+              "word": "be in vogue",
+              "pos": "/bi ɪn voʊɡ/",
+              "pron": "phrase",
+              "mean": "đang thịnh hành, đang được ưa chuộng",
+              "example": "Online learning has been in vogue since digital technology became more accessible."
+            },
+            {
+              "id": 1779679918697,
+              "word": "urgent",
+              "pos": "/ˈɝː.dʒənt/",
+              "pron": "adjective",
+              "mean": "cấp bách, khẩn cấp",
+              "example": "Climate change is an urgent problem that requires immediate action."
+            },
+            {
+              "id": 1779679917026,
+              "word": "cutting-edge technology",
+              "pos": "/ˌkʌt̬.ɪŋ ˈedʒ tekˈnɑː.lə.dʒi/",
+              "pron": "noun phrase",
+              "mean": "công nghệ tiên tiến, hiện đại nhất",
+              "example": "Hospitals are using cutting-edge technology to improve patient care."
+            },
+            {
+              "id": 1779679925124,
+              "word": "take for granted",
+              "pos": "/teɪk fɔːr ˈɡræn.t̬ɪd/",
+              "pron": "phrase / verb phrase",
+              "mean": "xem là điều hiển nhiên, không trân trọng",
+              "example": "Many people take clean water for granted until they experience a shortage."
+            },
+            {
+              "id": 1779679924776,
+              "word": "majority",
+              "pos": "/məˈdʒɔːr.ə.t̬i/",
+              "pron": "noun",
+              "mean": "đa số, phần lớn",
+              "example": "The majority of students prefer studying with digital materials."
+            },
+            {
+              "id": 1779679921786,
+              "word": "fertiliser",
+              "pos": "/ˈfɝː.t̬əl.aɪ.zɚ/",
+              "pron": "noun",
+              "mean": "phân bón",
+              "example": "Excessive use of fertiliser can damage soil and pollute rivers."
+            },
+            {
+              "id": 1779679922139,
+              "word": "drawback",
+              "pos": "/ˈdrɑː.bæk/",
+              "pron": "noun",
+              "mean": "hạn chế, bất lợi, nhược điểm",
+              "example": "One major drawback of online learning is the lack of face-to-face interaction."
+            },
+            {
+              "id": 1779679918283,
+              "word": "detrimental",
+              "pos": "/ˌdet.rəˈmen.t̬əl/",
+              "pron": "adjective",
+              "mean": "có hại, gây bất lợi",
+              "example": "Air pollution can have a detrimental effect on children’s health."
+            }
+          ]
         }
       ],
       "visible": true
@@ -3967,6 +4046,173 @@
               "pron": "du lịch bền vững",
               "mean": "sustainable = bền vững; tourism = ngành du lịch",
               "example": "Sustainable tourism protects both nature and local communities."
+            }
+          ]
+        },
+        {
+          "id": 1779423659706,
+          "name": "....",
+          "visible": false,
+          "items": [
+            {
+              "id": 1779423670496,
+              "word": "social media platforms",
+              "pos": "/ˈsoʊ.ʃəl ˈmiː.di.ə ˈplæt.fɔːrmz/",
+              "pron": "noun phrase",
+              "mean": "các nền tảng mạng xã hội",
+              "example": "Social media platforms have opened up new ways for people to access information."
+            },
+            {
+              "id": 1779423670374,
+              "word": "open up",
+              "pos": "/ˈoʊ.pən ʌp/",
+              "pron": "phrasal verb",
+              "mean": "mở ra, tạo ra cơ hội",
+              "example": "Social media platforms have opened up unprecedented opportunities for communication."
+            },
+            {
+              "id": 1779423665652,
+              "word": "unprecedented opportunities",
+              "pos": "/ʌnˈpres.ɪ.den.t̬ɪd ˌɑː.pɚˈtuː.nə.t̬iz/",
+              "pron": "noun phrase",
+              "mean": "những cơ hội chưa từng có",
+              "example": "The internet has opened up unprecedented opportunities for individuals to access information."
+            },
+            {
+              "id": 1779423671825,
+              "word": "access information",
+              "pos": "/ˈæk.ses ˌɪn.fɚˈmeɪ.ʃən/",
+              "pron": "verb phrase",
+              "mean": "tiếp cận thông tin",
+              "example": "Individuals can now access information on a global scale."
+            },
+            {
+              "id": 1779423666019,
+              "word": "connect with one another",
+              "pos": "/kəˈnekt wɪð wʌn əˈnʌð.ɚ/",
+              "pron": "verb phrase",
+              "mean": "kết nối với nhau",
+              "example": "Social media allows people to connect with one another on a global scale."
+            },
+            {
+              "id": 1779423671782,
+              "word": "on a global scale",
+              "pos": "/ɑːn ə ˈɡloʊ.bəl skeɪl/",
+              "pron": "phrase",
+              "mean": "trên phạm vi toàn cầu",
+              "example": "People can share ideas and information on a global scale."
+            },
+            {
+              "id": 1779423666672,
+              "word": "a growing body of researchers",
+              "pos": "/ə ˈɡroʊ.ɪŋ ˈbɑː.di əv rɪˈsɝː.tʃɚz/",
+              "pron": "noun phrase",
+              "mean": "ngày càng nhiều nhà nghiên cứu / một nhóm nghiên cứu ngày càng lớn",
+              "example": "A growing body of researchers contends that social media affects young people’s thinking."
+            },
+            {
+              "id": 1779423665949,
+              "word": "contend that",
+              "pos": "/kənˈtend ðæt/",
+              "pron": "verb phrase",
+              "mean": "cho rằng, lập luận rằng",
+              "example": "Researchers contend that excessive online content can weaken critical thinking."
+            },
+            {
+              "id": 1779423665589,
+              "word": "excessive proliferation",
+              "pos": "/ɪkˈses.ɪv prəˌlɪf.əˈreɪ.ʃən/",
+              "pron": "noun phrase",
+              "mean": "sự lan rộng quá mức / sự phát triển tràn lan",
+              "example": "The excessive proliferation of social media content may affect young users."
+            },
+            {
+              "id": 1779423665120,
+              "word": "contribute to the erosion of",
+              "pos": "/kənˈtrɪb.juːt tuː ði ɪˈroʊ.ʒən əv/",
+              "pron": "verb phrase",
+              "mean": "góp phần vào việc làm suy thoái / xói mòn",
+              "example": "Social media may contribute to the erosion of critical thinking capacities."
+            },
+            {
+              "id": 1779423663528,
+              "word": "erode",
+              "pos": "/ɪˈroʊd/",
+              "pron": "verb",
+              "mean": "làm suy giảm, làm xói mòn",
+              "example": "Excessive online content is eroding the critical thinking capacities of younger generations."
+            },
+            {
+              "id": 1779423666579,
+              "word": "critical thinking capacities",
+              "pos": "/ˈkrɪt̬.ɪ.kəl ˈθɪŋ.kɪŋ kəˈpæs.ə.t̬iz/",
+              "pron": "noun phrase",
+              "mean": "năng lực tư duy phản biện",
+              "example": "Younger generations need to develop stronger critical thinking capacities."
+            },
+            {
+              "id": 1779423669863,
+              "word": "younger generations",
+              "pos": "/ˈjʌŋ.ɡɚ ˌdʒen.əˈreɪ.ʃənz/",
+              "pron": "noun phrase",
+              "mean": "thế hệ trẻ",
+              "example": "Social media strongly influences younger generations."
+            },
+            {
+              "id": 1779423673182,
+              "word": "be increasingly disposed to",
+              "pos": "/bi ɪnˈkriː.sɪŋ.li dɪˈspoʊzd tuː/",
+              "pron": "verb phrase",
+              "mean": "ngày càng có xu hướng / khuynh hướng làm gì",
+              "example": "Young people are increasingly disposed to consume content passively."
+            },
+            {
+              "id": 1779423670963,
+              "word": "be increasingly inclined to",
+              "pos": "/bi ɪnˈkriː.sɪŋ.li ɪnˈklaɪnd tuː/",
+              "pron": "verb phrase",
+              "mean": "ngày càng có xu hướng",
+              "example": "Young people are increasingly inclined to consume content passively."
+            },
+            {
+              "id": 1779423668247,
+              "word": "consume content passively",
+              "pos": "/kənˈsuːm ˈkɑːn.tent ˈpæs.ɪv.li/",
+              "pron": "verb phrase",
+              "mean": "tiếp nhận nội dung một cách thụ động",
+              "example": "Many users consume content passively rather than questioning what they read."
+            },
+            {
+              "id": 1779423668730,
+              "word": "rather than + V-ing",
+              "pos": "/ˈræð.ɚ ðæn/",
+              "pron": "structure",
+              "mean": "thay vì làm gì",
+              "example": "Younger users often consume content passively rather than critically interrogating it."
+            },
+            {
+              "id": 1779423666623,
+              "word": "instead of",
+              "pos": "/ɪnˈsted əv/",
+              "pron": "prepositional phrase",
+              "mean": "thay vì",
+              "example": "Many users consume content passively instead of checking the source carefully."
+            },
+            {
+              "id": 1779423665488,
+              "word": "critically interrogate",
+              "pos": "/ˈkrɪt̬.ɪ.kəl.i ɪnˈter.ə.ɡeɪt/",
+              "pron": "verb phrase",
+              "mean": "xem xét / chất vấn một cách phản biện",
+              "example": "Students should critically interrogate the information they find online."
+            },
+            {
+              "id": 1779423671383,
+              "word": "credibility of their sources",
+              "pos": "/ˌkred.əˈbɪl.ə.t̬i əv ðer ˈsɔːr.sɪz/",
+              "pron": "noun phrase",
+              "mean": "độ đáng tin cậy của các nguồn thông tin",
+              "example": "Readers should examine the credibility of their sources before sharing information."
             }
           ]
         }
