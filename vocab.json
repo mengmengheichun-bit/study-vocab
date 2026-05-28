@@ -383,6 +383,93 @@
               "example": "Air pollution can have a detrimental effect on children’s health."
             }
           ]
+        },
+        {
+          "id": 1779948701948,
+          "name": "AT_6_1: Mungo Lady and Mungo Man",
+          "visible": true,
+          "items": [
+            {
+              "id": 1779948841186,
+              "word": "relevant",
+              "pos": "/ˈrel.ə.vənt/",
+              "pron": "adjective",
+              "mean": "có liên quan, phù hợp",
+              "example": "This evidence is highly relevant to the argument."
+            },
+            {
+              "id": 1779948843176,
+              "word": "deceive",
+              "pos": "/dɪˈsiːv/",
+              "pron": "verb",
+              "mean": "lừa dối, đánh lừa",
+              "example": "Advertisements can sometimes deceive consumers into buying unnecessary products."
+            },
+            {
+              "id": 1779948841203,
+              "word": "bold",
+              "pos": "/boʊld/",
+              "pron": "adjective",
+              "mean": "táo bạo, mạnh dạn; chữ in đậm",
+              "example": "The government made a bold decision to reform the education system."
+            },
+            {
+              "id": 1779948847467,
+              "word": "thinking ahead",
+              "pos": "/ˈθɪŋ.kɪŋ əˈhed/",
+              "pron": "phrase",
+              "mean": "suy nghĩ trước, tính trước cho tương lai",
+              "example": "Thinking ahead can help students prepare for unexpected problems."
+            },
+            {
+              "id": 1779948848061,
+              "word": "originate",
+              "pos": "/əˈrɪdʒ.ə.neɪt/",
+              "pron": "verb",
+              "mean": "bắt nguồn, xuất phát từ",
+              "example": "Many cultural traditions originate from ancient religious practices."
+            },
+            {
+              "id": 1779948843826,
+              "word": "a brief period",
+              "pos": "/ə briːf ˈpɪr.i.əd/",
+              "pron": "noun phrase",
+              "mean": "một khoảng thời gian ngắn",
+              "example": "The app became popular for a brief period before users lost interest."
+            },
+            {
+              "id": 1779948846825,
+              "word": "validity",
+              "pos": "/vəˈlɪd.ə.ti/",
+              "pron": "noun",
+              "mean": "tính hợp lý, tính có căn cứ, giá trị xác thực",
+              "example": "Researchers questioned the validity of the survey results."
+            },
+            {
+              "id": 1779948841310,
+              "word": "artifact",
+              "pos": "/ˈɑːr.t̬ə.fækt/",
+              "pron": "noun",
+              "mean": "hiện vật  do con người tạo ra, thường có giá trị lịch sử hoặc khảo cổ",
+              "example": "Archaeologists discovered an ancient artifact near the river."
+            },
+            {
+              "id": 1779948847643,
+              "word": "dispute",
+              "pos": "/dɪˈspjuːt/",
+              "pron": "noun / verb",
+              "mean": "cuộc tranh cãi; tranh cãi, phản đối",
+              "example": "There is still a dispute over who should pay for the damage."
+            },
+            {
+              "id": 1779948841664,
+              "word": "rival",
+              "pos": "/ˈraɪ.vəl/",
+              "pron": "noun / adjective / verb",
+              "mean": "đối thủ; cạnh tranh; cạnh tranh với",
+              "example": "The company is trying to compete with its main rival in the market."
+            }
+          ]
         }
       ],
       "visible": true
@@ -4213,6 +4300,109 @@
               "pron": "noun phrase",
               "mean": "độ đáng tin cậy của các nguồn thông tin",
               "example": "Readers should examine the credibility of their sources before sharing information."
+            }
+          ]
+        },
+        {
+          "id": 1779684100708,
+          "name": "viết câu 2",
+          "visible": false,
+          "items": [
+            {
+              "id": 1779684111259,
+              "word": "transition to",
+              "pos": "/trænˈzɪʃ.ən tuː/",
+              "pron": "verb phrase",
+              "mean": "chuyển sang, chuyển đổi sang",
+              "example": "Many countries are trying to transition to renewable energy."
+            },
+            {
+              "id": 1779684106754,
+              "word": "transition",
+              "pos": "/trænˈzɪʃ.ən/",
+              "pron": "noun",
+              "mean": "sự chuyển đổi, quá trình chuyển đổi",
+              "example": "The transition to renewable energy requires long-term investment."
+            },
+            {
+              "id": 1779684110545,
+              "word": "by virtue of",
+              "pos": "/baɪ ˈvɝː.tʃuː əv/",
+              "pron": "phrase",
+              "mean": "nhờ vào, bởi vì có",
+              "example": "Wealthier countries can develop faster by virtue of their stronger financial resources."
+            },
+            {
+              "id": 1779684115786,
+              "word": "confront with",
+              "pos": "/kənˈfrʌnt wɪð/",
+              "pron": "verb phrase",
+              "mean": "đối mặt với, bị đặt trước một vấn đề",
+              "example": "Governments are confronted with difficult choices when resources are limited."
+            },
+            {
+              "id": 1779684110044,
+              "word": "face",
+              "pos": "/feɪs/",
+              "pron": "verb",
+              "mean": "đối mặt với",
+              "example": "Many developing countries face a shortage of financial resources."
+            },
+            {
+              "id": 1779684109668,
+              "word": "address",
+              "pos": "/əˈdres/",
+              "pron": "verb",
+              "mean": "giải quyết, xử lý một vấn đề",
+              "example": "Governments must address environmental problems before they become irreversible."
+            },
+            {
+              "id": 1779684114374,
+              "word": "solve",
+              "pos": "/sɑːlv/",
+              "pron": "verb",
+              "mean": "giải quyết",
+              "example": "Technology alone cannot solve every social problem."
+            },
+            {
+              "id": 1779684113639,
+              "word": "financial resources",
+              "pos": "/faɪˈnæn.ʃəl ˈriː.sɔːr.sɪz/",
+              "pron": "noun phrase",
+              "mean": "nguồn lực tài chính",
+              "example": "Poorer nations often lack the financial resources needed to improve public services."
+            },
+            {
+              "id": 1779684112559,
+              "word": "a stark choice",
+              "pos": "/ə stɑːrk tʃɔɪs/",
+              "pron": "noun phrase",
+              "mean": "một lựa chọn khắc nghiệt, khó khăn rõ rệt",
+              "example": "Many governments face a stark choice between economic growth and environmental protection."
+            },
+            {
+              "id": 1779684116267,
+              "word": "allocate",
+              "pos": "/ˈæl.ə.keɪt/",
+              "pron": "verb",
+              "mean": "phân bổ, cấp phát",
+              "example": "The government should allocate more money to healthcare and education."
+            },
+            {
+              "id": 1779684108154,
+              "word": "distribute",
+              "pos": "/dɪˈstrɪb.juːt/",
+              "pron": "verb",
+              "mean": "phân phối, phân bổ",
+              "example": "Resources should be distributed more fairly among different regions."
+            },
+            {
+              "id": 1779684108598,
+              "word": "responsibility for",
+              "pos": "/rɪˌspɑːn.səˈbɪl.ə.t̬i fɔːr/",
+              "pron": "noun phrase",
+              "mean": "trách nhiệm đối với việc gì",
+              "example": "Governments have primary responsibility for protecting public health."
             }
           ]
         }
