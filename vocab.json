@@ -470,6 +470,266 @@
               "example": "The company is trying to compete with its main rival in the market."
             }
           ]
+        },
+        {
+          "id": 1780112143383,
+          "name": "cam16-2: The White Horse of Uffington",
+          "visible": true,
+          "items": [
+            {
+              "id": 1780112202050,
+              "word": "controversial",
+              "pos": "/ˌkɑːn.trəˈvɝː.ʃəl/",
+              "pron": "adjective",
+              "mean": "gây tranh cãi",
+              "example": "The use of animals in medical research remains a controversial issue."
+            },
+            {
+              "id": 1780112203344,
+              "word": "majority",
+              "pos": "/məˈdʒɔːr.ə.t̬i/",
+              "pron": "noun",
+              "mean": "đa số, phần lớn",
+              "example": "The majority of students prefer studying with online materials."
+            },
+            {
+              "id": 1780112205961,
+              "word": "bury",
+              "pos": "/ˈber.i/",
+              "pron": "verb",
+              "mean": "chôn, vùi lấp",
+              "example": "Ancient people often buried valuable objects with the dead."
+            },
+            {
+              "id": 1780112206941,
+              "word": "fertility",
+              "pos": "/fɚˈtɪl.ə.t̬i/",
+              "pron": "noun",
+              "mean": "khả năng sinh sản; độ màu mỡ của đất",
+              "example": "Excessive use of chemicals can reduce soil fertility over time."
+            }
+          ]
+        },
+        {
+          "id": 1780913299634,
+          "name": "AT: 6_2_1: The world's first cities",
+          "visible": true,
+          "items": [
+            {
+              "id": 1780913302746,
+              "word": "famine",
+              "pos": "/ˈfæm.ɪn/",
+              "pron": "noun",
+              "mean": "nạn đói",
+              "example": "The country suffered a severe famine after years of drought."
+            },
+            {
+              "id": 1780913309139,
+              "word": "prolong",
+              "pos": "/prəˈlɑːŋ/",
+              "pron": "verb",
+              "mean": "kéo dài",
+              "example": "Poor planning can prolong the effects of an economic crisis."
+            },
+            {
+              "id": 1780913307038,
+              "word": "surplus",
+              "pos": "/ˈsɝː.pləs/",
+              "pron": "noun / adjective",
+              "mean": "lượng dư thừa; thặng dư",
+              "example": "Farmers produced a surplus of grain after a good harvest."
+            },
+            {
+              "id": 1780913304737,
+              "word": "the struggle of",
+              "pos": "/ðə ˈstrʌɡ.əl əv/",
+              "pron": "noun phrase",
+              "mean": "sự đấu tranh / nỗ lực khó khăn của ai/cái gì",
+              "example": "The struggle of poor communities became more serious during the famine."
+            },
+            {
+              "id": 1780913306528,
+              "word": "erect",
+              "pos": "/ɪˈrekt/",
+              "pron": "verb / adjective",
+              "mean": "xây dựng, dựng lên; thẳng đứng",
+              "example": "Ancient people erected stone monuments for religious purposes."
+            },
+            {
+              "id": 1780913307499,
+              "word": "storeroom",
+              "pos": "/ˈstɔːr.ruːm/",
+              "pron": "noun",
+              "mean": "phòng chứa đồ, kho nhỏ",
+              "example": "The extra food was kept in a storeroom behind the kitchen."
+            },
+            {
+              "id": 1780913306303,
+              "word": "storage",
+              "pos": "/ˈstɔːr.ɪdʒ/",
+              "pron": "noun",
+              "mean": "sự lưu trữ; nơi lưu trữ",
+              "example": "Better food storage helped people survive during periods of shortage."
+            }
+          ]
+        },
+        {
+          "id": 1780913328580,
+          "name": "AT: 6_2_2: Australia's camouflaged creatures",
+          "visible": true,
+          "items": [
+            {
+              "id": 1780913704825,
+              "word": "extent",
+              "pos": "/ɪkˈstent/",
+              "pron": "noun",
+              "mean": "mức độ, phạm vi",
+              "example": "The extent of the damage was greater than expected."
+            },
+            {
+              "id": 1780913708784,
+              "word": "disguise",
+              "pos": "/dɪsˈɡaɪz/",
+              "pron": "noun / verb",
+              "mean": "sự ngụy trang; cải trang, che giấu",
+              "example": "Some insects use colour as a disguise to avoid predators."
+            },
+            {
+              "id": 1780913708278,
+              "word": "predator",
+              "pos": "/ˈpred.ə.t̬ɚ/",
+              "pron": "noun",
+              "mean": "động vật săn mồi",
+              "example": "A lion is a powerful predator in the wild."
+            },
+            {
+              "id": 1780913705913,
+              "word": "prey",
+              "pos": "/preɪ/",
+              "pron": "noun",
+              "mean": "con mồi",
+              "example": "Small fish are common prey for larger sea animals."
+            },
+            {
+              "id": 1780913706360,
+              "word": "imitate",
+              "pos": "/ˈɪm.ə.teɪt/",
+              "pron": "verb",
+              "mean": "bắt chước, mô phỏng",
+              "example": "Some animals imitate the appearance of dangerous species to protect themselves."
+            },
+            {
+              "id": 1780913703127,
+              "word": "habitat",
+              "pos": "/ˈhæb.ə.tæt/",
+              "pron": "noun",
+              "mean": "môi trường sống, nơi cư trú tự nhiên",
+              "example": "The destruction of forests can reduce the natural habitat of many animals."
+            },
+            {
+              "id": 1780913709646,
+              "word": "visible",
+              "pos": "/ˈvɪz.ə.bəl/",
+              "pron": "adjective",
+              "mean": "có thể nhìn thấy được",
+              "example": "The bird’s bright tail is clearly visible in the sunlight."
+            },
+            {
+              "id": 1780913704244,
+              "word": "hatchling",
+              "pos": "/ˈhætʃ.lɪŋ/",
+              "pron": "noun",
+              "mean": "con non mới nở",
+              "example": "Turtle hatchlings usually move toward the sea after they leave the nest."
+            },
+            {
+              "id": 1780913704289,
+              "word": "tail",
+              "pos": "/teɪl/",
+              "pron": "noun",
+              "mean": "đuôi",
+              "example": "The lizard can drop its tail when it is attacked."
+            },
+            {
+              "id": 1780913708161,
+              "word": "squeak",
+              "pos": "/skwiːk/",
+              "pron": "noun / verb",
+              "mean": "tiếng kêu chít chít; kêu chít chít",
+              "example": "The mouse gave a small squeak when it ran across the floor."
+            }
+          ]
+        },
+        {
+          "id": 1780913725183,
+          "name": "AT: 6_2_3: The effectiveness of an online course",
+          "visible": true,
+          "items": [
+            {
+              "id": 1780914367267,
+              "word": "educational levels",
+              "pos": "/ˌedʒ.əˈkeɪ.ʃən.əl ˈlev.əlz/",
+              "pron": "noun phrase",
+              "mean": "các cấp học / trình độ giáo dục",
+              "example": "Students at different educational levels may need different teaching methods."
+            },
+            {
+              "id": 1780914366730,
+              "word": "outcome",
+              "pos": "/ˈaʊt.kʌm/",
+              "pron": "noun",
+              "mean": "kết quả, hệ quả",
+              "example": "The outcome of the study showed that online learning can improve student motivation."
+            },
+            {
+              "id": 1780914364446,
+              "word": "interaction",
+              "pos": "/ˌɪn.t̬ɚˈæk.ʃən/",
+              "pron": "noun",
+              "mean": "sự tương tác",
+              "example": "Classroom interaction helps students practise communication skills."
+            },
+            {
+              "id": 1780914363512,
+              "word": "thread",
+              "pos": "/θred/",
+              "pron": "noun",
+              "mean": "chuỗi thảo luận / luồng bình luận",
+              "example": "Students can post their ideas in an online discussion thread."
+            },
+            {
+              "id": 1780914370242,
+              "word": "simultaneously",
+              "pos": "/ˌsaɪ.məlˈteɪ.ni.əs.li/",
+              "pron": "adverb",
+              "mean": "đồng thời, cùng lúc",
+              "example": "Teachers often have to manage several activities simultaneously."
+            },
+            {
+              "id": 1780914368629,
+              "word": "a sense of belonging to",
+              "pos": "/ə sens əv bɪˈlɑːŋ.ɪŋ tuː/",
+              "pron": "noun phrase",
+              "mean": "cảm giác thuộc về / là một phần của",
+              "example": "Group work can give students a sense of belonging to the class."
+            },
+            {
+              "id": 1780914367313,
+              "word": "consistent",
+              "pos": "/kənˈsɪs.tənt/",
+              "pron": "adjective",
+              "mean": "nhất quán, đều đặn",
+              "example": "Consistent practice is essential for improving English pronunciation."
+            },
+            {
+              "id": 1780914362009,
+              "word": "adapt",
+              "pos": "/əˈdæpt/",
+              "pron": "verb",
+              "mean": "thích nghi, điều chỉnh cho phù hợp",
+              "example": "Teachers need to adapt their lessons to students’ different learning styles."
+            }
+          ]
         }
       ],
       "visible": true
