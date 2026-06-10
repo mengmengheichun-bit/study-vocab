@@ -3378,6 +3378,181 @@
               "example": ""
             }
           ]
+        },
+        {
+          "id": 1781081945737,
+          "name": "6_2: booking a residental workshop",
+          "visible": true,
+          "items": [
+            {
+              "id": 1781081959484,
+              "word": "theater",
+              "pos": "/ˈθiː.ə.t̬ɚ/",
+              "pron": "noun",
+              "mean": "rạp hát; nhà hát; rạp chiếu phim",
+              "example": "We watched a musical at the theater last night."
+            },
+            {
+              "id": 1781081955361,
+              "word": "waitress",
+              "pos": "/ˈweɪ.trəs/",
+              "pron": "noun",
+              "mean": "nữ phục vụ bàn",
+              "example": "The waitress brought us the menu as soon as we sat down."
+            },
+            {
+              "id": 1781081950063,
+              "word": "leaflet",
+              "pos": "/ˈliː.flət/",
+              "pron": "noun",
+              "mean": "tờ rơi, tờ quảng cáo nhỏ",
+              "example": "I picked up a leaflet about local tours at the hotel."
+            },
+            {
+              "id": 1781081953273,
+              "word": "forecast",
+              "pos": "/ˈfɔːr.kæst/",
+              "pron": "noun / verb",
+              "mean": "dự báo; dự đoán",
+              "example": "The weather forecast says it will rain tomorrow."
+            },
+            {
+              "id": 1781081951155,
+              "word": "licence",
+              "pos": "/ˈlaɪ.səns/",
+              "pron": "noun",
+              "mean": "giấy phép",
+              "example": "You need a driving licence to rent a car."
+            },
+            {
+              "id": 1781081953985,
+              "word": "accurate",
+              "pos": "/ˈæk.jɚ.ət/",
+              "pron": "adjective",
+              "mean": "chính xác",
+              "example": "The report provides accurate information about climate change."
+            },
+            {
+              "id": 1781081952248,
+              "word": "secure",
+              "pos": "/səˈkjʊr/",
+              "pron": "adjective / verb",
+              "mean": "an toàn, chắc chắn; bảo vệ",
+              "example": "Make sure your password is secure."
+            },
+            {
+              "id": 1781081952080,
+              "word": "bend",
+              "pos": "/bend/",
+              "pron": "noun / verb",
+              "mean": "khúc cua; uốn cong",
+              "example": "Slow down when you come to the bend in the road."
+            },
+            {
+              "id": 1781081959638,
+              "word": "curve",
+              "pos": "/kɝːv/",
+              "pron": "noun / verb",
+              "mean": "đường cong; khúc cua",
+              "example": "The road follows a gentle curve around the hill."
+            },
+            {
+              "id": 1781081956252,
+              "word": "bench",
+              "pos": "/bentʃ/",
+              "pron": "noun",
+              "mean": "ghế dài",
+              "example": "We sat on a bench in the park."
+            },
+            {
+              "id": 1781081953900,
+              "word": "supply",
+              "pos": "/səˈplaɪ/",
+              "pron": "noun / verb",
+              "mean": "nguồn cung; cung cấp",
+              "example": "The city needs a clean water supply."
+            },
+            {
+              "id": 1781081957452,
+              "word": "terminology",
+              "pos": "/ˌtɝː.məˈnɑː.lə.dʒi/",
+              "pron": "noun",
+              "mean": "thuật ngữ chuyên ngành",
+              "example": "Medical terminology can be difficult for ordinary people to understand."
+            },
+            {
+              "id": 1781081959584,
+              "word": "arrange",
+              "pos": "/əˈreɪndʒ/",
+              "pron": "verb",
+              "mean": "sắp xếp, bố trí",
+              "example": "The school arranged a meeting with all the parents."
+            },
+            {
+              "id": 1781081955691,
+              "word": "set up",
+              "pos": "/set ʌp/",
+              "pron": "phrasal verb",
+              "mean": "thiết lập, chuẩn bị, thành lập",
+              "example": "They set up a small business after graduating."
+            },
+            {
+              "id": 1781081953664,
+              "word": "permission",
+              "pos": "/pɚˈmɪʃ.ən/",
+              "pron": "noun",
+              "mean": "sự cho phép",
+              "example": "You need permission from the manager before using this room."
+            },
+            {
+              "id": 1781081955618,
+              "word": "objective",
+              "pos": "/əbˈdʒek.tɪv/",
+              "pron": "noun / adjective",
+              "mean": "mục tiêu; khách quan",
+              "example": "The main objective of the project is to reduce plastic waste."
+            },
+            {
+              "id": 1781081950046,
+              "word": "fort",
+              "pos": "/fɔːrt/",
+              "pron": "noun",
+              "mean": "pháo đài, đồn lũy",
+              "example": "The soldiers built a fort to protect the town."
+            },
+            {
+              "id": 1781081950248,
+              "word": "drought",
+              "pos": "/draʊt/",
+              "pron": "noun",
+              "mean": "hạn hán",
+              "example": "The drought caused serious damage to crops."
+            },
+            {
+              "id": 1781081952392,
+              "word": "leaves",
+              "pos": "/liːvz/",
+              "pron": "plural noun",
+              "mean": "những chiếc lá",
+              "example": "The leaves turn yellow in autumn."
+            },
+            {
+              "id": 1781081955119,
+              "word": "digestion problem",
+              "pos": "/daɪˈdʒes.tʃən ˈprɑː.bləm/",
+              "pron": "noun phrase",
+              "mean": "vấn đề tiêu hóa",
+              "example": "Eating too quickly can cause digestion problems."
+            },
+            {
+              "id": 1781081951100,
+              "word": "carbon dioxide",
+              "pos": "/ˌkɑːr.bən daɪˈɑːk.saɪd/",
+              "pron": "noun",
+              "mean": "khí cacbon điôxít / CO₂",
+              "example": "Trees absorb carbon dioxide and release oxygen."
+            }
+          ]
         }
       ],
       "visible": true
