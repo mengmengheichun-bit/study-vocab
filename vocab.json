@@ -785,6 +785,171 @@
               "example": "The lack of public transport makes life difficult for people in rural areas."
             }
           ]
+        },
+        {
+          "id": 1781352826698,
+          "name": "6_3_1_: the growth of agriculture",
+          "visible": true,
+          "items": [
+            {
+              "id": 1781352833672,
+              "word": "conquer",
+              "pos": "/ˈkɑːŋ.kɚ/",
+              "pron": "verb",
+              "mean": "chinh phục, xâm chiếm; vượt qua khó khăn",
+              "example": "The army tried to conquer the neighboring territory."
+            },
+            {
+              "id": 1781352834299,
+              "word": "poultry",
+              "pos": "/ˈpoʊl.tri/",
+              "pron": "noun",
+              "mean": "gia cầm, thường là gà, vịt, ngỗng được nuôi để lấy thịt hoặc trứng",
+              "example": "Many farms raise poultry such as chickens and ducks."
+            },
+            {
+              "id": 1781352837319,
+              "word": "livestock",
+              "pos": "/ˈlaɪv.stɑːk/",
+              "pron": "noun",
+              "mean": "gia súc, vật nuôi trong nông nghiệp như bò, cừu, lợn",
+              "example": "Farmers keep livestock for meat, milk and wool."
+            },
+            {
+              "id": 1781352837019,
+              "word": "emerge",
+              "pos": "/ɪˈmɝːdʒ/",
+              "pron": "verb",
+              "mean": "xuất hiện, nổi lên, hình thành",
+              "example": "New diseases may emerge when humans live close to animals."
+            },
+            {
+              "id": 1781352837249,
+              "word": "deliberate",
+              "pos": "/dɪˈlɪb.ɚ.ət/",
+              "pron": "adjective",
+              "mean": "cố ý, có chủ đích, được tính toán trước",
+              "example": "The damage was not an accident; it was a deliberate act."
+            }
+          ]
+        },
+        {
+          "id": 1781352928422,
+          "name": "6_3_2: The aerofoil",
+          "visible": true,
+          "items": [
+            {
+              "id": 1781352927372,
+              "word": "attempt",
+              "pos": "/əˈtempt/",
+              "pron": "noun / verb",
+              "mean": "nỗ lực, sự cố gắng; cố gắng làm gì",
+              "example": "Scientists made several attempts to explain the unusual results."
+            },
+            {
+              "id": 1781352931707,
+              "word": "pioneer",
+              "pos": "/ˌpaɪəˈnɪr/",
+              "pron": "noun / verb",
+              "mean": "người tiên phong; đi tiên phong trong lĩnh vực nào đó",
+              "example": "The Wright brothers were pioneers in aviation."
+            },
+            {
+              "id": 1781352929846,
+              "word": "angle",
+              "pos": "/ˈæŋ.ɡəl/",
+              "pron": "noun",
+              "mean": "góc; góc nhìn, cách tiếp cận vấn đề",
+              "example": "The plane rose into the air at a steep angle."
+            },
+            {
+              "id": 1781352929474,
+              "word": "substance",
+              "pos": "/ˈsʌb.stəns/",
+              "pron": "noun",
+              "mean": "chất, vật chất",
+              "example": "Researchers discovered a new substance in the soil sample."
+            },
+            {
+              "id": 1781352934890,
+              "word": "comprised of",
+              "pos": "/kəmˈpraɪzd əv/",
+              "pron": "phrase",
+              "mean": "bao gồm, được tạo thành từ",
+              "example": "The research team was comprised of engineers, scientists and pilots."
+            },
+            {
+              "id": 1781352928289,
+              "word": "aviation",
+              "pos": "/ˌeɪ.viˈeɪ.ʃən/",
+              "pron": "noun",
+              "mean": "ngành hàng không, lĩnh vực bay",
+              "example": "Aviation technology developed rapidly during the twentieth century."
+            }
+          ]
+        },
+        {
+          "id": 1781353564373,
+          "name": "6_3_3: Looking for inspiration",
+          "visible": true,
+          "items": [
+            {
+              "id": 1781353571270,
+              "word": "creativity",
+              "pos": "/ˌkriː.eɪˈtɪv.ə.t̬i/",
+              "pron": "noun",
+              "mean": "sự sáng tạo, khả năng tạo ra ý tưởng mới",
+              "example": "Creativity is important in both art and problem-solving."
+            },
+            {
+              "id": 1781353574200,
+              "word": "the father of",
+              "pos": "/ðə ˈfɑː.ðɚ əv/",
+              "pron": "noun phrase",
+              "mean": "cha đẻ của, người đặt nền móng cho",
+              "example": "Galileo is often called the father of modern science."
+            },
+            {
+              "id": 1781353571126,
+              "word": "discipline",
+              "pos": "/ˈdɪs.ə.plɪn/",
+              "pron": "noun / verb",
+              "mean": "ngành học; kỷ luật; rèn luyện",
+              "example": "Psychology became an important academic discipline in the twentieth century."
+            },
+            {
+              "id": 1781353573156,
+              "word": "aesthetic qualities",
+              "pos": "/esˈθet̬.ɪk ˈkwɑː.lə.t̬iz/",
+              "pron": "noun phrase",
+              "mean": "những phẩm chất thẩm mỹ, vẻ đẹp nghệ thuật",
+              "example": "The painting is admired for its aesthetic qualities."
+            },
+            {
+              "id": 1781353572358,
+              "word": "mental illness",
+              "pos": "/ˈmen.t̬əl ˈɪl.nəs/",
+              "pron": "noun phrase",
+              "mean": "bệnh tâm thần, rối loạn tâm lý",
+              "example": "Some artists struggled with mental illness during their lives."
+            },
+            {
+              "id": 1781353568323,
+              "word": "dominant",
+              "pos": "/ˈdɑː.mə.nənt/",
+              "pron": "adjective",
+              "mean": "chiếm ưu thế, có ảnh hưởng mạnh nhất",
+              "example": "English has become a dominant language in international business."
+            },
+            {
+              "id": 1781353577149,
+              "word": "spontaneous",
+              "pos": "/spɑːnˈteɪ.ni.əs/",
+              "pron": "adjective",
+              "mean": "tự phát, xảy ra một cách tự nhiên, không được lên kế hoạch trước",
+              "example": "The children gave a spontaneous performance in the classroom."
+            }
+          ]
         }
       ],
       "visible": true
