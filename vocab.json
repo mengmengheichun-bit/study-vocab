@@ -730,6 +730,61 @@
               "example": "Teachers need to adapt their lessons to students’ different learning styles."
             }
           ]
+        },
+        {
+          "id": 1781320984421,
+          "name": "cam10_test 2: European Transport Systems 1990-2010",
+          "visible": true,
+          "items": [
+            {
+              "id": 1781320988713,
+              "word": "sustainable",
+              "pos": "/səˈsteɪ.nə.bəl/",
+              "pron": "adjective",
+              "mean": "bền vững, có thể duy trì lâu dài mà không gây hại lớn",
+              "example": "Governments should promote sustainable development to protect the environment."
+            },
+            {
+              "id": 1781320994484,
+              "word": "integrate",
+              "pos": "/ˈɪn.t̬ə.ɡreɪt/",
+              "pron": "verb",
+              "mean": "kết hợp, tích hợp, hòa nhập",
+              "example": "Schools should integrate technology into lessons to improve learning outcomes."
+            },
+            {
+              "id": 1781320988024,
+              "word": "substantial",
+              "pos": "/səbˈstæn.ʃəl/",
+              "pron": "adjective",
+              "mean": "đáng kể, lớn, quan trọng",
+              "example": "The project requires a substantial amount of money and time."
+            },
+            {
+              "id": 1781320993709,
+              "word": "cost",
+              "pos": "/kɑːst/",
+              "pron": "noun",
+              "mean": "cái giá phải trả; chi phí",
+              "example": "Economic growth often comes at the cost of environmental damage."
+            },
+            {
+              "id": 1781320988845,
+              "word": "complementary",
+              "pos": "/ˌkɑːm.pləˈmen.t̬ɚ.i/",
+              "pron": "adjective",
+              "mean": "bổ sung cho nhau, mang tính hỗ trợ",
+              "example": "Online learning can be complementary to traditional classroom education."
+            },
+            {
+              "id": 1781320993611,
+              "word": "the lack of",
+              "pos": "/ðə læk əv/",
+              "pron": "noun phrase",
+              "mean": "sự thiếu hụt, việc không có đủ cái gì",
+              "example": "The lack of public transport makes life difficult for people in rural areas."
+            }
+          ]
         }
       ],
       "visible": true
@@ -3551,6 +3606,45 @@
               "pron": "noun",
               "mean": "khí cacbon điôxít / CO₂",
               "example": "Trees absorb carbon dioxide and release oxygen."
+            }
+          ]
+        },
+        {
+          "id": 1781317034449,
+          "name": "C12T1- Talk to new kitchen assistants",
+          "visible": true,
+          "items": [
+            {
+              "id": 1781317045832,
+              "word": "safety hazard",
+              "pos": "/ˈseɪf.ti ˈhæz.ɚd/",
+              "pron": "noun phrase",
+              "mean": "mối nguy hiểm về an toàn",
+              "example": "Broken glass on the floor is a serious safety hazard."
+            },
+            {
+              "id": 1781317045520,
+              "word": "treatment",
+              "pos": "/ˈtriːt.mənt/",
+              "pron": "noun",
+              "mean": "sự điều trị, quá trình chữa bệnh",
+              "example": "Early treatment can help patients recover more quickly."
+            },
+            {
+              "id": 1781317040524,
+              "word": "smash",
+              "pos": "/smæʃ/",
+              "pron": "verb / noun",
+              "mean": "đập vỡ, làm vỡ tan; cú va đập mạnh",
+              "example": "The window was smashed during the storm."
+            },
+            {
+              "id": 1781317042612,
+              "word": "injure",
+              "pos": "/ˈɪn.dʒɚ/",
+              "pron": "verb",
+              "mean": "làm bị thương, gây chấn thương",
+              "example": "Several passengers were injured in the accident."
             }
           ]
         }
