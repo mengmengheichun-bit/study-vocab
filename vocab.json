@@ -3812,6 +3812,77 @@
               "example": "Several passengers were injured in the accident."
             }
           ]
+        },
+        {
+          "id": 1781666775294,
+          "name": "MAP",
+          "visible": true,
+          "items": [
+            {
+              "id": 1781666783486,
+              "word": "curve",
+              "pos": "/kɝːv/",
+              "pron": "noun / verb",
+              "mean": "đường cong; khúc cua; uốn cong",
+              "example": "The road follows a gentle curve around the lake."
+            },
+            {
+              "id": 1781666781354,
+              "word": "bend",
+              "pos": "/bend/",
+              "pron": "noun / verb",
+              "mean": "khúc cua, chỗ đường/sông cong lại; uốn cong",
+              "example": "Turn right after the bend in the road."
+            },
+            {
+              "id": 1781666789528,
+              "word": "bridge",
+              "pos": "/brɪdʒ/",
+              "pron": "noun",
+              "mean": "cây cầu",
+              "example": "Cross the bridge and you will see the museum on your left."
+            },
+            {
+              "id": 1781666790346,
+              "word": "opposite",
+              "pos": "/ˈɑː.pə.zɪt/",
+              "pron": "adjective / preposition",
+              "mean": "đối diện, ở phía bên kia",
+              "example": "The bank is opposite the post office."
+            },
+            {
+              "id": 1781666789400,
+              "word": "facing",
+              "pos": "/ˈfeɪ.sɪŋ/",
+              "pron": "adjective / verb-ing",
+              "mean": "hướng về phía, đối mặt với",
+              "example": "The hotel room is facing the sea."
+            },
+            {
+              "id": 1781666787894,
+              "word": "on the other side",
+              "pos": "/ɑːn ði ˈʌð.ɚ saɪd/",
+              "pron": "phrase",
+              "mean": "ở phía bên kia",
+              "example": "The car park is on the other side of the road."
+            },
+            {
+              "id": 1781666789270,
+              "word": "in front of",
+              "pos": "/ɪn frʌnt əv/",
+              "pron": "preposition phrase",
+              "mean": "ở phía trước",
+              "example": "There is a bus stop in front of the library."
+            },
+            {
+              "id": 1781666788437,
+              "word": "junction",
+              "pos": "/ˈdʒʌŋk.ʃən/",
+              "pron": "noun",
+              "mean": "ngã ba / ngã tư / điểm giao nhau của các con đường",
+              "example": "Turn left at the next junction."
+            }
+          ]
         }
       ],
       "visible": true
