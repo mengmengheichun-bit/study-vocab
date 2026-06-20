@@ -950,6 +950,77 @@
               "example": "The children gave a spontaneous performance in the classroom."
             }
           ]
+        },
+        {
+          "id": 1781926193206,
+          "name": "AT_a brief history of tea",
+          "visible": true,
+          "items": [
+            {
+              "id": 1781926203173,
+              "word": "realm",
+              "pos": "/relm/",
+              "pron": "noun",
+              "mean": "lĩnh vực; vương quốc, lãnh thổ",
+              "example": "This issue belongs to the realm of philosophy rather than science."
+            },
+            {
+              "id": 1781926201372,
+              "word": "philosophy",
+              "pos": "/fəˈlɑː.sə.fi/",
+              "pron": "noun",
+              "mean": "triết học; quan điểm sống",
+              "example": "Ancient Greek philosophy still influences modern thought."
+            },
+            {
+              "id": 1781926205875,
+              "word": "supreme",
+              "pos": "/suːˈpriːm/",
+              "pron": "adjective",
+              "mean": "tối cao, cao nhất, quan trọng nhất",
+              "example": "The king held supreme power in the kingdom."
+            },
+            {
+              "id": 1781926202477,
+              "word": "royal court",
+              "pos": "/ˈrɔɪ.əl kɔːrt/",
+              "pron": "noun phrase",
+              "mean": "triều đình, hoàng cung",
+              "example": "Artists and scholars were often invited to the royal court."
+            },
+            {
+              "id": 1781926204065,
+              "word": "monastery",
+              "pos": "/ˈmɑː.nə.ster.i/",
+              "pron": "noun",
+              "mean": "tu viện",
+              "example": "The monks lived in a quiet monastery in the mountains."
+            },
+            {
+              "id": 1781926203882,
+              "word": "corrupt",
+              "pos": "/kəˈrʌpt/",
+              "pron": "adjective / verb",
+              "mean": "tham nhũng, đồi bại; làm hư hỏng",
+              "example": "The corrupt officials accepted money in exchange for special treatment."
+            },
+            {
+              "id": 1781926202668,
+              "word": "embassy",
+              "pos": "/ˈem.bə.si/",
+              "pron": "noun",
+              "mean": "đại sứ quán",
+              "example": "She went to the embassy to apply for a visa."
+            },
+            {
+              "id": 1781926208470,
+              "word": "chest",
+              "pos": "/tʃest/",
+              "pron": "noun",
+              "mean": "ngực; cái rương, hòm lớn",
+              "example": "The old coins were kept in a wooden chest."
+            }
+          ]
         }
       ],
       "visible": true
