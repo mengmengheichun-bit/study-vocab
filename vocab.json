@@ -1021,6 +1021,205 @@
               "example": "The old coins were kept in a wooden chest."
             }
           ]
+        },
+        {
+          "id": 1782617554333,
+          "name": "cam16 test 3_2: Climate change reveals ancient artefacts in Norway’s glaciers",
+          "visible": true,
+          "items": [
+            {
+              "id": 1782617576098,
+              "word": "current",
+              "pos": "/ˈkɝː.ənt/",
+              "pron": "adjective",
+              "mean": "hiện tại, đang diễn ra",
+              "example": "Current environmental problems require urgent action."
+            },
+            {
+              "id": 1782617566181,
+              "word": "current",
+              "pos": "/ˈkɝː.ənt/",
+              "pron": "noun",
+              "mean": "dòng chảy, luồng nước / luồng khí / dòng điện",
+              "example": "The strong current carried the boat away from the shore."
+            },
+            {
+              "id": 1782617576065,
+              "word": "discard",
+              "pos": "/dɪˈskɑːrd/",
+              "pron": "verb",
+              "mean": "vứt bỏ, loại bỏ",
+              "example": "People often discard broken bowls instead of repairing them."
+            },
+            {
+              "id": 1782617572496,
+              "word": "broken bowls",
+              "pos": "/ˈbroʊ.kən boʊlz/",
+              "pron": "noun phrase",
+              "mean": "những cái bát bị vỡ",
+              "example": "Archaeologists found broken bowls near the ancient settlement."
+            },
+            {
+              "id": 1782617573613,
+              "word": "bow",
+              "pos": "/baʊ/",
+              "pron": "verb / noun",
+              "mean": "cúi đầu; sự cúi chào",
+              "example": "The performer gave a bow after the show."
+            },
+            {
+              "id": 1782617575080,
+              "word": "bow",
+              "pos": "/boʊ/",
+              "pron": "noun",
+              "mean": "cây cung; cái nơ",
+              "example": "Ancient hunters used a bow and arrows to catch animals."
+            },
+            {
+              "id": 1782617574432,
+              "word": "radiocarbon-dated",
+              "pos": "/ˌreɪ.di.oʊˈkɑːr.bən ˈdeɪ.tɪd/",
+              "pron": "adjective",
+              "mean": "được xác định niên đại bằng phương pháp carbon phóng xạ",
+              "example": "The bones were radiocarbon-dated to around 5,000 years ago."
+            },
+            {
+              "id": 1782617570082,
+              "word": "settlement",
+              "pos": "/ˈset̬.əl.mənt/",
+              "pron": "noun",
+              "mean": "khu định cư, nơi con người sinh sống",
+              "example": "The ancient settlement was located near a river."
+            },
+            {
+              "id": 1782617571555,
+              "word": "daunting",
+              "pos": "/ˈdɑːn.t̬ɪŋ/",
+              "pron": "adjective",
+              "mean": "khó khăn, đáng sợ, làm nản lòng",
+              "example": "Learning a new language can be daunting at first."
+            },
+            {
+              "id": 1782617573345,
+              "word": "fight off",
+              "pos": "/faɪt ɔːf/",
+              "pron": "phrasal verb",
+              "mean": "chống lại, đẩy lùi",
+              "example": "The body tries to fight off infection naturally."
+            },
+            {
+              "id": 1782617567893,
+              "word": "antlers",
+              "pos": "/ˈænt.lɚz/",
+              "pron": "plural noun",
+              "mean": "gạc hươu",
+              "example": "Male deer use their antlers during the mating season."
+            },
+            {
+              "id": 1782617568185,
+              "word": "disintegrated",
+              "pos": "/dɪsˈɪn.t̬ə.ɡreɪ.t̬ɪd/",
+              "pron": "verb / adjective",
+              "mean": "tan rã, phân hủy, vỡ vụn",
+              "example": "The old wooden tool had almost disintegrated over time."
+            },
+            {
+              "id": 1782617566308,
+              "word": "expedition",
+              "pos": "/ˌek.spəˈdɪʃ.ən/",
+              "pron": "noun",
+              "mean": "chuyến thám hiểm, chuyến khảo sát",
+              "example": "The scientists joined an expedition to study the Arctic region."
+            },
+            {
+              "id": 1782617567580,
+              "word": "decay",
+              "pos": "/dɪˈkeɪ/",
+              "pron": "noun / verb",
+              "mean": "sự phân hủy; phân hủy, mục nát",
+              "example": "Organic materials can decay quickly in warm and wet conditions."
+            },
+            {
+              "id": 1782617566530,
+              "word": "artefact / artifact",
+              "pos": "/ˈɑːr.t̬ə.fækt/",
+              "pron": "noun",
+              "mean": "hiện vật, đồ vật do con người tạo ra, thường có giá trị lịch sử hoặc khảo cổ",
+              "example": "Archaeologists discovered several ancient artefacts in the cave."
+            },
+            {
+              "id": 1782617574294,
+              "word": "skins and textiles",
+              "pos": "/skɪnz ənd ˈtek.staɪlz/",
+              "pron": "noun phrase",
+              "mean": "da thú và vải vóc",
+              "example": "Skins and textiles rarely survive unless they are preserved in cold conditions."
+            },
+            {
+              "id": 1782617575962,
+              "word": "hides",
+              "pos": "/haɪdz/",
+              "pron": "plural noun",
+              "mean": "da thú",
+              "example": "Early humans used animal hides to make clothes and shelters."
+            },
+            {
+              "id": 1782617567804,
+              "word": "ice patches",
+              "pos": "/aɪs ˈpætʃ.ɪz/",
+              "pron": "noun phrase",
+              "mean": "các mảng băng",
+              "example": "Melting ice patches have revealed ancient tools and clothing."
+            },
+            {
+              "id": 1782617573567,
+              "word": "permafrost",
+              "pos": "/ˈpɝː.mə.frɑːst/",
+              "pron": "noun",
+              "mean": "tầng đất đóng băng vĩnh cửu",
+              "example": "Permafrost can preserve plants, bones and artefacts for a very long time."
+            },
+            {
+              "id": 1782617569809,
+              "word": "permanent",
+              "pos": "/ˈpɝː.mə.nənt/",
+              "pron": "adjective",
+              "mean": "vĩnh viễn, lâu dài",
+              "example": "The damage to the site may be permanent if it is not protected."
+            },
+            {
+              "id": 1782617566229,
+              "word": "frost",
+              "pos": "/frɑːst/",
+              "pron": "noun",
+              "mean": "sương giá, lớp băng mỏng trên bề mặt",
+              "example": "Frost covered the grass in the early morning."
+            },
+            {
+              "id": 1782617575410,
+              "word": "glacier",
+              "pos": "/ˈɡleɪ.ʃɚ/",
+              "pron": "noun",
+              "mean": "sông băng",
+              "example": "The glacier has been melting rapidly because of climate change."
+            },
+            {
+              "id": 1782617568214,
+              "word": "glaciation",
+              "pos": "/ˌɡleɪ.siˈeɪ.ʃən/",
+              "pron": "noun",
+              "mean": "sự băng hà hóa; thời kỳ băng hà",
+              "example": "Glaciation shaped many valleys and mountains in northern Europe."
+            },
+            {
+              "id": 1782617568595,
+              "word": "glacial",
+              "pos": "/ˈɡleɪ.ʃəl/",
+              "pron": "adjective",
+              "mean": "thuộc về băng hà / sông băng",
+              "example": "Glacial ice can preserve ancient objects for thousands of years."
+            }
+          ]
         }
       ],
       "visible": true
