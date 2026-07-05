@@ -1220,6 +1220,181 @@
               "example": "Glacial ice can preserve ancient objects for thousands of years."
             }
           ]
+        },
+        {
+          "id": 1783222251766,
+          "name": "CAM 18_ TEST 3_2_  The steam car",
+          "visible": true,
+          "items": [
+            {
+              "id": 1783222255089,
+              "word": "Chữ / cụm từ",
+              "pos": "phiên âm",
+              "pron": "Từ loại",
+              "mean": "Định nghĩa",
+              "example": "Ví dụ"
+            },
+            {
+              "id": 1783222261445,
+              "word": "negligible",
+              "pos": "/ˈneɡ.lɪ.dʒə.bəl/",
+              "pron": "adjective",
+              "mean": "rất nhỏ, không đáng kể, có thể bỏ qua",
+              "example": "The difference between the two results is negligible."
+            },
+            {
+              "id": 1783222260884,
+              "word": "emission",
+              "pos": "/ɪˈmɪʃ.ən/",
+              "pron": "noun",
+              "mean": "sự thải ra; lượng khí thải",
+              "example": "Carbon emission is a major cause of climate change."
+            },
+            {
+              "id": 1783222263252,
+              "word": "astonishingly",
+              "pos": "/əˈstɑː.nɪ.ʃɪŋ.li/",
+              "pron": "adverb",
+              "mean": "một cách đáng kinh ngạc",
+              "example": "Astonishingly, the old building survived the earthquake."
+            },
+            {
+              "id": 1783222259537,
+              "word": "unmodified",
+              "pos": "/ˌʌnˈmɑː.də.faɪd/",
+              "pron": "adjective",
+              "mean": "chưa được chỉnh sửa, không bị thay đổi",
+              "example": "The original document was left unmodified."
+            },
+            {
+              "id": 1783222257287,
+              "word": "assess",
+              "pos": "/əˈses/",
+              "pron": "verb",
+              "mean": "đánh giá, xem xét",
+              "example": "The researchers assessed the performance of the new engine."
+            },
+            {
+              "id": 1783222260157,
+              "word": "pass on",
+              "pos": "/pæs ɑːn/",
+              "pron": "phrasal verb",
+              "mean": "truyền lại, truyền cho người khác",
+              "example": "Knowledge and skills were passed on from one generation to the next."
+            },
+            {
+              "id": 1783222263305,
+              "word": "outcome",
+              "pos": "/ˈaʊt.kʌm/",
+              "pron": "noun",
+              "mean": "kết quả, hệ quả",
+              "example": "The final outcome of the experiment was unexpected."
+            },
+            {
+              "id": 1783222259819,
+              "word": "inherited",
+              "pos": "/ɪnˈher.ɪ.t̬ɪd/",
+              "pron": "adjective / verb",
+              "mean": "được thừa hưởng, được truyền lại",
+              "example": "Many traditional skills are inherited from parents or grandparents."
+            },
+            {
+              "id": 1783222262142,
+              "word": "evolve into",
+              "pos": "/ɪˈvɑːlv ˈɪn.tuː/",
+              "pron": "verb phrase",
+              "mean": "phát triển thành, tiến hóa thành",
+              "example": "Early vehicles gradually evolved into modern cars."
+            },
+            {
+              "id": 1783222263267,
+              "word": "miniaturized version",
+              "pos": "/ˈmɪn.i.ə.tʃə.raɪzd ˈvɝː.ʒən/",
+              "pron": "noun phrase",
+              "mean": "phiên bản thu nhỏ",
+              "example": "The toy car was a miniaturized version of a real racing car."
+            },
+            {
+              "id": 1783222256671,
+              "word": "replenishment",
+              "pos": "/rɪˈplen.ɪʃ.mənt/",
+              "pron": "noun",
+              "mean": "sự bổ sung, sự tiếp tế",
+              "example": "The army needed regular replenishment of food and water."
+            },
+            {
+              "id": 1783222261566,
+              "word": "carriage",
+              "pos": "/ˈker.ɪdʒ/",
+              "pron": "noun",
+              "mean": "xe ngựa; toa tàu",
+              "example": "In the past, people travelled by horse-drawn carriage."
+            },
+            {
+              "id": 1783222255858,
+              "word": "engine",
+              "pos": "/ˈen.dʒɪn/",
+              "pron": "noun",
+              "mean": "động cơ",
+              "example": "The car’s engine was very powerful."
+            },
+            {
+              "id": 1783222262063,
+              "word": "wicked",
+              "pos": "/ˈwɪk.ɪd/",
+              "pron": "adjective",
+              "mean": "xấu xa, độc ác; rất nguy hiểm / rất mạnh",
+              "example": "The machine produced a wicked noise as it moved."
+            },
+            {
+              "id": 1783222261674,
+              "word": "reconfigure",
+              "pos": "/ˌriː.kənˈfɪɡ.jɚ/",
+              "pron": "verb",
+              "mean": "cấu hình lại, sắp xếp lại, thiết kế lại",
+              "example": "Engineers reconfigured the engine to make it more efficient."
+            },
+            {
+              "id": 1783222263567,
+              "word": "configure",
+              "pos": "/kənˈfɪɡ.jɚ/",
+              "pron": "verb",
+              "mean": "cấu hình, thiết lập, sắp xếp hệ thống/máy móc/phần mềm theo một cách cụ thể",
+              "example": "Engineers configured the engine to improve its performance."
+            },
+            {
+              "id": 1783222254822,
+              "word": "configuration",
+              "pos": "/kənˌfɪɡ.jəˈreɪ.ʃən/",
+              "pron": "noun",
+              "mean": "sự cấu hình; cách sắp xếp, cấu trúc của một hệ thống",
+              "example": "The new configuration made the machine more efficient."
+            },
+            {
+              "id": 1783222261733,
+              "word": "emit",
+              "pos": "/iˈmɪt/",
+              "pron": "verb",
+              "mean": "thải ra, phát ra, tỏa ra",
+              "example": "Old vehicles emit a large amount of harmful gases."
+            },
+            {
+              "id": 1783222261883,
+              "word": "modify",
+              "pos": "/ˈmɑː.də.faɪ/",
+              "pron": "verb",
+              "mean": "chỉnh sửa, thay đổi một phần",
+              "example": "Engineers modified the engine to make it more efficient."
+            },
+            {
+              "id": 1783222259058,
+              "word": "eliminate",
+              "pos": "/ɪˈlɪm.ə.neɪt/",
+              "pron": "verb",
+              "mean": "loại bỏ, xóa bỏ hoàn toàn",
+              "example": "The new design helps eliminate unnecessary energy waste."
+            }
+          ]
         }
       ],
       "visible": true
