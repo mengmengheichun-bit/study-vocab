@@ -1395,6 +1395,179 @@
               "example": "The new design helps eliminate unnecessary energy waste."
             }
           ]
+        },
+        {
+          "id": 1783677040506,
+          "name": "cam 21_ test 1_ The Davies Sisters",
+          "visible": true,
+          "items": [
+            {
+              "id": 1783677050289,
+              "word": "amass",
+              "pos": "/əˈmæs/",
+              "pron": "verb",
+              "mean": "tích lũy, gom góp một lượng lớn",
+              "example": "Some wealthy families amass great fortunes over several generations."
+            },
+            {
+              "id": 1783677053524,
+              "word": "inheritance",
+              "pos": "/ɪnˈher.ɪ.təns/",
+              "pron": "noun",
+              "mean": "tài sản thừa kế; sự thừa hưởng",
+              "example": "He received a large inheritance from his grandparents."
+            },
+            {
+              "id": 1783677058836,
+              "word": "upbringing",
+              "pos": "/ˈʌpˌbrɪŋ.ɪŋ/",
+              "pron": "noun",
+              "mean": "sự nuôi dạy, quá trình được nuôi lớn",
+              "example": "A child’s upbringing can strongly influence their personality."
+            },
+            {
+              "id": 1783677051530,
+              "word": "philanthropic",
+              "pos": "/ˌfɪl.ənˈθrɑː.pɪk/",
+              "pron": "adjective",
+              "mean": "mang tính từ thiện, nhân đạo, vì cộng đồng",
+              "example": "The billionaire made several philanthropic donations to schools and hospitals."
+            },
+            {
+              "id": 1783677059513,
+              "word": "geared toward",
+              "pos": "/ɡɪrd təˈwɔːrd/",
+              "pron": "adjective phrase",
+              "mean": "hướng tới, được thiết kế nhằm phục vụ mục tiêu/nhóm nào đó",
+              "example": "The programme is geared toward helping children from low-income families."
+            },
+            {
+              "id": 1783677052675,
+              "word": "coincide with",
+              "pos": "/ˌkoʊ.ɪnˈsaɪd wɪð/",
+              "pron": "verb phrase",
+              "mean": "trùng với, xảy ra cùng lúc với",
+              "example": "The rise in online learning coincided with rapid improvements in digital technology."
+            }
+          ]
+        },
+        {
+          "id": 1783677191310,
+          "name": "cam 21_ test 1_Why we need silence",
+          "visible": true,
+          "items": [
+            {
+              "id": 1783677195414,
+              "word": "Chữ / cụm từ",
+              "pos": "phiên âm",
+              "pron": "Từ loại",
+              "mean": "Định nghĩa",
+              "example": "Ví dụ"
+            },
+            {
+              "id": 1783677192510,
+              "word": "be attuned to",
+              "pos": "/bi əˈtuːnd tuː/",
+              "pron": "adjective phrase",
+              "mean": "nhạy bén với, nhận thức rõ / hiểu rõ điều gì",
+              "example": "Good teachers are attuned to their students’ emotional needs."
+            },
+            {
+              "id": 1783677195745,
+              "word": "evolutionary perspective",
+              "pos": "/ˌev.əˈluː.ʃə.ner.i pɚˈspek.tɪv/",
+              "pron": "noun phrase",
+              "mean": "góc nhìn tiến hóa",
+              "example": "From an evolutionary perspective, fear helped early humans avoid danger."
+            },
+            {
+              "id": 1783677193185,
+              "word": "perception",
+              "pos": "/pɚˈsep.ʃən/",
+              "pron": "noun",
+              "mean": "nhận thức, cách nhìn nhận",
+              "example": "Social media can shape people’s perception of beauty and success."
+            },
+            {
+              "id": 1783677191624,
+              "word": "benign",
+              "pos": "/bɪˈnaɪn/",
+              "pron": "adjective",
+              "mean": "lành tính; không gây hại",
+              "example": "Most childhood fears are benign and disappear over time."
+            },
+            {
+              "id": 1783677192902,
+              "word": "detract",
+              "pos": "/dɪˈtrækt/",
+              "pron": "verb",
+              "mean": "làm giảm giá trị, làm mất tập trung khỏi điều gì",
+              "example": "Too many advertisements can detract from the quality of online learning."
+            },
+            {
+              "id": 1783677196814,
+              "word": "clinical",
+              "pos": "/ˈklɪn.ɪ.kəl/",
+              "pron": "adjective",
+              "mean": "thuộc về lâm sàng / y khoa; khách quan, lạnh lùng",
+              "example": "Clinical studies show that sleep deprivation can harm memory."
+            },
+            {
+              "id": 1783677195198,
+              "word": "deprivation",
+              "pos": "/ˌdep.rəˈveɪ.ʃən/",
+              "pron": "noun",
+              "mean": "sự thiếu hụt, tình trạng bị thiếu thứ cần thiết",
+              "example": "Sleep deprivation can reduce concentration and affect mental health."
+            }
+          ]
+        },
+        {
+          "id": 1783677273789,
+          "name": "cam 21_ test 1_ Book review: The World of Sugar by Ulbe Bosma",
+          "visible": true,
+          "items": [
+            {
+              "id": 1783677279754,
+              "word": "Chữ",
+              "pos": "phiên âm",
+              "pron": "Từ loại",
+              "mean": "Định nghĩa",
+              "example": "Ví dụ"
+            },
+            {
+              "id": 1783677281905,
+              "word": "migrant",
+              "pos": "/ˈmaɪ.ɡrənt/",
+              "pron": "noun / adjective",
+              "mean": "người di cư; thuộc về sự di cư",
+              "example": "Many migrants move to big cities in search of better jobs."
+            },
+            {
+              "id": 1783677276971,
+              "word": "immigrant",
+              "pos": "/ˈɪm.ə.ɡrənt/",
+              "pron": "noun",
+              "mean": "người nhập cư, người đến một quốc gia khác để sinh sống lâu dài",
+              "example": "Immigrants often face challenges when adapting to a new culture."
+            },
+            {
+              "id": 1783677280284,
+              "word": "ubiquitous",
+              "pos": "/juːˈbɪk.wə.t̬əs/",
+              "pron": "adjective",
+              "mean": "có mặt ở khắp nơi, phổ biến khắp nơi",
+              "example": "Smartphones have become ubiquitous in modern society."
+            },
+            {
+              "id": 1783677275494,
+              "word": "disastrous",
+              "pos": "/dɪˈzæs.trəs/",
+              "pron": "adjective",
+              "mean": "thảm khốc, gây hậu quả nghiêm trọng",
+              "example": "A lack of preparation can have disastrous consequences during a natural disaster."
+            }
+          ]
         }
       ],
       "visible": true
