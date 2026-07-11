@@ -1568,6 +1568,173 @@
               "example": "A lack of preparation can have disastrous consequences during a natural disaster."
             }
           ]
+        },
+        {
+          "id": 1783741458922,
+          "name": "cam 19_test 3_The global importance of wetlands",
+          "visible": true,
+          "items": [
+            {
+              "id": 1783741466619,
+              "word": "livelihood",
+              "pos": "/ˈlaɪv.li.hʊd/",
+              "pron": "noun",
+              "mean": "sinh kế, cách kiếm sống",
+              "example": "Fishing is the main livelihood for many coastal communities."
+            },
+            {
+              "id": 1783741471510,
+              "word": "well-being",
+              "pos": "/ˌwelˈbiː.ɪŋ/",
+              "pron": "noun",
+              "mean": "sức khỏe và hạnh phúc tổng thể",
+              "example": "Clean air and safe housing are important for people’s well-being."
+            },
+            {
+              "id": 1783741462402,
+              "word": "commodity",
+              "pos": "/kəˈmɑː.də.t̬i/",
+              "pron": "noun",
+              "mean": "hàng hóa, thường là nguyên liệu thô được mua bán",
+              "example": "Rice is an important agricultural commodity in many Asian countries."
+            },
+            {
+              "id": 1783741466992,
+              "word": "emitter",
+              "pos": "/iˈmɪt̬.ɚ/",
+              "pron": "noun",
+              "mean": "nguồn / đối tượng thải ra khí hoặc chất nào đó",
+              "example": "Coal-fired power plants are major emitters of carbon dioxide."
+            },
+            {
+              "id": 1783741468236,
+              "word": "logging company",
+              "pos": "/ˈlɑː.ɡɪŋ ˈkʌm.pə.ni/",
+              "pron": "noun phrase",
+              "mean": "công ty khai thác gỗ",
+              "example": "Logging companies are often blamed for destroying natural habitats."
+            },
+            {
+              "id": 1783741463411,
+              "word": "logs",
+              "pos": "/lɑːɡz/",
+              "pron": "plural noun",
+              "mean": "khúc gỗ, thân cây đã bị chặt",
+              "example": "The logs were transported down the river."
+            },
+            {
+              "id": 1783741466813,
+              "word": "ditch",
+              "pos": "/dɪtʃ/",
+              "pron": "noun / verb",
+              "mean": "mương, rãnh nước; bỏ rơi / từ bỏ",
+              "example": "Rainwater flowed into a ditch beside the road."
+            },
+            {
+              "id": 1783741471041,
+              "word": "remainder",
+              "pos": "/rɪˈmeɪn.dɚ/",
+              "pron": "noun",
+              "mean": "phần còn lại",
+              "example": "The remainder of the forest was protected by local law."
+            },
+            {
+              "id": 1783741466277,
+              "word": "solid matter",
+              "pos": "/ˈsɑː.lɪd ˈmæt̬.ɚ/",
+              "pron": "noun phrase",
+              "mean": "chất rắn, vật chất rắn",
+              "example": "The water sample contained a large amount of solid matter."
+            },
+            {
+              "id": 1783741467290,
+              "word": "subsidence",
+              "pos": "/səbˈsaɪ.dəns/",
+              "pron": "noun",
+              "mean": "sự sụt lún đất",
+              "example": "Excessive groundwater use can cause land subsidence."
+            },
+            {
+              "id": 1783741462665,
+              "word": "comprise",
+              "pos": "/kəmˈpraɪz/",
+              "pron": "verb",
+              "mean": "bao gồm, gồm có",
+              "example": "The course comprises six main modules."
+            },
+            {
+              "id": 1783741465742,
+              "word": "consequence",
+              "pos": "/ˈkɑːn.sə.kwens/",
+              "pron": "noun",
+              "mean": "hậu quả, kết quả",
+              "example": "Deforestation can have serious consequences for local communities."
+            },
+            {
+              "id": 1783741465079,
+              "word": "devastating",
+              "pos": "/ˈdev.ə.steɪ.t̬ɪŋ/",
+              "pron": "adjective",
+              "mean": "tàn phá nghiêm trọng, gây thiệt hại nặng nề",
+              "example": "The flood had a devastating impact on the village."
+            },
+            {
+              "id": 1783741471439,
+              "word": "sediment run-off",
+              "pos": "/ˈsed.ə.mənt ˈrʌnˌɔːf/",
+              "pron": "noun phrase",
+              "mean": "dòng chảy cuốn theo trầm tích / đất cát",
+              "example": "Sediment run-off can pollute rivers after heavy rain."
+            },
+            {
+              "id": 1783741470410,
+              "word": "pesticides and fertilisers",
+              "pos": "/ˈpes.tə.saɪdz ənd ˈfɝː.t̬əl.aɪ.zɚz/",
+              "pron": "noun phrase",
+              "mean": "thuốc trừ sâu và phân bón",
+              "example": "Pesticides and fertilisers can enter rivers and damage aquatic life."
+            },
+            {
+              "id": 1783741471511,
+              "word": "catastrophe",
+              "pos": "/kəˈtæs.trə.fi/",
+              "pron": "noun",
+              "mean": "thảm họa, tai họa lớn",
+              "example": "The oil spill was an environmental catastrophe."
+            },
+            {
+              "id": 1783741466069,
+              "word": "deliberate",
+              "pos": "/dɪˈlɪb.ɚ.ət/",
+              "pron": "adjective",
+              "mean": "cố ý, có chủ đích",
+              "example": "The fire was not accidental; it was a deliberate act."
+            },
+            {
+              "id": 1783741463817,
+              "word": "vary",
+              "pos": "/ˈver.i/",
+              "pron": "verb",
+              "mean": "khác nhau, thay đổi",
+              "example": "The effects of climate change vary from region to region."
+            },
+            {
+              "id": 1783741471618,
+              "word": "community",
+              "pos": "/kəˈmjuː.nə.t̬i/",
+              "pron": "noun",
+              "mean": "cộng đồng",
+              "example": "The local community worked together to clean the beach."
+            },
+            {
+              "id": 1783741463708,
+              "word": "intention",
+              "pos": "/ɪnˈten.ʃən/",
+              "pron": "noun",
+              "mean": "ý định, mục đích",
+              "example": "His intention was to raise awareness about environmental protection."
+            }
+          ]
         }
       ],
       "visible": true
