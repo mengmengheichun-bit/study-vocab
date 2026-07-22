@@ -1735,6 +1735,237 @@
               "example": "His intention was to raise awareness about environmental protection."
             }
           ]
+        },
+        {
+          "id": 1784702606498,
+          "name": "cam19_test 1_ task 2_ The pirates of the ancient Mediterranean",
+          "visible": true,
+          "items": [
+            {
+              "id": 1784702620519,
+              "word": "piracy",
+              "pos": "n.",
+              "pron": "/ˈpaɪrəsi/",
+              "mean": "nạn cướp biển",
+              "example": "Piracy threatened trade routes for centuries."
+            },
+            {
+              "id": 1784702624225,
+              "word": "pirate",
+              "pos": "n. / v.",
+              "pron": "/ˈpaɪrət/",
+              "mean": "cướp biển; cướp bóc trên biển",
+              "example": "Pirates attacked merchant ships."
+            },
+            {
+              "id": 1784702622326,
+              "word": "sailing vessel",
+              "pos": "n.",
+              "pron": "/ˈseɪlɪŋ ˈvesəl/",
+              "mean": "tàu buồm",
+              "example": "Ancient sailing vessels relied on the wind."
+            },
+            {
+              "id": 1784702625624,
+              "word": "Mediterranean",
+              "pos": "n. (proper noun)",
+              "pron": "/ˌmedɪtəˈreɪniən/",
+              "mean": "Địa Trung Hải",
+              "example": "The Mediterranean was once full of pirates."
+            },
+            {
+              "id": 1784702627179,
+              "word": "livelihood",
+              "pos": "n.",
+              "pron": "/ˈlaɪvlihʊd/",
+              "mean": "kế sinh nhai",
+              "example": "Fishing was their livelihood."
+            },
+            {
+              "id": 1784702622817,
+              "word": "spring to mind",
+              "pos": "idiom / phr.v",
+              "pron": "—",
+              "mean": "hiện lên trong đầu",
+              "example": "The image springs to mind immediately."
+            },
+            {
+              "id": 1784702628627,
+              "word": "crew",
+              "pos": "n.",
+              "pron": "/kruː/",
+              "mean": "thủy thủ đoàn, nhóm người",
+              "example": "The crew worked together."
+            },
+            {
+              "id": 1784702620432,
+              "word": "misfit",
+              "pos": "n.",
+              "pron": "/ˈmɪsfɪt/",
+              "mean": "người lạc lõng, không hòa nhập",
+              "example": "He felt like a misfit."
+            },
+            {
+              "id": 1784702628642,
+              "word": "daredevil",
+              "pos": "n.",
+              "pron": "/ˈdeədevl/",
+              "mean": "người liều lĩnh",
+              "example": "He is a daredevil."
+            },
+            {
+              "id": 1784702626213,
+              "word": "raiding",
+              "pos": "n. / v-ing",
+              "pron": "/ˈreɪdɪŋ/",
+              "mean": "việc cướp bóc, đột kích",
+              "example": "Pirates survived by raiding ships."
+            },
+            {
+              "id": 1784702625557,
+              "word": "fleet",
+              "pos": "n.",
+              "pron": "/fliːt/",
+              "mean": "hạm đội",
+              "example": "Rome built a massive fleet."
+            },
+            {
+              "id": 1784702623107,
+              "word": "eliminate",
+              "pos": "v.",
+              "pron": "/ɪˈlɪmɪneɪt/",
+              "mean": "loại bỏ",
+              "example": "The government eliminated piracy."
+            },
+            {
+              "id": 1784702619824,
+              "word": "eradicate",
+              "pos": "v.",
+              "pron": "/ɪˈrædɪkeɪt/",
+              "mean": "tiêu diệt tận gốc",
+              "example": "The disease was eradicated."
+            },
+            {
+              "id": 1784702627725,
+              "word": "predominantly",
+              "pos": "adv.",
+              "pron": "/prɪˈdɒmɪnəntli/",
+              "mean": "chủ yếu",
+              "example": "The area is predominantly rural."
+            },
+            {
+              "id": 1784702619063,
+              "word": "fertile",
+              "pos": "adj.",
+              "pron": "/ˈfɜːtaɪl/",
+              "mean": "màu mỡ",
+              "example": "The land is fertile."
+            },
+            {
+              "id": 1784702623153,
+              "word": "possess",
+              "pos": "v.",
+              "pron": "/pəˈzes/",
+              "mean": "sở hữu",
+              "example": "They possessed excellent skills."
+            },
+            {
+              "id": 1784702619539,
+              "word": "seafaring",
+              "pos": "adj.",
+              "pron": "/ˈsiːˌfeərɪŋ/",
+              "mean": "thuộc hàng hải",
+              "example": "Seafaring people settled there."
+            },
+            {
+              "id": 1784702627699,
+              "word": "strike",
+              "pos": "v.",
+              "pron": "/straɪk/",
+              "mean": "tấn công",
+              "example": "The pirates struck at dawn."
+            },
+            {
+              "id": 1784702628626,
+              "word": "undetected",
+              "pos": "adj.",
+              "pron": "/ˌʌndɪˈtektɪd/",
+              "mean": "không bị phát hiện",
+              "example": "They remained undetected."
+            },
+            {
+              "id": 1784702619532,
+              "word": "surrender",
+              "pos": "v. / n.",
+              "pron": "/səˈrendə(r)/",
+              "mean": "đầu hàng",
+              "example": "The pirates surrendered."
+            },
+            {
+              "id": 1784702624432,
+              "word": "retaliation",
+              "pos": "n.",
+              "pron": "/rɪˌtæliˈeɪʃn/",
+              "mean": "sự trả đũa",
+              "example": "They feared retaliation."
+            },
+            {
+              "id": 1784702626880,
+              "word": "extract",
+              "pos": "v.",
+              "pron": "/ɪkˈstrækt/",
+              "mean": "lấy ra, moi ra",
+              "example": "They extracted valuable resources."
+            },
+            {
+              "id": 1784702622488,
+              "word": "diplomatic",
+              "pos": "adj.",
+              "pron": "/ˌdɪpləˈmætɪk/",
+              "mean": "ngoại giao, khéo léo",
+              "example": "He gave a diplomatic answer."
+            },
+            {
+              "id": 1784702628445,
+              "word": "praise",
+              "pos": "v. / n.",
+              "pron": "/preɪz/",
+              "mean": "ca ngợi",
+              "example": "Critics praised the book."
+            },
+            {
+              "id": 1784702625412,
+              "word": "glorify",
+              "pos": "v.",
+              "pron": "/ˈɡlɔːrɪfaɪ/",
+              "mean": "tôn vinh quá mức",
+              "example": "Movies often glorify pirates."
+            },
+            {
+              "id": 1784702622558,
+              "word": "daring",
+              "pos": "adj.",
+              "pron": "/ˈdeərɪŋ/",
+              "mean": "táo bạo",
+              "example": "It was a daring rescue."
+            },
+            {
+              "id": 1784702628826,
+              "word": "embolden",
+              "pos": "v.",
+              "pron": "/ɪmˈbəʊldən/",
+              "mean": "khiến táo bạo hơn",
+              "example": "Success emboldened him."
+            },
+            {
+              "id": 1784702622387,
+              "word": "ransom",
+              "pos": "n. / v.",
+              "pron": "/ˈrænsəm/",
+              "mean": "tiền chuộc; đòi tiền chuộc",
+              "example": "The kidnappers demanded a ransom."
+            }
+          ]
         }
       ],
       "visible": true
