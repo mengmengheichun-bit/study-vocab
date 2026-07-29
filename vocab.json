@@ -1966,6 +1966,93 @@
               "example": "The kidnappers demanded a ransom."
             }
           ]
+        },
+        {
+          "id": 1785333250825,
+          "name": "cam 19_test 2_ part 1+2",
+          "visible": true,
+          "items": [
+            {
+              "id": 1785333264518,
+              "word": "gear",
+              "pos": "/ɡɪr/",
+              "pron": "noun",
+              "mean": "bánh răng; thiết bị, đồ dùng",
+              "example": "The machine uses several gears to control its speed."
+            },
+            {
+              "id": 1785333265163,
+              "word": "locomotive",
+              "pos": "/ˌloʊ.kəˈmoʊ.t̬ɪv/",
+              "pron": "noun",
+              "mean": "đầu máy xe lửa",
+              "example": "The steam locomotive changed transportation in the nineteenth century."
+            },
+            {
+              "id": 1785333261698,
+              "word": "accelerate",
+              "pos": "/əkˈsel.ə.reɪt/",
+              "pron": "verb",
+              "mean": "tăng tốc; làm cho nhanh hơn",
+              "example": "The train began to accelerate after leaving the station."
+            },
+            {
+              "id": 1785333262135,
+              "word": "accelerated",
+              "pos": "/əkˈsel.ə.reɪ.t̬ɪd/",
+              "pron": "adjective / verb-ed",
+              "mean": "được đẩy nhanh; tăng nhanh hơn",
+              "example": "Industrial growth accelerated during the late nineteenth century."
+            },
+            {
+              "id": 1785333263803,
+              "word": "sanitation",
+              "pos": "/ˌsæn.əˈteɪ.ʃən/",
+              "pron": "noun",
+              "mean": "điều kiện vệ sinh; hệ thống xử lý nước thải và rác thải",
+              "example": "Poor sanitation can lead to the spread of infectious diseases."
+            },
+            {
+              "id": 1785333263072,
+              "word": "inadequate",
+              "pos": "/ɪnˈæd.ə.kwət/",
+              "pron": "adjective",
+              "mean": "không đầy đủ, không đủ tốt",
+              "example": "Inadequate healthcare services can put vulnerable people at risk."
+            },
+            {
+              "id": 1785333264260,
+              "word": "withdrawal",
+              "pos": "/wɪðˈdrɑː.əl/",
+              "pron": "noun",
+              "mean": "sự rút lui; sự rút tiền; triệu chứng cai",
+              "example": "The withdrawal of government support made the project difficult to continue."
+            },
+            {
+              "id": 1785333269342,
+              "word": "regulate",
+              "pos": "/ˈreɡ.jə.leɪt/",
+              "pron": "verb",
+              "mean": "điều chỉnh; kiểm soát bằng luật lệ",
+              "example": "Governments should regulate industries that produce harmful emissions."
+            },
+            {
+              "id": 1785333262863,
+              "word": "attribute to",
+              "pos": "/əˈtrɪb.juːt tuː/",
+              "pron": "verb phrase",
+              "mean": "cho là do, quy cho nguyên nhân nào đó",
+              "example": "The rise in disease was attributed to poor sanitation and overcrowding."
+            },
+            {
+              "id": 1785333264689,
+              "word": "perspiration",
+              "pos": "/ˌpɝː.spəˈreɪ.ʃən/",
+              "pron": "noun",
+              "mean": "mồ hôi; sự đổ mồ hôi",
+              "example": "Perspiration helps the body cool down in hot weather."
+            }
+          ]
         }
       ],
       "visible": true
