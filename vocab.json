@@ -1966,93 +1966,6 @@
               "example": "The kidnappers demanded a ransom."
             }
           ]
-        },
-        {
-          "id": 1785333250825,
-          "name": "cam 19_test 2_ part 1+2",
-          "visible": true,
-          "items": [
-            {
-              "id": 1785333264518,
-              "word": "gear",
-              "pos": "/ɡɪr/",
-              "pron": "noun",
-              "mean": "bánh răng; thiết bị, đồ dùng",
-              "example": "The machine uses several gears to control its speed."
-            },
-            {
-              "id": 1785333265163,
-              "word": "locomotive",
-              "pos": "/ˌloʊ.kəˈmoʊ.t̬ɪv/",
-              "pron": "noun",
-              "mean": "đầu máy xe lửa",
-              "example": "The steam locomotive changed transportation in the nineteenth century."
-            },
-            {
-              "id": 1785333261698,
-              "word": "accelerate",
-              "pos": "/əkˈsel.ə.reɪt/",
-              "pron": "verb",
-              "mean": "tăng tốc; làm cho nhanh hơn",
-              "example": "The train began to accelerate after leaving the station."
-            },
-            {
-              "id": 1785333262135,
-              "word": "accelerated",
-              "pos": "/əkˈsel.ə.reɪ.t̬ɪd/",
-              "pron": "adjective / verb-ed",
-              "mean": "được đẩy nhanh; tăng nhanh hơn",
-              "example": "Industrial growth accelerated during the late nineteenth century."
-            },
-            {
-              "id": 1785333263803,
-              "word": "sanitation",
-              "pos": "/ˌsæn.əˈteɪ.ʃən/",
-              "pron": "noun",
-              "mean": "điều kiện vệ sinh; hệ thống xử lý nước thải và rác thải",
-              "example": "Poor sanitation can lead to the spread of infectious diseases."
-            },
-            {
-              "id": 1785333263072,
-              "word": "inadequate",
-              "pos": "/ɪnˈæd.ə.kwət/",
-              "pron": "adjective",
-              "mean": "không đầy đủ, không đủ tốt",
-              "example": "Inadequate healthcare services can put vulnerable people at risk."
-            },
-            {
-              "id": 1785333264260,
-              "word": "withdrawal",
-              "pos": "/wɪðˈdrɑː.əl/",
-              "pron": "noun",
-              "mean": "sự rút lui; sự rút tiền; triệu chứng cai",
-              "example": "The withdrawal of government support made the project difficult to continue."
-            },
-            {
-              "id": 1785333269342,
-              "word": "regulate",
-              "pos": "/ˈreɡ.jə.leɪt/",
-              "pron": "verb",
-              "mean": "điều chỉnh; kiểm soát bằng luật lệ",
-              "example": "Governments should regulate industries that produce harmful emissions."
-            },
-            {
-              "id": 1785333262863,
-              "word": "attribute to",
-              "pos": "/əˈtrɪb.juːt tuː/",
-              "pron": "verb phrase",
-              "mean": "cho là do, quy cho nguyên nhân nào đó",
-              "example": "The rise in disease was attributed to poor sanitation and overcrowding."
-            },
-            {
-              "id": 1785333264689,
-              "word": "perspiration",
-              "pos": "/ˌpɝː.spəˈreɪ.ʃən/",
-              "pron": "noun",
-              "mean": "mồ hôi; sự đổ mồ hôi",
-              "example": "Perspiration helps the body cool down in hot weather."
-            }
-          ]
         }
       ],
       "visible": true
@@ -4984,6 +4897,141 @@
               "pron": "noun",
               "mean": "ngã ba / ngã tư / điểm giao nhau của các con đường",
               "example": "Turn left at the next junction."
+            }
+          ]
+        },
+        {
+          "id": 1785645671128,
+          "name": "cam 17_test 4",
+          "visible": true,
+          "items": [
+            {
+              "id": 1785645689485,
+              "word": "turnover",
+              "pos": "/ˈtɝːnˌoʊ.vɚ/",
+              "pron": "noun",
+              "mean": "tỷ lệ nhân viên nghỉ việc và được thay thế; doanh thu",
+              "example": "High staff turnover can reduce morale and increase training costs."
+            },
+            {
+              "id": 1785645694946,
+              "word": "morale",
+              "pos": "/məˈræl/",
+              "pron": "noun",
+              "mean": "tinh thần, sĩ khí",
+              "example": "Low morale can reduce productivity in the workplace."
+            },
+            {
+              "id": 1785645691921,
+              "word": "preferential treatment",
+              "pos": "/ˌpref.əˈren.ʃəl ˈtriːt.mənt/",
+              "pron": "noun phrase",
+              "mean": "sự đối xử ưu tiên / thiên vị",
+              "example": "Some workers complained that senior staff received preferential treatment."
+            },
+            {
+              "id": 1785645688846,
+              "word": "treat equally",
+              "pos": "/triːt ˈiː.kwə.li/",
+              "pron": "verb phrase",
+              "mean": "đối xử công bằng, đối xử bình đẳng",
+              "example": "Schools should treat all students equally regardless of their background."
+            },
+            {
+              "id": 1785645690010,
+              "word": "incentive",
+              "pos": "/ɪnˈsen.tɪv/",
+              "pron": "noun",
+              "mean": "sự khuyến khích, động lực thúc đẩy",
+              "example": "Financial incentives can encourage people to work harder."
+            },
+            {
+              "id": 1785645690906,
+              "word": "all-expenses-paid trip",
+              "pos": "/ˌɔːl ɪkˈspen.sɪz peɪd trɪp/",
+              "pron": "noun phrase",
+              "mean": "chuyến đi được chi trả toàn bộ chi phí",
+              "example": "The company offered the best employee an all-expenses-paid trip to Japan."
+            },
+            {
+              "id": 1785645691768,
+              "word": "brewery",
+              "pos": "/ˈbruː.ɚ.i/",
+              "pron": "noun",
+              "mean": "nhà máy bia, xưởng sản xuất bia",
+              "example": "The old brewery has been turned into a tourist attraction."
+            },
+            {
+              "id": 1785645686513,
+              "word": "issue",
+              "pos": "/ˈɪʃ.uː/",
+              "pron": "verb",
+              "mean": "phát hành, cấp phát",
+              "example": "The office will issue new ID cards next week."
+            },
+            {
+              "id": 1785645685666,
+              "word": "out of loads",
+              "pos": "/aʊt əv loʊdz/",
+              "pron": "phrase",
+              "mean": "giữa rất nhiều lựa chọn / từ rất nhiều thứ",
+              "example": "Out of loads of applicants, only five were selected for the programme."
+            },
+            {
+              "id": 1785645685616,
+              "word": "bat",
+              "pos": "/bæt/",
+              "pron": "noun",
+              "mean": "gậy đánh bóng, gậy cricket/tennis; con dơi",
+              "example": "He bought a new cricket bat before the match."
+            },
+            {
+              "id": 1785645693483,
+              "word": "dimpled rubber",
+              "pos": "/ˈdɪm.pəld ˈrʌb.ɚ/",
+              "pron": "noun phrase",
+              "mean": "cao su có bề mặt lõm/lỗ nhỏ",
+              "example": "The handle was covered with dimpled rubber to improve grip."
+            },
+            {
+              "id": 1785645686135,
+              "word": "rubber",
+              "pos": "/ˈrʌb.ɚ/",
+              "pron": "noun",
+              "mean": "cao su; cục tẩy",
+              "example": "The shoes have rubber soles to prevent slipping."
+            },
+            {
+              "id": 1785645690111,
+              "word": "pad",
+              "pos": "/pæd/",
+              "pron": "noun",
+              "mean": "miếng đệm, miếng lót bảo vệ",
+              "example": "Hockey players wear pads to protect their legs."
+            },
+            {
+              "id": 1785645692484,
+              "word": "make in bulk",
+              "pos": "/meɪk ɪn bʌlk/",
+              "pron": "verb phrase",
+              "mean": "sản xuất hàng loạt / sản xuất số lượng lớn",
+              "example": "The factory can make these products in bulk at a lower cost."
+            },
+            {
+              "id": 1785645694745,
+              "word": "co-operative",
+              "pos": "/koʊˈɑː.pɚ.ə.t̬ɪv/",
+              "pron": "adjective",
+              "mean": "hợp tác, sẵn lòng phối hợp",
+              "example": "The students were very co-operative during the group project."
+            },
+            {
+              "id": 1785645689850,
+              "word": "supportive",
+              "pos": "/səˈpɔːr.t̬ɪv/",
+              "pron": "adjective",
+              "mean": "hỗ trợ, ủng hộ",
+              "example": "A supportive teacher can help students become more confident."
             }
           ]
         }
