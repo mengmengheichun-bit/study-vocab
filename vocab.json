@@ -1966,6 +1966,93 @@
               "example": "The kidnappers demanded a ransom."
             }
           ]
+        },
+        {
+          "id": 1785333250825,
+          "name": "cam 19_test 2_ part 1+2",
+          "visible": true,
+          "items": [
+            {
+              "id": 1785333264518,
+              "word": "gear",
+              "pos": "/ɡɪr/",
+              "pron": "noun",
+              "mean": "bánh răng; thiết bị, đồ dùng",
+              "example": "The machine uses several gears to control its speed."
+            },
+            {
+              "id": 1785333265163,
+              "word": "locomotive",
+              "pos": "/ˌloʊ.kəˈmoʊ.t̬ɪv/",
+              "pron": "noun",
+              "mean": "đầu máy xe lửa",
+              "example": "The steam locomotive changed transportation in the nineteenth century."
+            },
+            {
+              "id": 1785333261698,
+              "word": "accelerate",
+              "pos": "/əkˈsel.ə.reɪt/",
+              "pron": "verb",
+              "mean": "tăng tốc; làm cho nhanh hơn",
+              "example": "The train began to accelerate after leaving the station."
+            },
+            {
+              "id": 1785333262135,
+              "word": "accelerated",
+              "pos": "/əkˈsel.ə.reɪ.t̬ɪd/",
+              "pron": "adjective / verb-ed",
+              "mean": "được đẩy nhanh; tăng nhanh hơn",
+              "example": "Industrial growth accelerated during the late nineteenth century."
+            },
+            {
+              "id": 1785333263803,
+              "word": "sanitation",
+              "pos": "/ˌsæn.əˈteɪ.ʃən/",
+              "pron": "noun",
+              "mean": "điều kiện vệ sinh; hệ thống xử lý nước thải và rác thải",
+              "example": "Poor sanitation can lead to the spread of infectious diseases."
+            },
+            {
+              "id": 1785333263072,
+              "word": "inadequate",
+              "pos": "/ɪnˈæd.ə.kwət/",
+              "pron": "adjective",
+              "mean": "không đầy đủ, không đủ tốt",
+              "example": "Inadequate healthcare services can put vulnerable people at risk."
+            },
+            {
+              "id": 1785333264260,
+              "word": "withdrawal",
+              "pos": "/wɪðˈdrɑː.əl/",
+              "pron": "noun",
+              "mean": "sự rút lui; sự rút tiền; triệu chứng cai",
+              "example": "The withdrawal of government support made the project difficult to continue."
+            },
+            {
+              "id": 1785333269342,
+              "word": "regulate",
+              "pos": "/ˈreɡ.jə.leɪt/",
+              "pron": "verb",
+              "mean": "điều chỉnh; kiểm soát bằng luật lệ",
+              "example": "Governments should regulate industries that produce harmful emissions."
+            },
+            {
+              "id": 1785333262863,
+              "word": "attribute to",
+              "pos": "/əˈtrɪb.juːt tuː/",
+              "pron": "verb phrase",
+              "mean": "cho là do, quy cho nguyên nhân nào đó",
+              "example": "The rise in disease was attributed to poor sanitation and overcrowding."
+            },
+            {
+              "id": 1785333264689,
+              "word": "perspiration",
+              "pos": "/ˌpɝː.spəˈreɪ.ʃən/",
+              "pron": "noun",
+              "mean": "mồ hôi; sự đổ mồ hôi",
+              "example": "Perspiration helps the body cool down in hot weather."
+            }
+          ]
         }
       ],
       "visible": true
@@ -4901,137 +4988,177 @@
           ]
         },
         {
-          "id": 1785645671128,
-          "name": "cam 17_test 4",
+          "id": 1786006868282,
+          "name": "cam 19_test 4",
           "visible": true,
           "items": [
             {
-              "id": 1785645689485,
-              "word": "turnover",
-              "pos": "/ˈtɝːnˌoʊ.vɚ/",
-              "pron": "noun",
-              "mean": "tỷ lệ nhân viên nghỉ việc và được thay thế; doanh thu",
-              "example": "High staff turnover can reduce morale and increase training costs."
-            },
-            {
-              "id": 1785645694946,
-              "word": "morale",
-              "pos": "/məˈræl/",
-              "pron": "noun",
-              "mean": "tinh thần, sĩ khí",
-              "example": "Low morale can reduce productivity in the workplace."
-            },
-            {
-              "id": 1785645691921,
-              "word": "preferential treatment",
-              "pos": "/ˌpref.əˈren.ʃəl ˈtriːt.mənt/",
-              "pron": "noun phrase",
-              "mean": "sự đối xử ưu tiên / thiên vị",
-              "example": "Some workers complained that senior staff received preferential treatment."
-            },
-            {
-              "id": 1785645688846,
-              "word": "treat equally",
-              "pos": "/triːt ˈiː.kwə.li/",
-              "pron": "verb phrase",
-              "mean": "đối xử công bằng, đối xử bình đẳng",
-              "example": "Schools should treat all students equally regardless of their background."
-            },
-            {
-              "id": 1785645690010,
-              "word": "incentive",
-              "pos": "/ɪnˈsen.tɪv/",
-              "pron": "noun",
-              "mean": "sự khuyến khích, động lực thúc đẩy",
-              "example": "Financial incentives can encourage people to work harder."
-            },
-            {
-              "id": 1785645690906,
-              "word": "all-expenses-paid trip",
-              "pos": "/ˌɔːl ɪkˈspen.sɪz peɪd trɪp/",
-              "pron": "noun phrase",
-              "mean": "chuyến đi được chi trả toàn bộ chi phí",
-              "example": "The company offered the best employee an all-expenses-paid trip to Japan."
-            },
-            {
-              "id": 1785645691768,
-              "word": "brewery",
-              "pos": "/ˈbruː.ɚ.i/",
-              "pron": "noun",
-              "mean": "nhà máy bia, xưởng sản xuất bia",
-              "example": "The old brewery has been turned into a tourist attraction."
-            },
-            {
-              "id": 1785645686513,
-              "word": "issue",
-              "pos": "/ˈɪʃ.uː/",
-              "pron": "verb",
-              "mean": "phát hành, cấp phát",
-              "example": "The office will issue new ID cards next week."
-            },
-            {
-              "id": 1785645685666,
-              "word": "out of loads",
-              "pos": "/aʊt əv loʊdz/",
+              "id": 1786006882057,
+              "word": "just right",
+              "pos": "/dʒʌst raɪt/",
               "pron": "phrase",
-              "mean": "giữa rất nhiều lựa chọn / từ rất nhiều thứ",
-              "example": "Out of loads of applicants, only five were selected for the programme."
+              "mean": "vừa đủ, vừa đúng, phù hợp",
+              "example": "The temperature must be just right for the experiment to work."
             },
             {
-              "id": 1785645685616,
-              "word": "bat",
-              "pos": "/bæt/",
-              "pron": "noun",
-              "mean": "gậy đánh bóng, gậy cricket/tennis; con dơi",
-              "example": "He bought a new cricket bat before the match."
-            },
-            {
-              "id": 1785645693483,
-              "word": "dimpled rubber",
-              "pos": "/ˈdɪm.pəld ˈrʌb.ɚ/",
+              "id": 1786006877393,
+              "word": "coppiced woodland",
+              "pos": "/ˈkɑː.pɪst ˈwʊd.lənd/",
               "pron": "noun phrase",
-              "mean": "cao su có bề mặt lõm/lỗ nhỏ",
-              "example": "The handle was covered with dimpled rubber to improve grip."
+              "mean": "rừng được khai thác bằng cách chặt cây sát gốc để cây mọc lại",
+              "example": "Coppiced woodland can provide a sustainable source of timber."
             },
             {
-              "id": 1785645686135,
-              "word": "rubber",
-              "pos": "/ˈrʌb.ɚ/",
+              "id": 1786006876619,
+              "word": "limestone",
+              "pos": "/ˈlaɪm.stoʊn/",
               "pron": "noun",
-              "mean": "cao su; cục tẩy",
-              "example": "The shoes have rubber soles to prevent slipping."
+              "mean": "đá vôi",
+              "example": "Limestone is often used in construction and cement production."
             },
             {
-              "id": 1785645690111,
-              "word": "pad",
-              "pos": "/pæd/",
+              "id": 1786006882007,
+              "word": "capacity",
+              "pos": "/kəˈpæs.ə.t̬i/",
               "pron": "noun",
-              "mean": "miếng đệm, miếng lót bảo vệ",
-              "example": "Hockey players wear pads to protect their legs."
+              "mean": "khả năng; sức chứa; năng lực",
+              "example": "The factory has the capacity to produce thousands of items each day."
             },
             {
-              "id": 1785645692484,
-              "word": "make in bulk",
-              "pos": "/meɪk ɪn bʌlk/",
-              "pron": "verb phrase",
-              "mean": "sản xuất hàng loạt / sản xuất số lượng lớn",
-              "example": "The factory can make these products in bulk at a lower cost."
+              "id": 1786006874854,
+              "word": "seabed",
+              "pos": "/ˈsiː.bed/",
+              "pron": "noun",
+              "mean": "đáy biển",
+              "example": "Mining the seabed may damage fragile marine ecosystems."
             },
             {
-              "id": 1785645694745,
-              "word": "co-operative",
-              "pos": "/koʊˈɑː.pɚ.ə.t̬ɪv/",
+              "id": 1786006874976,
+              "word": "sea cucumber",
+              "pos": "/ˈsiː ˌkjuː.kʌm.bɚ/",
+              "pron": "noun",
+              "mean": "hải sâm",
+              "example": "Sea cucumbers live on the seabed and feed on organic matter."
+            },
+            {
+              "id": 1786006875347,
+              "word": "abyss",
+              "pos": "/əˈbɪs/",
+              "pron": "noun",
+              "mean": "vực sâu; vùng sâu thẳm",
+              "example": "Some creatures live in the dark abyss of the ocean."
+            },
+            {
+              "id": 1786006878789,
+              "word": "nickel",
+              "pos": "/ˈnɪk.əl/",
+              "pron": "noun",
+              "mean": "niken, một kim loại",
+              "example": "Nickel is used in batteries and stainless steel."
+            },
+            {
+              "id": 1786006877201,
+              "word": "cobalt",
+              "pos": "/ˈkoʊ.bɑːlt/",
+              "pron": "noun",
+              "mean": "coban, một kim loại",
+              "example": "Cobalt is an important material in rechargeable batteries."
+            },
+            {
+              "id": 1786006882556,
+              "word": "soaring",
+              "pos": "/ˈsɔːr.ɪŋ/",
+              "pron": "adjective / verb-ing",
+              "mean": "tăng vọt; bay vút lên",
+              "example": "Soaring demand for electric cars has increased the need for rare metals."
+            },
+            {
+              "id": 1786006880396,
+              "word": "terrestrial",
+              "pos": "/təˈres.tri.əl/",
               "pron": "adjective",
-              "mean": "hợp tác, sẵn lòng phối hợp",
-              "example": "The students were very co-operative during the group project."
+              "mean": "thuộc đất liền / trên cạn",
+              "example": "Terrestrial mining can cause deforestation and soil pollution."
             },
             {
-              "id": 1785645689850,
-              "word": "supportive",
-              "pos": "/səˈpɔːr.t̬ɪv/",
-              "pron": "adjective",
-              "mean": "hỗ trợ, ủng hộ",
-              "example": "A supportive teacher can help students become more confident."
+              "id": 1786006876592,
+              "word": "machinery",
+              "pos": "/məˈʃiː.nɚ.i/",
+              "pron": "noun",
+              "mean": "máy móc, thiết bị máy móc",
+              "example": "Heavy machinery is required for large-scale mining."
+            },
+            {
+              "id": 1786006881114,
+              "word": "slurry",
+              "pos": "/ˈslɝː.i/",
+              "pron": "noun",
+              "mean": "bùn loãng, hỗn hợp chất lỏng và chất rắn",
+              "example": "Mining operations can release slurry into nearby rivers."
+            },
+            {
+              "id": 1786006878940,
+              "word": "unknown ramifications",
+              "pos": "/ʌnˈnoʊn ˌræm.ə.fəˈkeɪ.ʃənz/",
+              "pron": "noun phrase",
+              "mean": "những hệ quả chưa xác định / chưa lường trước",
+              "example": "Deep-sea mining may have unknown ramifications for marine life."
+            },
+            {
+              "id": 1786006875828,
+              "word": "regulatory framework",
+              "pos": "/ˈreɡ.jə.lə.tɔːr.i ˈfreɪm.wɝːk/",
+              "pron": "noun phrase",
+              "mean": "khung pháp lý, hệ thống quy định",
+              "example": "A clear regulatory framework is needed to control seabed mining."
+            },
+            {
+              "id": 1786006878871,
+              "word": "scramble",
+              "pos": "/ˈskræm.bəl/",
+              "pron": "verb / noun",
+              "mean": "tranh giành, vội vã giành lấy; sự tranh giành",
+              "example": "Countries are scrambling to secure supplies of rare minerals."
+            },
+            {
+              "id": 1786006876677,
+              "word": "vents",
+              "pos": "/vents/",
+              "pron": "plural noun",
+              "mean": "miệng phun, lỗ thoát khí/nước nóng",
+              "example": "Hydrothermal vents are found on the ocean floor."
+            },
+            {
+              "id": 1786006873371,
+              "word": "sediment",
+              "pos": "/ˈsed.ə.mənt/",
+              "pron": "noun",
+              "mean": "trầm tích, lớp vật chất lắng xuống",
+              "example": "Sediment can cover coral reefs and damage marine habitats."
+            },
+            {
+              "id": 1786006874121,
+              "word": "plumes",
+              "pos": "/pluːmz/",
+              "pron": "plural noun",
+              "mean": "đám mây bụi/khói/chất lơ lửng lan ra trong nước hoặc không khí",
+              "example": "Mining can create sediment plumes that spread across the seabed."
+            },
+            {
+              "id": 1786006879540,
+              "word": "marginalisation",
+              "pos": "/ˌmɑːr.dʒɪ.nə.laɪˈzeɪ.ʃən/",
+              "pron": "noun",
+              "mean": "sự gạt ra ngoài lề, sự bị đối xử thiệt thòi",
+              "example": "The marginalisation of local communities can lead to social conflict."
+            },
+            {
+              "id": 1786006872746,
+              "word": "indigenous peoples",
+              "pos": "/ɪnˈdɪdʒ.ə.nəs ˈpiː.pəlz/",
+              "pron": "noun phrase",
+              "mean": "các dân tộc bản địa, người bản địa",
+              "example": "Indigenous peoples often depend on natural resources for their livelihoods."
             }
           ]
         }
