@@ -2053,6 +2053,197 @@
               "example": "Perspiration helps the body cool down in hot weather."
             }
           ]
+        },
+        {
+          "id": 1786805114257,
+          "name": "cam 18 test 1",
+          "visible": true,
+          "items": [
+            {
+              "id": 1786805122057,
+              "word": "intensive farming",
+              "pos": "/ɪnˈten.sɪv ˈfɑːr.mɪŋ/",
+              "pron": "noun phrase",
+              "mean": "canh tác thâm canh, dùng nhiều tài nguyên/kỹ thuật để tăng sản lượng",
+              "example": "Intensive farming can increase food production but may harm the environment."
+            },
+            {
+              "id": 1786805130687,
+              "word": "aeroponic urban farming",
+              "pos": "/ˌer.oʊˈpɑː.nɪk ˈɝː.bən ˈfɑːr.mɪŋ/",
+              "pron": "noun phrase",
+              "mean": "canh tác khí canh trong đô thị",
+              "example": "Aeroponic urban farming allows vegetables to grow without soil."
+            },
+            {
+              "id": 1786805130884,
+              "word": "dangling",
+              "pos": "/ˈdæŋ.ɡəl.ɪŋ/",
+              "pron": "adjective / verb-ing",
+              "mean": "treo lủng lẳng, đung đưa",
+              "example": "The plant roots were dangling in the air."
+            },
+            {
+              "id": 1786805122946,
+              "word": "basil",
+              "pos": "/ˈbeɪ.zəl/",
+              "pron": "noun",
+              "mean": "húng quế",
+              "example": "Basil is commonly used in Italian and Vietnamese dishes."
+            },
+            {
+              "id": 1786805121689,
+              "word": "survive long",
+              "pos": "/sɚˈvaɪv lɑːŋ/",
+              "pron": "verb phrase",
+              "mean": "sống sót / tồn tại lâu",
+              "example": "Some plants cannot survive long without enough water."
+            },
+            {
+              "id": 1786805130403,
+              "word": "withstand substantial journeys",
+              "pos": "/wɪðˈstænd səbˈstæn.ʃəl ˈdʒɝː.niz/",
+              "pron": "verb phrase",
+              "mean": "chịu được những hành trình dài và vất vả",
+              "example": "These vegetables can withstand substantial journeys before reaching supermarkets."
+            },
+            {
+              "id": 1786805130293,
+              "word": "resistance",
+              "pos": "/rɪˈzɪs.təns/",
+              "pron": "noun",
+              "mean": "sự chống chịu, khả năng kháng lại",
+              "example": "Some crops have strong resistance to disease."
+            },
+            {
+              "id": 1786805124552,
+              "word": "stem",
+              "pos": "/stem/",
+              "pron": "noun",
+              "mean": "thân cây nhỏ, cuống",
+              "example": "Water moves through the stem to reach the leaves."
+            },
+            {
+              "id": 1786805130544,
+              "word": "trunk",
+              "pos": "/trʌŋk/",
+              "pron": "noun",
+              "mean": "thân cây lớn",
+              "example": "The tree has a thick trunk and wide branches."
+            },
+            {
+              "id": 1786805124946,
+              "word": "shade out",
+              "pos": "/ʃeɪd aʊt/",
+              "pron": "phrasal verb",
+              "mean": "che bóng làm cây khác không nhận đủ ánh sáng",
+              "example": "Tall trees can shade out smaller plants beneath them."
+            },
+            {
+              "id": 1786805123608,
+              "word": "combustion",
+              "pos": "/kəmˈbʌs.tʃən/",
+              "pron": "noun",
+              "mean": "sự đốt cháy",
+              "example": "Combustion releases heat and carbon dioxide."
+            },
+            {
+              "id": 1786805125092,
+              "word": "gasify",
+              "pos": "/ˈɡæs.ə.faɪ/",
+              "pron": "verb",
+              "mean": "khí hóa, biến thành khí",
+              "example": "Some systems gasify waste to produce energy."
+            },
+            {
+              "id": 1786805125971,
+              "word": "invasive plants",
+              "pos": "/ɪnˈveɪ.sɪv plænts/",
+              "pron": "noun phrase",
+              "mean": "thực vật xâm lấn",
+              "example": "Invasive plants can spread quickly and damage native ecosystems."
+            },
+            {
+              "id": 1786805124613,
+              "word": "foliage",
+              "pos": "/ˈfoʊ.li.ɪdʒ/",
+              "pron": "noun",
+              "mean": "tán lá, toàn bộ lá của cây",
+              "example": "Dense foliage can block sunlight from reaching the ground."
+            },
+            {
+              "id": 1786805130240,
+              "word": "crown",
+              "pos": "/kraʊn/",
+              "pron": "noun",
+              "mean": "tán cây, phần trên của cây gồm cành và lá",
+              "example": "The crown of the tree provides shade in summer."
+            },
+            {
+              "id": 1786805128704,
+              "word": "regenerate",
+              "pos": "/rɪˈdʒen.ə.reɪt/",
+              "pron": "verb",
+              "mean": "tái sinh, mọc lại, phục hồi",
+              "example": "Some trees can regenerate after being cut down."
+            },
+            {
+              "id": 1786805127911,
+              "word": "salvage cut",
+              "pos": "/ˈsæl.vɪdʒ kʌt/",
+              "pron": "noun phrase",
+              "mean": "việc chặt bỏ cây bị bệnh/hư hại để tận dụng hoặc ngăn lây lan",
+              "example": "Foresters made a salvage cut after the storm damaged many trees."
+            },
+            {
+              "id": 1786805125557,
+              "word": "pest and pathogen",
+              "pos": "/pest ənd ˈpæθ.ə.dʒən/",
+              "pron": "noun phrase",
+              "mean": "sâu bệnh và mầm bệnh",
+              "example": "Farmers must protect crops from pests and pathogens."
+            },
+            {
+              "id": 1786805129615,
+              "word": "vigorous",
+              "pos": "/ˈvɪɡ.ɚ.əs/",
+              "pron": "adjective",
+              "mean": "phát triển mạnh, khỏe, đầy sức sống",
+              "example": "The young trees showed vigorous growth after the rain."
+            },
+            {
+              "id": 1786805126589,
+              "word": "thinning",
+              "pos": "/ˈθɪn.ɪŋ/",
+              "pron": "noun / verb-ing",
+              "mean": "tỉa bớt cây để giảm mật độ",
+              "example": "Thinning allows the remaining trees to receive more sunlight."
+            },
+            {
+              "id": 1786805130225,
+              "word": "retention",
+              "pos": "/rɪˈten.ʃən/",
+              "pron": "noun",
+              "mean": "sự duy trì, sự giữ lại",
+              "example": "Water retention in the soil helps plants survive dry periods."
+            },
+            {
+              "id": 1786805122774,
+              "word": "cavity",
+              "pos": "/ˈkæv.ə.t̬i/",
+              "pron": "noun",
+              "mean": "hốc, lỗ rỗng",
+              "example": "Birds often build nests in tree cavities."
+            },
+            {
+              "id": 1786805123538,
+              "word": "resilience",
+              "pos": "/rɪˈzɪl.jəns/",
+              "pron": "noun",
+              "mean": "khả năng phục hồi, sức chống chịu",
+              "example": "Forest resilience is important after fires and storms."
+            }
+          ]
         }
       ],
       "visible": true
