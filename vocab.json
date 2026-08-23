@@ -5352,6 +5352,165 @@
               "example": "Indigenous peoples often depend on natural resources for their livelihoods."
             }
           ]
+        },
+        {
+          "id": 1787479040480,
+          "name": "cam 15_test 3+4_ part 4",
+          "visible": true,
+          "items": [
+            {
+              "id": 1787479056181,
+              "word": "Cylinder",
+              "pos": "danh từ (n)",
+              "pron": "/ˈsɪl.ɪn.dɚ/",
+              "mean": "Hình trụ; khối trụ; xi-lanh (động cơ)",
+              "example": "The gas is stored in a metal cylinder."
+            },
+            {
+              "id": 1787479055334,
+              "word": "Aqueduct",
+              "pos": "danh từ (n)",
+              "pron": "/ˈæk.wə.dʌkt/",
+              "mean": "Cầu dẫn nước, máng dẫn nước (thời La Mã)",
+              "example": "The ancient Romans built many aqueducts."
+            },
+            {
+              "id": 1787479057518,
+              "word": "Properties",
+              "pos": "danh từ (n)",
+              "pron": "/ˈprɑː.pɚ.tiz/",
+              "mean": "Tính chất, đặc tính; tài sản, bất động sản",
+              "example": "We need to test the chemical properties of this liquid."
+            },
+            {
+              "id": 1787479059873,
+              "word": "Inscription",
+              "pos": "danh từ (n)",
+              "pron": "/ɪnˈskrɪp.ʃən/",
+              "mean": "Chữ khắc, dòng chữ khắc (trên đá, tường)",
+              "example": "I can't read the inscription on this old coin."
+            },
+            {
+              "id": 1787479053928,
+              "word": "Deposits",
+              "pos": "danh từ (n)",
+              "pron": "/dɪˈpɑː.zɪts/",
+              "mean": "Tiền gửi, tiền đặt cọc; lớp trầm tích lắng đọng",
+              "example": "There are rich mineral deposits in this region."
+            },
+            {
+              "id": 1787479059228,
+              "word": "Outbreaks",
+              "pos": "danh từ (n)",
+              "pron": "/ˈaʊt.breɪks/",
+              "mean": "Sự bùng phát (dịch bệnh, chiến tranh, bạo loạn)",
+              "example": "The government is trying to control the outbreak."
+            },
+            {
+              "id": 1787479056168,
+              "word": "Possessions",
+              "pos": "danh từ (n)",
+              "pron": "/pəˈzeʃ.ənz/",
+              "mean": "Tài sản, của cải; sự sở hữu",
+              "example": "He packed all his possessions into a suitcase."
+            },
+            {
+              "id": 1787479059808,
+              "word": "Trigger",
+              "pos": "động từ (v) - qk",
+              "pron": "/ˈtrɪɡ.ɚ/",
+              "mean": "Kích hoạt, gây ra, châm ngòi (cho sự việc)",
+              "example": "The loud noise triggered the car alarm."
+            },
+            {
+              "id": 1787479058164,
+              "word": "Textiles",
+              "pos": "danh từ (n)",
+              "pron": "/ˈtek.staɪlz/",
+              "mean": "Hàng dệt, vải vóc; ngành công nghiệp dệt may",
+              "example": "The country's main export is textiles."
+            },
+            {
+              "id": 1787479061586,
+              "word": "Dominate",
+              "pos": "động từ (v) - qk",
+              "pron": "/ˈdɑː.mɪ.neɪ.t/",
+              "mean": "Thống trị, chi phối, chiếm ưu thế",
+              "example": "The home team dominated the match."
+            },
+            {
+              "id": 1787479058085,
+              "word": "Entrepreneurs",
+              "pos": "danh từ (n)",
+              "pron": "/ˌɑːn.trə.prəˈnɝːz/",
+              "mean": "Các nhà doanh nghiệp, các nhà kinh doanh",
+              "example": "Many young entrepreneurs are starting online businesses."
+            },
+            {
+              "id": 1787479061008,
+              "word": "Cutlery",
+              "pos": "danh từ (n)",
+              "pron": "/ˈkʌt.lə.ri/",
+              "mean": "Dao kéo, đồ dùng bằng kim loại (dao, nĩa, thìa)",
+              "example": "Could you please set the cutlery on the table?"
+            },
+            {
+              "id": 1787479060522,
+              "word": "Globally popular",
+              "pos": "cụm tính từ",
+              "pron": "/ˈɡloʊ.bə.li ˈpɑː.pjə.lɚ/",
+              "mean": "Phổ biến toàn cầu, được ưa chuộng khắp nơi",
+              "example": "This song is globally popular right now."
+            },
+            {
+              "id": 1787479058989,
+              "word": "Universal",
+              "pos": "tính từ (adj)",
+              "pron": "/ˌjuː.nɪˈvɜːr.səl/",
+              "mean": "Mang tính toàn cầu, phổ quát, áp dụng cho mọi người",
+              "example": "This is a universal truth that everyone accepts."
+            },
+            {
+              "id": 1787479057515,
+              "word": "Inherited",
+              "pos": "động từ (v) - qk",
+              "pron": "/ɪnˈher.ɪ.tɪd/",
+              "mean": "Được thừa kế, thừa hưởng (tài sản/tính trạng)",
+              "example": "She inherited the house from her grandmother."
+            },
+            {
+              "id": 1787479055408,
+              "word": "Artificial incubation",
+              "pos": "cụm danh từ",
+              "pron": "/ˌɑːr.tɪˈfɪʃ.əl ˌɪŋ.kjuˈbeɪ.ʃən/",
+              "mean": "Sự ấp trứng nhân tạo",
+              "example": "Artificial incubation helps hatch eggs without a hen."
+            },
+            {
+              "id": 1787479057354,
+              "word": "Diminished",
+              "pos": "động từ (v) - qk",
+              "pron": "/dɪˈmɪn.ɪʃt/",
+              "mean": "Bị suy giảm, giảm bớt, làm nhỏ đi",
+              "example": "The water supply has diminished due to the drought."
+            },
+            {
+              "id": 1787479058466,
+              "word": "Vanished",
+              "pos": "động từ (v) - qk",
+              "pron": "/ˈvæn.ɪʃt/",
+              "mean": "Biến mất hoàn toàn, tan biến (không dấu vết)",
+              "example": "The thief vanished into the crowd."
+            },
+            {
+              "id": 1787479055375,
+              "word": "Exotic",
+              "pos": "tính từ (adj)",
+              "pron": "/ɪɡˈzɑː.tɪk/",
+              "mean": "Kỳ lạ, độc đáo (thường từ nước ngoài hoặc vùng nhiệt đới)",
+              "example": "She loves to travel and try exotic foods."
+            }
+          ]
         }
       ],
       "visible": true
