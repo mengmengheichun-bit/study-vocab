@@ -2244,6 +2244,197 @@
               "example": "Forest resilience is important after fires and storms."
             }
           ]
+        },
+        {
+          "id": 1789012308204,
+          "name": "cam 18 test 3",
+          "visible": true,
+          "items": [
+            {
+              "id": 1789012317952,
+              "word": "extract from",
+              "pos": "/ɪkˈstrækt frəm/",
+              "pron": "verb phrase",
+              "mean": "trích xuất từ, lấy ra từ",
+              "example": "Key information can be extracted from the text."
+            },
+            {
+              "id": 1789012313087,
+              "word": "literacy",
+              "pos": "/ˈlɪt̬.ɚ.ə.si/",
+              "pron": "noun",
+              "mean": "khả năng đọc viết",
+              "example": "Literacy is essential for children’s academic development."
+            },
+            {
+              "id": 1789012313609,
+              "word": "tentative",
+              "pos": "/ˈten.tə.t̬ɪv/",
+              "pron": "adjective",
+              "mean": "sơ bộ, chưa chắc chắn",
+              "example": "The researchers reached a tentative conclusion after the first experiment."
+            },
+            {
+              "id": 1789012316006,
+              "word": "textual evidence",
+              "pos": "/ˈteks.tʃu.əl ˈev.ə.dəns/",
+              "pron": "noun phrase",
+              "mean": "bằng chứng trong văn bản",
+              "example": "Students should support their answers with textual evidence."
+            },
+            {
+              "id": 1789012317475,
+              "word": "advocate",
+              "pos": "/ˈæd.və.keɪt/",
+              "pron": "verb",
+              "mean": "ủng hộ, chủ trương",
+              "example": "Some educators advocate smaller class sizes."
+            },
+            {
+              "id": 1789012321753,
+              "word": "advocate",
+              "pos": "/ˈæd.və.kət/",
+              "pron": "noun",
+              "mean": "người ủng hộ",
+              "example": "She is a strong advocate of equal education."
+            },
+            {
+              "id": 1789012317856,
+              "word": "moderation",
+              "pos": "/ˌmɑː.dəˈreɪ.ʃən/",
+              "pron": "noun",
+              "mean": "sự điều độ, sự vừa phải",
+              "example": "Social media use requires moderation."
+            },
+            {
+              "id": 1789012317831,
+              "word": "virtue",
+              "pos": "/ˈvɝː.tʃuː/",
+              "pron": "noun",
+              "mean": "đức tính tốt; phẩm chất đạo đức",
+              "example": "Patience is an important virtue for teachers."
+            },
+            {
+              "id": 1789012318336,
+              "word": "streaming / tracking",
+              "pos": "/ˈstriː.mɪŋ/ /ˈtræk.ɪŋ/",
+              "pron": "noun",
+              "mean": "phân lớp học sinh theo khả năng",
+              "example": "Streaming can place students into different classes based on academic ability."
+            },
+            {
+              "id": 1789012313963,
+              "word": "academically selective schools",
+              "pos": "/ˌæk.əˈdem.ɪ.kəl.i səˈlek.tɪv skuːlz/",
+              "pron": "noun phrase",
+              "mean": "trường tuyển chọn học sinh dựa trên năng lực học thuật",
+              "example": "Academically selective schools often require entrance exams."
+            },
+            {
+              "id": 1789012322034,
+              "word": "comprehensive school",
+              "pos": "/ˌkɑːm.prəˈhen.sɪv skuːl/",
+              "pron": "noun phrase",
+              "mean": "trường phổ thông không tuyển chọn theo năng lực",
+              "example": "A comprehensive school accepts students of all academic levels."
+            },
+            {
+              "id": 1789012317939,
+              "word": "set a brisk pace",
+              "pos": "/set ə brɪsk peɪs/",
+              "pron": "verb phrase",
+              "mean": "đặt nhịp độ nhanh",
+              "example": "The teacher set a brisk pace during the lesson."
+            },
+            {
+              "id": 1789012315319,
+              "word": "stagger",
+              "pos": "/ˈstæɡ.ɚ/",
+              "pron": "verb",
+              "mean": "làm choáng váng; đi loạng choạng; sắp xếp lệch thời gian",
+              "example": "The cost of the project staggered many taxpayers."
+            },
+            {
+              "id": 1789012318772,
+              "word": "pedagogical paradigm",
+              "pos": "/ˌped.əˈɡɑː.dʒɪ.kəl ˈper.ə.daɪm/",
+              "pron": "noun phrase",
+              "mean": "mô hình / khuôn mẫu giáo dục",
+              "example": "Constructivism has become an influential pedagogical paradigm."
+            },
+            {
+              "id": 1789012313256,
+              "word": "constructivism",
+              "pos": "/kənˈstrʌk.tɪ.vɪ.zəm/",
+              "pron": "noun",
+              "mean": "thuyết kiến tạo",
+              "example": "Constructivism encourages students to build knowledge through experience."
+            },
+            {
+              "id": 1789012314188,
+              "word": "scaffolding",
+              "pos": "/ˈskæf.əl.dɪŋ/",
+              "pron": "noun",
+              "mean": "sự hỗ trợ từng bước trong học tập",
+              "example": "Teachers use scaffolding to help students understand difficult concepts."
+            },
+            {
+              "id": 1789012322021,
+              "word": "aptitude",
+              "pos": "/ˈæp.tə.tuːd/",
+              "pron": "noun",
+              "mean": "năng lực, khả năng tự nhiên",
+              "example": "Some students show a strong aptitude for languages."
+            },
+            {
+              "id": 1789012322039,
+              "word": "representation of low socioeconomic class",
+              "pos": "/ˌrep.rɪ.zenˈteɪ.ʃən əv loʊ ˌsoʊ.si.oʊˌek.əˈnɑː.mɪk klæs/",
+              "pron": "noun phrase",
+              "mean": "sự đại diện của tầng lớp kinh tế-xã hội thấp",
+              "example": "The study examined the representation of low socioeconomic class in elite schools."
+            },
+            {
+              "id": 1789012315026,
+              "word": "meta-analysis",
+              "pos": "/ˌmet̬.ə.əˈnæl.ə.sɪs/",
+              "pron": "noun",
+              "mean": "phân tích tổng hợp nhiều nghiên cứu",
+              "example": "A meta-analysis found that feedback can improve student performance."
+            },
+            {
+              "id": 1789012317783,
+              "word": "underestimate",
+              "pos": "/ˌʌn.dɚˈes.tə.meɪt/",
+              "pron": "verb",
+              "mean": "đánh giá thấp, xem nhẹ",
+              "example": "People often underestimate the importance of sleep."
+            },
+            {
+              "id": 1789012317813,
+              "word": "cognitive",
+              "pos": "/ˈkɑːɡ.nə.t̬ɪv/",
+              "pron": "adjective",
+              "mean": "thuộc về nhận thức, tư duy",
+              "example": "Reading can improve children’s cognitive development."
+            },
+            {
+              "id": 1789012320715,
+              "word": "pass on",
+              "pos": "/pæs ɑːn/",
+              "pron": "phrasal verb",
+              "mean": "truyền lại",
+              "example": "Parents often pass on values and habits to their children."
+            },
+            {
+              "id": 1789012319003,
+              "word": "reluctant",
+              "pos": "/rɪˈlʌk.tənt/",
+              "pron": "adjective",
+              "mean": "miễn cưỡng, không sẵn lòng",
+              "example": "Many students are reluctant to speak English in front of the class."
+            }
+          ]
         }
       ],
       "visible": true
